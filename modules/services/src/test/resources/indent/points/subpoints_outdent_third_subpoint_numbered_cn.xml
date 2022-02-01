@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="renditions/html/css/bill.css"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:leos="urn:eu:europa:ec:leos" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+	<bill name="REG">
+		<body leos:origin="ec" xml:id="body">
+			<article leos:origin="ec" xml:id="art_1" leos:editable="false" leos:deletable="false" leos:autonumbering="true">
+				<num leos:origin="ec" xml:id="art_1__num" leos:editable="false">Article 1</num>
+				<heading leos:origin="ec" xml:id="art_1__heading">Scope</heading>
+				<paragraph leos:softaction="add" leos:softuser="demo" leos:softdate="2021-04-29T16:28:59.788+02:00" leos:origin="cn" xml:id="art_1_ChemoI">
+					<num leos:origin="cn" xml:id="art_1_eutkDJ">1.</num>
+					<content leos:origin="cn" xml:id="art_1_49Htms">
+						<p leos:origin="cn" xml:id="art_1_NBcD4T">ALINEA</p>
+					</content>
+				</paragraph>
+				<paragraph leos:softaction="add" leos:softuser="demo" leos:softdate="2021-04-29T16:28:59.796+02:00" leos:origin="cn" xml:id="art_1_ZchKZM">
+					<num leos:origin="cn" xml:id="art_1_wmkp0P">2.</num>
+					<subparagraph leos:softaction="add" leos:softuser="demo" leos:softdate="2021-04-29T16:28:59.797+02:00" leos:origin="cn" xml:id="art_1_svsGh3">
+						<content leos:origin="cn" xml:id="art_1_U9ELDu">
+							<p leos:origin="cn" xml:id="art_1_AZTDhO">Sixth example
+								<b leos:origin="cn" xml:id="art_1_fq4k8Z">Alinea</b>
+							</p>
+						</content>
+					</subparagraph>
+					<list leos:origin="cn" xml:id="art_1_UKDqm8">
+						<point leos:softaction="add" leos:softuser="demo" leos:softdate="2021-04-29T16:28:59.798+02:00" leos:origin="cn" xml:id="art_1_BPtCkr">
+							<num leos:origin="cn" xml:id="art_1_3xPhFk">(a)</num>
+							<content leos:origin="cn" xml:id="art_1_avTzze">
+								<p leos:origin="cn" xml:id="art_1_HQAmyC">test</p>
+							</content>
+						</point>
+						<point leos:softaction="add" leos:softuser="demo" leos:softdate="2021-04-29T16:28:59.799+02:00" leos:origin="cn" xml:id="art_1_va0dtE">
+							<num leos:origin="cn" xml:id="art_1_hPXWgU">(b)</num>
+							<content leos:origin="cn" xml:id="art_1_ayO0mN">
+								<p leos:origin="cn" xml:id="art_1_p9S71a">test</p>
+							</content>
+						</point>
+						<point leos:softaction="add" leos:softuser="demo" leos:softdate="2021-04-29T16:28:59.800+02:00" leos:origin="cn" xml:id="art_1_ZS5PDV">
+							<num leos:origin="cn" xml:id="art_1_lAsttI">(c)</num>
+							<alinea leos:softaction="add" leos:softuser="demo" leos:softdate="2021-04-29T16:28:59.800+02:00" leos:origin="cn" xml:id="art_1_QZPxym">
+								<content leos:origin="cn" xml:id="art_1_oGp2k0">
+									<p leos:origin="cn" xml:id="art_1_2sGXGY">&apos;import of cultural goods&apos; means:</p>
+								</content>
+							</alinea>
+							<list leos:origin="cn" xml:id="art_1_G46pLm">
+								<point leos:softaction="add" leos:softuser="demo" leos:softdate="2021-04-29T16:28:59.801+02:00" leos:origin="cn" xml:id="art_1_74XY0u">
+									<num leos:origin="cn" xml:id="art_1_FZ7nDK">(i)</num>
+									<content leos:origin="cn" xml:id="art_1_EFFOR6">
+										<p leos:origin="cn" xml:id="art_1_HaAieU">The release of cultural goods for free circulation as referred to in Article 201 of Regulation (EU) No 952/2013; or</p>
+									</content>
+								</point>
+								<point leos:softaction="add" leos:softuser="demo" leos:softdate="2021-04-29T16:28:59.802+02:00" leos:origin="cn" xml:id="art_1_0t8leR">
+									<num leos:origin="cn" xml:id="art_1_ZQkG6m">(ii)</num>
+									<alinea leos:softaction="add" leos:softuser="demo" leos:softdate="2021-04-29T16:28:59.804+02:00" leos:origin="cn" xml:id="art_1_R5EQqT">
+										<content leos:origin="cn" xml:id="art_1_lacSQL">
+											<p leos:origin="cn" xml:id="art_1_lHFnkR">the placing of cultural goods under one of the following categories of special procedures referred to in Article 210 of Regulation (EU ) No 952/2013:</p>
+										</content>
+									</alinea>
+									<alinea leos:softaction="add" leos:softuser="demo" leos:softdate="2021-04-29T16:28:59.804+02:00" leos:origin="cn" xml:id="art_1_GLPQhO">
+										<content leos:origin="cn" xml:id="art_1_PixRfR">
+											<p leos:origin="cn" xml:id="art_1_BNL27H">second alinea</p>
+										</content>
+									</alinea>
+								</point>
+							</list>
+						</point>
+						<point leos:softaction="add" leos:softuser="demo" leos:softdate="2021-04-29T16:28:59.805+02:00" leos:origin="cn" xml:id="indented_art_1_qQK0Dp" leos:indent-origin-type="OTHER_SUBPOINT" leos:indent-origin-indent-level="3">
+							<num leos:origin="cn" xml:id="num_ycCYG9">(d)</num>
+							<alinea leos:softaction="add" leos:softuser="demo" leos:softdate="2021-04-29T16:28:59.806+02:00" leos:origin="cn" xml:id="art_1_qQK0Dp">
+								<content leos:origin="cn" xml:id="art_1_9IDBbh">
+									<p leos:origin="cn" xml:id="art_1_zgK08l">third alinea</p>
+								</content>
+							</alinea>
+							<list leos:origin="cn" xml:id="art_1_MtlUVf">
+								<point leos:softaction="add" leos:softuser="demo" leos:softdate="2021-04-29T16:28:59.807+02:00" leos:origin="cn" xml:id="indented_art_1_tK59YS" leos:indent-origin-type="POINT" leos:indent-origin-indent-level="3" leos:indent-origin-num="(1)" leos:indent-origin-num-id="art_1_2Pz1GK" leos:indent-origin-num-origin="cn">
+									<num leos:origin="cn" xml:id="art_1_2Pz1GK">(i)</num>
+									<alinea leos:softaction="add" leos:softuser="demo" leos:softdate="2021-04-29T16:28:59.807+02:00" leos:origin="cn" xml:id="art_1_tK59YS">
+										<content leos:origin="cn" xml:id="art_1_q88MS0">
+											<p leos:origin="cn" xml:id="art_1_u5wn1R">storage, comprising customs warehousing and free zones;</p>
+										</content>
+									</alinea>
+									<list xml:id="lis_npJNwE" leos:origin="cn">
+										<point leos:softaction="add" leos:softuser="demo" leos:softdate="2021-04-29T16:28:59.808+02:00" leos:origin="cn" xml:id="art_1_qrqWbq">
+											<num leos:origin="cn" xml:id="art_1_AyDYNS">(1)</num>
+											<content leos:origin="cn" xml:id="art_1_xxCX40">
+												<p leos:origin="cn" xml:id="art_1_m1LDY0">specific use, comprising temporary admission and end-use;</p>
+											</content>
+										</point>
+										<point leos:softaction="add" leos:softuser="demo" leos:softdate="2021-04-29T16:28:59.808+02:00" leos:origin="cn" xml:id="art_1_5MrMN3">
+											<num leos:origin="cn" xml:id="art_1_SrF82c">(2)</num>
+											<content leos:origin="cn" xml:id="art_1_UDn9Rp">
+												<p leos:origin="cn" xml:id="art_1_MefO45">inward processing;</p>
+											</content>
+										</point>
+									</list>
+								</point>
+							</list>
+						</point>
+					</list>
+				</paragraph>
+			</article>
+			<clause leos:origin="ec" xml:id="clause_1" leos:editable="true" leos:deletable="true" leos:alternative="true" leos:optionlist="listOption1" leos:selectedoption="1">
+				<content leos:origin="ec" xml:id="clause_1__content">
+					<p leos:origin="ec" xml:id="clause_1__content__p">This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+				</content>
+			</clause>
+		</body>
+		<conclusions leos:origin="ec" xml:id="conclusions">
+			<p leos:origin="ec" xml:id="conclusions__p_1">Done at
+				<location leos:origin="ec" xml:id="conclusions__p__location_1" refersTo="~_BEL_BRU">Brussels</location>
+				,
+			</p>
+			<block leos:origin="ec" name="signatory" xml:id="conclusions__block_1">
+				<signature leos:origin="ec" xml:id="conclusions__block_1__signature_1">
+					<organization leos:origin="ec" xml:id="conclusions__block_1__signature_1__organization" refersTo="~EP">For the European Parliament</organization>
+					<role leos:origin="ec" xml:id="conclusions__block_1__signature_1__role" refersTo="~PRESID">The President</role>
+					<person leos:origin="ec" xml:id="conclusions__block_1__signature_1__person" refersTo="">[...]</person>
+				</signature>
+				<signature leos:origin="ec" xml:id="conclusions__block_1__signature_2">
+					<organization leos:origin="ec" xml:id="conclusions__block_1__signature_2__organization" refersTo="~CONSIL">For the Council</organization>
+					<role leos:origin="ec" xml:id="conclusions__block_1__signature_2__role" refersTo="~PRESID">The President</role>
+					<person leos:origin="ec" xml:id="conclusions__block_1__signature_2__person" refersTo="">[...]</person>
+				</signature>
+			</block>
+		</conclusions>
+	</bill>
+</akomaNtoso>

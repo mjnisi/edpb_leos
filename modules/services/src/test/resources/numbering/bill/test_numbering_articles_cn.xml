@@ -1,0 +1,28 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:leos="urn:eu:europa:ec:leos" xml:id="akn">
+    <body leos:origin="ec" xml:id="body">
+        <article xml:id="art486" leos:origin="cn">
+            <num leos:origin="cn">Article #</num>
+        </article>
+        <article xml:id="art486" leos:origin="cn">
+            <num leos:origin="cn">Article #</num>
+        </article>
+        <article xml:id="art486" leos:origin="cn">
+            <num leos:origin="cn">Article #</num>
+        </article>
+        <article xml:id="art486" leos:origin="ec">
+            <num leos:origin="ec">Article 3</num>
+        </article>
+        <article xml:id="art486" leos:origin="cn">
+            <num leos:origin="cn">Article #</num>
+        </article>
+        <article xml:id="art486" leos:origin="ec">
+            <num leos:origin="ec">Article 5</num>
+        </article>
+        <article xml:id="art486" leos:origin="cn">
+            <num leos:origin="cn">Article #</num>
+        </article>
+        <article xml:id="art486" leos:origin="cn">
+            <num leos:origin="cn">Article #</num>
+        </article>
+    </body>
+</akomaNtoso>

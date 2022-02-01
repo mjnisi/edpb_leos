@@ -1,0 +1,95 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xml="http://www.w3.org/XML/1998/namespace">
+    <bill name="REG">
+        <body leos:origin="ec" xml:id="body">
+            <article leos:origin="ec" xml:id="art_1" leos:editable="false" leos:deletable="false">
+                <num leos:origin="ec" leos:editable="false" xml:id="art_1__num">Article 1</num>
+                <heading leos:origin="ec" xml:id="art_1__heading">Scope</heading>
+                <paragraph leos:origin="ec" xml:id="art_1__para_1">
+                    <num leos:origin="ec" xml:id="art_1__para_1__num">1.</num>
+                    <content leos:origin="ec" xml:id="art_1__para_1__content">
+                        <p leos:origin="ec" xml:id="art_1__para_1__content__p">Paragraph 1</p>
+                    </content>
+                </paragraph>
+            </article>
+            <section xml:id="sec_5wYrmB" leos:origin="cn" leos:softaction="add"
+                     leos:softuser="jane" leos:softdate="2020-10-07T17:11:08.153+02:00"
+                     leos:softactionroot="true">
+                <num xml:id="akn_0vCkA9" leos:origin="cn">#</num>
+                <heading xml:id="akn_NGJFbs">Section heading...</heading>
+                <article xml:id="art_FT7xAb" leos:origin="cn" leos:softaction="add"
+                         leos:softuser="jane" leos:softdate="2020-10-07T17:11:08.153+02:00" leos:softactionroot="true">
+                    <num xml:id="art_FT7xAb_Qlf6jG" leos:origin="cn">Article 1a</num>
+                    <heading xml:id="art_FT7xAb_kRy4FY">Article heading...</heading>
+                    <paragraph xml:id="par_1jGddA" leos:origin="cn" leos:softaction="add"
+                               leos:softuser="jane" leos:softdate="2020-10-07T17:11:08.152+02:00" leos:softactionroot="true">
+                        <num xml:id="art_FT7xAb_6QEn2m" leos:origin="cn">1.</num>
+                        <subparagraph leos:origin="cn" xml:id="akn_subparagraph_6tyzjf" leos:softaction="add"
+                                      leos:softuser="jane" leos:softdate="2020-10-07T17:11:08.152+02:00" leos:softactionroot="true">
+                            <content xml:id="art_FT7xAb_54mXLn">
+                                <p xml:id="art_FT7xAb_ngUS6n">Text...</p>
+                            </content>
+                        </subparagraph>
+                        <list xml:id="lis_UQSJLq" leos:softaction="add" leos:softuser="jane"
+                              leos:softdate="2020-10-07T17:11:08.151+02:00" leos:softactionroot="true" leos:origin="cn">
+                            <point xml:id="new_point_1" leos:softaction="add" leos:softactionroot="true"
+                                   leos:softuser="jane" leos:softdate="1900-01-01T00:00:00.000+01:00" leos:origin="cn">
+                                <num xml:id="art_FT7xAb_mm2Wb0" leos:origin="cn">(a)</num>
+                                <alinea leos:origin="cn" xml:id="akn_alinea_SeO4WG" leos:softaction="add"
+                                        leos:softuser="jane" leos:softdate="2020-10-07T17:11:08.150+02:00" leos:softactionroot="true">
+                                    <content xml:id="art_FT7xAb_eeZaGc">
+                                        <p xml:id="art_FT7xAb_ylNvk9">Text...</p>
+                                    </content>
+                                </alinea>
+                                <list xml:id="lis_4dV5R9" leos:softaction="add"
+                                      leos:softuser="jane" leos:softdate="2020-10-07T17:11:08.149+02:00"
+                                      leos:softactionroot="true" leos:origin="cn">
+                                    <point xml:id="point_2" leos:softaction="add" leos:softactionroot="true"
+                                           leos:softuser="jane" leos:softdate="1900-01-01T00:00:00.000+01:00"
+                                           leos:origin="cn">
+                                        <num xml:id="art_FT7xAb_pOBU2L" leos:origin="cn">(i)</num>
+                                        <alinea leos:origin="cn" xml:id="akn_alinea_dLWvLH" leos:softaction="add"
+                                                leos:softuser="jane" leos:softdate="2020-10-07T17:11:08.149+02:00" leos:softactionroot="true" >
+                                            <content xml:id="art_FT7xAb_vvPUCN">
+                                                <p xml:id="art_FT7xAb_Pe1fcv">Text...</p>
+                                            </content>
+                                        </alinea>
+                                        <list xml:id="lis_9IVdau" leos:softaction="add"
+                                              leos:softuser="jane" leos:softdate="2020-10-07T17:11:08.148+02:00"
+                                              leos:softactionroot="true" leos:origin="cn">
+                                            <point xml:id="point_3" leos:softaction="add" leos:softactionroot="true"
+                                                   leos:softuser="jane" leos:softdate="1900-01-01T00:00:00.000+01:00"
+                                                   leos:origin="cn">
+                                                <num xml:id="art_FT7xAb_4ME63U" leos:origin="cn">(1)</num>
+                                                <alinea leos:origin="cn" xml:id="akn_alinea_9U9q4O"
+                                                        leos:softaction="add"
+                                                        leos:softuser="jane" leos:softdate="2020-10-07T17:11:08.147+02:00"
+                                                        leos:softactionroot="true">
+                                                    <content xml:id="art_FT7xAb_KQpl30">
+                                                        <p xml:id="art_FT7xAb_RO7vyS">Text...</p>
+                                                    </content>
+                                                </alinea>
+                                                <list xml:id="lis_IoRM9L" leos:softaction="add"
+                                                      leos:softuser="jane" leos:softdate="2020-10-07T17:11:08.143+02:00"
+                                                      leos:softactionroot="true" leos:origin="cn">
+                                                    <indent leos:origin="cn" leos:softaction="add" leos:softuser="jane"
+                                                            leos:softdate="2020-10-07T17:11:08.181+02:00"
+                                                            xml:id="akn_indent_BkfCZy">
+                                                        <num xml:id="art_FT7xAb_oQoLrF" leos:editable="false">-</num>
+                                                        <content xml:id="art_FT7xAb_IjzHbX">
+                                                            <p xml:id="art_FT7xAb_ddVWwB">Text...</p>
+                                                        </content>
+                                                    </indent>
+                                                </list>
+                                            </point>
+                                        </list>
+                                    </point>
+                                </list>
+                            </point>
+                        </list>
+                    </paragraph>
+                </article>
+            </section>
+        </body>
+    </bill>
+</akomaNtoso>

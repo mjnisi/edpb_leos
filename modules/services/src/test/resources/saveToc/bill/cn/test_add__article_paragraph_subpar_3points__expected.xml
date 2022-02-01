@@ -1,0 +1,57 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xml="http://www.w3.org/XML/1998/namespace">
+    <bill name="REG">
+        <body leos:origin="ec" xml:id="body">
+            <article leos:origin="ec" xml:id="art_1" leos:editable="false" leos:deletable="false">
+                <num leos:origin="ec" leos:editable="false" xml:id="art_1__num">Article 1</num>
+                <heading leos:origin="ec" xml:id="art_1__heading">Scope</heading>
+                <paragraph leos:origin="ec" xml:id="art_1__para_1" leos:depth="1">
+                    <num leos:origin="ec" xml:id="art_1__para_1__num">1.</num>
+                    <content leos:origin="ec" xml:id="art_1__para_1__content">
+                        <p leos:origin="ec" xml:id="art_1__para_1__content__p">Paragraph 1</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article xml:id="art_2" leos:origin="cn" leos:softaction="add"
+                     leos:softuser="jane" leos:softdate="2020-10-01T18:39:46.313+02:00" leos:softactionroot="true" leos:depth="1">
+                <num xml:id="art_2_num" leos:origin="cn">Article 1a</num>
+                <heading xml:id="art_2_heading">Article heading...</heading>
+                <paragraph xml:id="art_2_par_1" leos:origin="cn" leos:softaction="add"
+                           leos:softuser="jane" leos:softdate="2020-10-01T18:39:46.313+02:00" leos:softactionroot="true" leos:depth="2">
+                    <num xml:id="art_2_par_1_num" leos:origin="cn">1.</num>
+                    <subparagraph leos:origin="cn" xml:id="art_2_par_1_subpar_1" leos:softaction="add"
+                                  leos:softuser="jane" leos:softdate="2020-10-01T18:39:46.312+02:00" leos:softactionroot="true">
+                        <content xml:id="art_2_par_1_subpar_1_c">
+                            <p xml:id="art_2_par_1_subpar_1_c_p">Text...</p>
+                        </content>
+                    </subparagraph>
+                    <list xml:id="art_2_par_1_list_1" leos:softaction="add"
+                              leos:softuser="jane"
+                              leos:softdate="2020-10-01T18:39:46.307+02:00" leos:softactionroot="true" leos:origin="cn" leos:depth="3">
+                            <point leos:origin="cn" leos:softaction="add" leos:softuser="jane"
+                                    leos:softdate="2020-10-07T18:02:07.592+02:00" xml:id="art_2_par_1_point_1">
+                                <num xml:id="art_2_par_1_point_1_num" leos:editable="false">(a)</num>
+                                <content xml:id="art_2_par_1_point_1_c">
+                                    <p xml:id="art_2_par_1_point_1_c_p">Text...</p>
+                                </content>
+                            </point>
+                            <point leos:softaction="add" leos:softuser="jane" leos:softdate="2020-10-07T18:02:07.592+02:00"
+                                    xml:id="art_2_par_1_point_2" leos:depth="3" leos:origin="cn">
+                                <num xml:id="art_2_par_1_point_2_num" leos:editable="false">(b)</num>
+                                <content xml:id="art_2_par_1_point_2_c">
+                                    <p xml:id="art_2_par_1_point_2_c_p">Text...</p>
+                                </content>
+                            </point>
+                            <point leos:softaction="add" leos:softuser="jane" leos:softdate="2020-10-07T18:02:07.593+02:00"
+                                    xml:id="art_2_par_1_point_3" leos:depth="3" leos:origin="cn">
+                                <num xml:id="art_2_par_1_point_3_num" leos:editable="false">(c)</num>
+                                <content xml:id="art_2_par_1_point_3_c">
+                                    <p xml:id="art_2_par_1_point_3_c_p">Text...</p>
+                                </content>
+                            </point>
+                        </list>
+                </paragraph>
+            </article>
+        </body>
+    </bill>
+</akomaNtoso>

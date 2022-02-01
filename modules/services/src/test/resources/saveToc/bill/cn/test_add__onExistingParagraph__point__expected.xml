@@ -1,0 +1,30 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xml="http://www.w3.org/XML/1998/namespace">
+    <bill name="REG">
+        <body leos:origin="ec" xml:id="body">
+            <article leos:origin="ec" xml:id="art_1" leos:editable="false" leos:deletable="false">
+                <num leos:origin="ec" leos:editable="false" xml:id="art_1__num">Article 1</num>
+                <heading leos:origin="ec" xml:id="art_1__heading">Scope</heading>
+                <paragraph leos:origin="ec" xml:id="art_1__para_1">
+                    <num leos:origin="ec" xml:id="art_1__para_1__num">1.</num>
+                    <subparagraph leos:origin="ec" xml:id="transformed_art_1__para_1" leos:softaction="trans"
+                                  leos:softuser="jane" leos:softdate="2020-10-01T18:55:04.767+02:00" leos:softactionroot="true" >
+                        <content leos:origin="ec" xml:id="art_1__para_1__content">
+                            <p leos:origin="ec" xml:id="art_1__para_1__content__p">Paragraph 1</p>
+                        </content>
+                    </subparagraph>
+                    <list xml:id="art_1_par_1_list_1" leos:softaction="add" leos:softuser="jane"
+                          leos:softdate="2020-10-01T18:55:04.763+02:00" leos:softactionroot="true" leos:origin="cn">
+                        <point leos:origin="cn" leos:softaction="add" leos:softuser="jane"
+                               leos:softdate="2020-10-01T18:55:04.789+02:00" xml:id="art_1_par_1_point_1">
+                            <num xml:id="art_1_9wsSFR" leos:editable="false">(a)</num>
+                            <content xml:id="art_1_q6OrMA">
+                                <p xml:id="art_1_mX21Y1">Text...</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+            </article>
+        </body>
+    </bill>
+</akomaNtoso>

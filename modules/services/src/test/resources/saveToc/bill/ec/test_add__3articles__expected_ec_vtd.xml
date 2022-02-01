@@ -1,0 +1,46 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:leos="urn:eu:europa:ec:leos">
+    <bill name="REG">
+        <body xml:id="body">
+            <article xml:id="akn_article_gDsfLe" leos:depth="1">
+                <num xml:id="akn_article_gDsfLe_pvxfsc" leos:editable="false">Article 1</num>
+                <heading xml:id="akn_article_gDsfLe_ag3x9S">Article heading...</heading>
+                <paragraph xml:id="akn_article_gDsfLe-par1">
+                    <num xml:id="akn_article_gDsfLe_v4Ch65">1.</num>
+                    <content xml:id="akn_article_gDsfLe_TCwjJh">
+                        <p xml:id="akn_article_gDsfLe_NUv7je">Text...</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article xml:id="akn_article_BKYqTC" leos:depth="1">
+                <num xml:id="akn_article_BKYqTC_5BiutI" leos:editable="false">Article 2</num>
+                <heading xml:id="akn_article_BKYqTC_c0VHB2">Article heading...</heading>
+                <paragraph xml:id="akn_article_BKYqTC-par1">
+                    <num xml:id="akn_article_BKYqTC_Kisxgm">1.</num>
+                    <content xml:id="akn_article_BKYqTC_zJMsnx">
+                        <p xml:id="akn_article_BKYqTC_Mm0edS">Text...</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article leos:deletable="false" leos:editable="false" xml:id="art_1">
+                <num leos:editable="false" xml:id="art_1__num">Article 3</num>
+                <heading xml:id="art_1__heading">Scope</heading>
+                <paragraph xml:id="art_1__para_1">
+                    <num xml:id="art_1__para_1__num">1.</num>
+                    <content xml:id="art_1__para_1__content">
+                        <p xml:id="art_1__para_1__content__p">Paragraph 1</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article xml:id="akn_article_VcsLzt" leos:depth="1">
+                <num xml:id="akn_article_VcsLzt_gZWJwV" leos:editable="false">Article 4</num>
+                <heading xml:id="akn_article_VcsLzt_tMmlxZ">Article heading...</heading>
+                <paragraph xml:id="akn_article_VcsLzt-par1">
+                    <num xml:id="akn_article_VcsLzt_LuZvwe">1.</num>
+                    <content xml:id="akn_article_VcsLzt_9jo6af">
+                        <p xml:id="akn_article_VcsLzt_J34sh4">Text...</p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+    </bill>
+</akomaNtoso>

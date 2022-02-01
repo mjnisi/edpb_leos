@@ -1,0 +1,392 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:leos="urn:eu:europa:ec:leos">
+    <doc name="ANNEX">
+        <meta>
+            <identification source="~COM">
+                <FRBRWork>
+                    <FRBRthis value=""/>
+                    <FRBRuri value=""/>
+                    <FRBRdate date="9999-01-01" name=""/>
+                    <FRBRauthor href=""/>
+                    <FRBRcountry value="EU"/>
+                    <FRBRprescriptive value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value=""/>
+                    <FRBRuri value=""/>
+                    <FRBRdate date="9999-01-01" name=""/>
+                    <FRBRauthor href=""/>
+                    <FRBRlanguage language="en"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value=""/>
+                    <FRBRuri value=""/>
+                    <FRBRdate date="9999-01-01" name=""/>
+                    <FRBRauthor href=""/>
+                </FRBRManifestation>
+            </identification>
+            <references source="~COM">
+                <TLCLocation href="http://publications.europa.eu/resource/authority/place/BEL_BRU"
+                             showAs="Brussels"
+                             xml:id="_BEL_BRU"/>
+                <TLCOrganization href="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"
+                                 showAs="Council of the European Union"
+                                 xml:id="CONSIL"/>
+                <TLCOrganization href="http://publications.europa.eu/resource/authority/corporate-body/EP"
+                                 showAs="European Parliament"
+                                 xml:id="EP"/>
+                <TLCOrganization href="http://publications.europa.eu/resource/authority/corporate-body/COM"
+                                 showAs="European Commission"
+                                 xml:id="COM"/>
+                <TLCRole href="http://publications.europa.eu/resource/authority/role/PRESID"
+                         showAs="President"
+                         xml:id="PRESID"/>
+                <TLCReference href="http://publications.europa.eu/resource/authority/resource-type/ANNEX"
+                              name="docType"
+                              showAs="Annex"
+                              xml:id="ANNEX"/>
+                <TLCReference href="http://eurovoc.europa.eu/5456"
+                              name="contentSubject"
+                              showAs="Legal basis"
+                              xml:id="legalBasis"/>
+                <TLCReference href="http://publications.europa.eu/resource/authority/language/ENG"
+                              name="language"
+                              showAs="en"
+                              xml:id="language"/>
+            </references>
+            <proprietary source="~leos">
+                <leos:templateVersion>1.1.2</leos:templateVersion>
+                <leos:docVersion>0.1.0</leos:docVersion>
+                <leos:docTemplate>SG-017</leos:docTemplate>
+                <leos:docPurpose xml:id="proprietary__docpurpose">on jcw 1903/2020</leos:docPurpose>
+                <leos:docStage xml:id="proprietary__docstage">Proposal for a</leos:docStage>
+                <leos:template xml:id="proprietary_template">SG-017</leos:template>
+                <leos:ref>annex_ck919todb0007eo50gj4fzkks</leos:ref>
+                <leos:refOrigin>annex_ck809bf840014m1960ws9uc1h</leos:refOrigin>
+                <leos:annexNumber xml:id="proprietary__annexNumber">Annex I</leos:annexNumber>
+                <leos:docType xml:id="proprietary__doctype">REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</leos:docType>
+                <leos:annexIndex xml:id="proprietary__annexIndex">1</leos:annexIndex>
+                <leos:annexTitle xml:id="proprietary__annexTitle">1</leos:annexTitle>
+                <leos:objectId/>
+            </proprietary>
+        </meta>
+        <preface leos:origin="ec" xml:id="preface">
+            <longTitle leos:origin="ec" xml:id="preface__longtitle">
+                <p leos:origin="ec" xml:id="preface__longtitle__p">
+                    <docType leos:origin="ec"
+                             refersTo="~ANNEX"
+                             xml:id="preface__longtitle__p__doctype">ANNEX</docType>
+                    <docTitle leos:origin="ec" xml:id="preface__longtitle__p__doctitle">1</docTitle>
+                </p>
+            </longTitle>
+        </preface>
+        <mainBody leos:origin="ec" xml:id="body">
+            <level leos:depth="1"
+                   leos:origin="cn"
+                   leos:softaction="add"
+                   leos:softactionroot="true"
+                   leos:softdate="2020-04-16T11:34:15.817+02:00"
+                   leos:softuser="jane"
+                   xml:id="akn_level_FuIJoB">
+                <num leos:editable="false" xml:id="akn_BvgrWD">-1.</num>
+                <content xml:id="akn_yeXKLt">
+                    <p xml:id="akn_lnHd0Z">Text...</p>
+                </content>
+            </level>
+            <level leos:depth="1"
+                   leos:origin="cn"
+                   leos:softaction="add"
+                   leos:softactionroot="true"
+                   leos:softdate="2020-04-16T13:16:57.439+02:00"
+                   leos:softuser="jane"
+                   xml:id="akn_level_VQdZLT">
+                <num leos:editable="false">-1a.</num>
+                <content>
+                    <p>Text...</p>
+                </content>
+            </level>
+            <level leos:depth="1" leos:origin="ec" xml:id="body_level_1">
+                <num leos:origin="ec" xml:id="body_level_1_num">1.</num>
+                <content leos:origin="ec" xml:id="body_level_1_content">
+                    <p leos:origin="ec" xml:id="body_level_1_content_p">Text...</p>
+                </content>
+            </level>
+            <part xml:id="par_tvvkae">
+                <num xml:id="akn_G9g9R2">Part I</num>
+                <heading xml:id="akn_d8Qv9Y">Part I heading</heading>
+                <level leos:depth="2"
+                       leos:origin="cn"
+                       leos:softaction="add"
+                       leos:softactionroot="true"
+                       leos:softdate="2020-04-15T23:34:31.968+02:00"
+                       leos:softuser="jane"
+                       xml:id="akn_level_Ni3YLB">
+                    <num leos:editable="false" xml:id="akn_U7gN80">1.-1.</num>
+                    <content xml:id="akn_WfCXJt">
+                        <p xml:id="akn_WVxPWK">Text...</p>
+                    </content>
+                </level>
+                <level leos:depth="3"
+                       leos:origin="cn"
+                       leos:softaction="add"
+                       leos:softactionroot="true"
+                       leos:softdate="2020-04-16T13:10:58.971+02:00"
+                       leos:softuser="jane"
+                       xml:id="akn_level_wd9MNo">
+                    <num leos:editable="false" xml:id="akn_5Sv00e">1.-1.1.</num>
+                    <content xml:id="akn_iWH7pl">
+                        <p xml:id="akn_d351Hc">Text...</p>
+                    </content>
+                </level>
+                <level leos:depth="2" leos:origin="ec" xml:id="body_level_1_1">
+                    <num leos:origin="ec" xml:id="body_level_1_1_num">1.1.</num>
+                    <content leos:origin="ec" xml:id="body_level_1_1_content">
+                        <p leos:origin="ec" xml:id="body_level_1_1_content_p">Text...</p>
+                    </content>
+                </level>
+                <level leos:depth="3"
+                       leos:origin="cn"
+                       leos:softaction="add"
+                       leos:softactionroot="true"
+                       leos:softdate="2020-04-16T11:30:44.881+02:00"
+                       leos:softuser="jane"
+                       xml:id="akn_level_h7nJTV">
+                    <num leos:editable="false" xml:id="akn_X5atVR">1.1.1.</num>
+                    <content xml:id="akn_C38JMr">
+                        <p xml:id="akn_9kkcxh">Text...</p>
+                    </content>
+                </level>
+                <level leos:depth="3"
+                       leos:origin="cn"
+                       leos:softaction="add"
+                       leos:softactionroot="true"
+                       leos:softdate="2020-04-16T11:32:21.400+02:00"
+                       leos:softuser="jane"
+                       xml:id="akn_level_Fl9COA">
+                    <num leos:editable="false" xml:id="akn_OUnJiS">1.1.2.</num>
+                    <content xml:id="akn_LNdsY8">
+                        <p xml:id="akn_N30WBv">Text...</p>
+                    </content>
+                </level>
+                <level leos:depth="3"
+                       leos:origin="cn"
+                       leos:softaction="add"
+                       leos:softactionroot="true"
+                       leos:softdate="2020-04-16T13:11:10.220+02:00"
+                       leos:softuser="jane"
+                       xml:id="akn_level_RYweVM">
+                    <num leos:editable="false" xml:id="akn_zBXMA7">1.1.3.</num>
+                    <content xml:id="akn_4LvXtS">
+                        <p xml:id="akn_AoEnMM">Text...</p>
+                    </content>
+                </level>
+                <level leos:depth="2"
+                       leos:origin="cn"
+                       leos:softaction="add"
+                       leos:softactionroot="true"
+                       leos:softdate="2020-04-16T00:12:49.695+02:00"
+                       leos:softuser="jane"
+                       xml:id="akn_level_5bHyPE">
+                    <num leos:editable="false" xml:id="akn_Mp7atj">1.1a.</num>
+                    <content xml:id="akn_GNvQfN">
+                        <p xml:id="akn_MxdZmq">Text...</p>
+                    </content>
+                </level>
+                <level leos:depth="2"
+                       leos:origin="cn"
+                       leos:softaction="add"
+                       leos:softactionroot="true"
+                       leos:softdate="2020-04-16T11:15:17.864+02:00"
+                       leos:softuser="jane"
+                       xml:id="akn_level_V4pRMi">
+                    <num leos:editable="false" xml:id="akn_pU4Ugb">1.1b.</num>
+                    <content xml:id="akn_0isaht">
+                        <p xml:id="akn_GOIxjg">Text...</p>
+                    </content>
+                </level>
+                <level leos:depth="2"
+                       leos:origin="cn"
+                       leos:softaction="add"
+                       leos:softactionroot="true"
+                       leos:softdate="2020-04-16T11:33:22.270+02:00"
+                       leos:softuser="jane"
+                       xml:id="akn_level_H4EzWp">
+                    <num leos:editable="false" xml:id="akn_2IpHkS">1.1c.</num>
+                    <content xml:id="akn_fCPlmb">
+                        <p xml:id="akn_EQ7VWq">Text...</p>
+                    </content>
+                </level>
+                <level leos:depth="1"
+                       leos:origin="cn"
+                       leos:softaction="add"
+                       leos:softactionroot="true"
+                       leos:softdate="2020-04-16T13:13:33.063+02:00"
+                       leos:softuser="jane"
+                       xml:id="akn_level_tEqBcb">
+                    <num leos:editable="false" xml:id="akn_mdkala">1a.</num>
+                <content xml:id="akn_Vh4vm3">
+                    <p xml:id="akn_ua6euZ">Text...</p>
+                </content>
+            </level>
+            </part>
+
+            <part xml:id="part_2">
+                <num xml:id="part_2_num">Part II</num>
+                <heading xml:id="part_2_h">Part II heading</heading>
+                <level leos:depth="1" leos:origin="ec" xml:id="body_level_2">
+                    <num leos:origin="ec" xml:id="body_level_2_num">2.</num>
+                    <content leos:origin="ec" xml:id="body_level_2_content">
+                        <p leos:origin="ec" xml:id="body_level_2_content_p">Text...</p>
+                    </content>
+                </level>
+                <level leos:depth="1"
+                       leos:origin="cn"
+                       leos:softaction="add"
+                       leos:softactionroot="true"
+                       leos:softdate="2020-04-15T23:26:17.150+02:00"
+                       leos:softuser="jane"
+                       xml:id="akn_level_HTiupT">
+                    <num leos:editable="false" xml:id="akn_Z0ZL2F">2a.</num>
+                    <content xml:id="akn_g90UN4">
+                        <p xml:id="akn_xujx9H">Text...</p>
+                    </content>
+                </level>
+                <level leos:depth="1"
+                       leos:origin="cn"
+                       leos:softaction="add"
+                       leos:softactionroot="true"
+                       leos:softdate="2020-04-16T00:26:41.712+02:00"
+                       leos:softuser="jane"
+                       xml:id="akn_level_jGOWVy">
+                    <num leos:editable="false" xml:id="akn_KxXd1J">2b.</num>
+                    <content xml:id="akn_BGQfmx">
+                        <p xml:id="akn_QHxBoW">Text...</p>
+                    </content>
+                </level>
+                <chapter xml:id="chapter_1">
+                    <num xml:id="chapter_1_num">Chapter 1</num>
+                    <heading xml:id="chapter_1_h">Chapter 1 heading</heading>
+                    <level leos:depth="2"
+                           leos:origin="cn"
+                           leos:softaction="add"
+                           leos:softactionroot="true"
+                           leos:softdate="2020-04-15T23:16:39.111+02:00"
+                           leos:softuser="jane"
+                           xml:id="akn_level_53rzJF">
+                        <num leos:editable="false" xml:id="akn_ziFmDf">2b.1.</num>
+                        <content xml:id="akn_GZ0sYb">
+                            <p xml:id="akn_J2gaPE">Text...</p>
+                        </content>
+                    </level>
+                    <level leos:depth="3"
+                           leos:origin="cn"
+                           leos:softaction="add"
+                           leos:softactionroot="true"
+                           leos:softdate="2020-04-16T13:13:00.682+02:00"
+                           leos:softuser="jane"
+                           xml:id="akn_level_BNeFhC">
+                        <num leos:editable="false" xml:id="akn_7hBOUZ">2b.1.1.</num>
+                        <content xml:id="akn_3mp0Ec">
+                            <p xml:id="akn_ftgYr7">Text...</p>
+                        </content>
+                    </level>
+                    <level leos:depth="3"
+                           leos:origin="cn"
+                           leos:softaction="add"
+                           leos:softactionroot="true"
+                           leos:softdate="2020-04-15T23:34:18.709+02:00"
+                           leos:softuser="jane"
+                           xml:id="akn_level_FVbB5L">
+                        <num leos:editable="false" xml:id="akn_WJE9Kq">2b.1.2.</num>
+                        <content xml:id="akn_C9bVlc">
+                            <p xml:id="akn_YQZuHN">Text...</p>
+                        </content>
+                    </level>
+                    <level leos:depth="3"
+                           leos:origin="cn"
+                           leos:softaction="add"
+                           leos:softactionroot="true"
+                           leos:softdate="2020-04-15T23:35:04.972+02:00"
+                           leos:softuser="jane"
+                           xml:id="akn_level_csF2LW">
+                        <num leos:editable="false" xml:id="akn_EsJvQZ">2b.1.3.</num>
+                        <content xml:id="akn_JqkjgP">
+                            <p xml:id="akn_v4TaMj">Text...</p>
+                        </content>
+                    </level>
+                    <level leos:depth="3"
+                           leos:origin="cn"
+                           leos:softaction="add"
+                           leos:softactionroot="true"
+                           leos:softdate="2020-04-16T00:12:14.701+02:00"
+                           leos:softuser="jane"
+                           xml:id="akn_level_GbCaQV">
+                        <num leos:editable="false" xml:id="akn_cmEsQx">2b.1.4.</num>
+                        <content xml:id="akn_Tp6sb9">
+                            <p xml:id="akn_9fwxVL">Text...</p>
+                        </content>
+                    </level>
+                    <level leos:depth="3"
+                           leos:origin="cn"
+                           leos:softaction="add"
+                           leos:softactionroot="true"
+                           leos:softdate="2020-04-16T11:32:52.665+02:00"
+                           leos:softuser="jane"
+                           xml:id="akn_level_RpfNIV">
+                        <num leos:editable="false" xml:id="akn_fBnpSL">2b.1.5.</num>
+                        <content xml:id="akn_bobn8H">
+                            <p xml:id="akn_RQ8eCX">Text...</p>
+                        </content>
+                    </level>
+                    <level leos:depth="2"
+                           leos:origin="cn"
+                           leos:softaction="add"
+                           leos:softactionroot="true"
+                           leos:softdate="2020-04-15T23:26:17.151+02:00"
+                           leos:softuser="jane"
+                           xml:id="akn_level_oVWft6">
+                        <num leos:editable="false" xml:id="akn_B5WbzA">2b.2.</num>
+                        <content xml:id="akn_qZGA4q">
+                            <p xml:id="akn_9atOiV">Text...</p>
+                        </content>
+                    </level>
+                    <level leos:depth="2"
+                           leos:origin="cn"
+                           leos:softaction="add"
+                           leos:softactionroot="true"
+                           leos:softdate="2020-04-15T23:34:12.242+02:00"
+                           leos:softuser="jane"
+                           xml:id="akn_level_vz7VEr">
+                        <num leos:editable="false" xml:id="akn_jZwazE">2b.3.</num>
+                        <content xml:id="akn_EHjwqk">
+                            <p xml:id="akn_OAIsVk">Text...</p>
+                        </content>
+                    </level>
+                    <level leos:depth="3"
+                           leos:origin="cn"
+                           leos:softaction="add"
+                           leos:softactionroot="true"
+                           leos:softdate="2020-04-16T00:12:24.961+02:00"
+                           leos:softuser="jane"
+                           xml:id="akn_level_gnNKpZ">
+                        <num leos:editable="false" xml:id="akn_rCcrTr">2b.3.1.</num>
+                    <content xml:id="akn_yU52Jz">
+                        <p xml:id="akn_RlzwQW">Text...</p>
+                    </content>
+                </level>
+                </chapter>
+            </part>
+            <level leos:depth="2"
+                   leos:origin="cn"
+                   leos:softaction="add"
+                   leos:softactionroot="true"
+                   leos:softdate="2020-04-16T09:38:46.135+02:00"
+                   leos:softuser="jane"
+                   xml:id="akn_level_RhhHoz">
+                <num leos:editable="false" xml:id="akn_ky1mN2">2b.4.</num>
+                <content xml:id="akn_Q9Bs6R">
+                    <p xml:id="akn_qeVn9s">Text...</p>
+                </content>
+            </level>
+        </mainBody>
+    </doc>
+</akomaNtoso>

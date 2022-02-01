@@ -1,0 +1,62 @@
+<article xml:id="art_2">
+    <num xml:id="art_2_num">Article 1</num>
+    <heading xml:id="art_2__heading">Scope</heading>
+    <paragraph xml:id="art_2__para_1">
+        <num xml:id="art_2__para_1__b">1.</num>
+        <subparagraph xml:id="art_2__para_1_sub">
+            <content xml:id="art_2__para_1__content">
+                <p xml:id="art_2__para_1__content__p">Paragraph 1.</p>
+            </content>
+        </subparagraph>
+        <list xml:id="art_2__list1">
+            <point xml:id="art_2__list1_p_1">
+                <num>(a)</num>
+                <content>
+                    <p>point (a)</p>
+                </content>
+            </point>
+            <point xml:id="art_2__list1_p_2">
+                <num xml:id="akn_art2_YnSKbj_soCjiB">(b)</num>
+                <alinea>
+                    <content xml:id="akn_art2_YnSKbj_89xvgD">
+                        <p xml:id="akn_art2_YnSKbj_g319GD">point (b)</p>
+                    </content>
+                </alinea>
+                <list xml:id="art_2__list2">
+                    <point xml:id="art_2__list2_p_1">
+                        <num xml:id="akn_art2_YnSKbj_soCjiB">(i)</num>
+                        <alinea>
+                            <content xml:id="akn_art2_YnSKbj_89xvgD">
+                                <p xml:id="akn_art2_YnSKbj_g319GD">point (i)</p>
+                            </content>
+                        </alinea>
+                        <list xml:id="art_2__list3">
+                            <point xml:id="art_2__list3_p_1">
+                                <num xml:id="akn_art2_YnSKbj_soCjiB">(1)</num>
+                                <alinea>
+                                    <content xml:id="akn_art2_YnSKbj_89xvgD">
+                                        <p xml:id="akn_art2_YnSKbj_g319GD">point (1)</p>
+                                    </content>
+                                </alinea>
+                                <list xml:id="art_2__list4">
+                                    <point xml:id="art_2__list4_p_1">
+                                        <num xml:id="akn_art2_YnSKbj_soCjiB">-</num>
+                                        <content xml:id="akn_art2_YnSKbj_89xvgD">
+                                            <p xml:id="akn_art2_YnSKbj_g319GD">point -</p>
+                                        </content>
+                                    </point>
+                                </list>
+                            </point>
+                        </list>
+                    </point>
+                </list>
+            </point>
+        </list>
+    </paragraph>
+    <paragraph xml:id="art_2__para_2">
+        <num xml:id="art_2__para_2__num">2.</num>
+        <content xml:id="art_2__para_2__content">
+            <p xml:id="art_2__para_2__content__p">Paragraph 2</p>
+        </content>
+    </paragraph>
+</article>

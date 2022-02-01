@@ -1,0 +1,60 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xml="http://www.w3.org/XML/1998/namespace">
+    <bill name="REG">
+        <body leos:origin="ec" xml:id="body">
+            <article leos:origin="ec" xml:id="art_1" leos:editable="false" leos:deletable="false">
+                <num leos:origin="ec" leos:editable="false" xml:id="art_1__num">Article 1</num>
+                <heading leos:origin="ec" xml:id="art_1__heading">Scope</heading>
+                <paragraph leos:origin="ec" xml:id="art_1__para_1" leos:depth="1">
+                    <num leos:origin="ec" xml:id="art_1_par_1_num">1.</num>
+                    <subparagraph leos:origin="ec" xml:id="art_1_subpar_1">
+                        <content leos:origin="ec" xml:id="art_1_subpar_1_content">
+                            <p leos:origin="ec" xml:id="art_1_subpar_1_content_p">Paragraph 1</p>
+                        </content>
+                    </subparagraph>
+                    <list leos:origin="ec" xml:id="list" leos:affected="true">
+                        <point leos:softmove_label="MOVED to Article 1, paragraph (1), point (b)first" leos:origin="ec"
+                               xml:id="moved_point_a" leos:softaction="move_to" leos:editable="false" leos:deletable="false"
+                               leos:softmove_to="point_a"
+                               leos:softuser="jane" leos:softdate="2020-10-15T16:08:21.689+02:00"
+                               leos:softactionroot="true">
+                            <num leos:origin="ec" xml:id="moved_point_a_num">(a)</num>
+                            <content leos:origin="ec" xml:id="moved_point_a_content">
+                                <p leos:origin="ec" xml:id="moved_point_a_p">Point (a)</p>
+                            </content>
+                        </point>
+                        <point leos:origin="ec" xml:id="point_b">
+                            <num leos:origin="ec" xml:id="point_b_num">(b)</num>
+                            <alinea leos:origin="ec" xml:id="transformed_point_b" leos:softaction="trans"
+                                    leos:softuser="jane" leos:softdate="2020-10-15T16:08:30.375+02:00"
+                                    leos:softactionroot="true">
+                                <content leos:origin="ec" xml:id="point_b_content">
+                                    <p leos:origin="ec" xml:id="point_b_p">Point (b)</p>
+                                </content>
+                            </alinea>
+                            <list xml:id="lis_JGXws7" leos:softaction="add"
+                                  leos:softuser="jane" leos:softdate="2020-10-15T16:08:30.344+02:00"
+                                  leos:softactionroot="true" leos:origin="cn">
+                                <point leos:softmove_label="MOVED from Article 1(1), point (a)" xml:id="point_a"
+                                       leos:softaction="move_from" leos:softactionroot="true"
+                                       leos:softuser="jane" leos:softdate="1900-01-01T00:00:00.000+01:00"
+                                       leos:origin="ec" leos:softmove_from="moved_point_a">
+                                    <num leos:origin="cn" xml:id="point_a_num">#</num>
+                                    <content leos:origin="ec" xml:id="point_a_content">
+                                        <p leos:origin="ec" xml:id="point_a_p">Point (a)</p>
+                                    </content>
+                                </point>
+                            </list>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph leos:origin="ec" xml:id="art_1__para_2" leos:depth="1">
+                    <num leos:origin="ec" xml:id="art_1__para_2__num">1.</num>
+                    <content leos:origin="ec" xml:id="art_1__para_2__content">
+                        <p leos:origin="ec" xml:id="art_1__para_2__content__p">Paragraph 1</p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+    </bill>
+</akomaNtoso>

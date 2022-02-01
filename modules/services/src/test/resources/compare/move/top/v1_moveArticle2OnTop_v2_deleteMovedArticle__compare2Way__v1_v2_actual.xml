@@ -1,0 +1,306 @@
+<body leos:origin="ec" xml:id="body">
+    <article leos:origin="ec" xml:id="deleted_art_2" leos:editable="false" leos:deletable="false" leos:softaction="del"
+             leos:softactionroot="true" leos:softuser="jane" leos:softdate="2020-09-23T18:07:12.210+02:00"
+             leos:depth="1" class="leos-double-compare-removed">
+        <num leos:origin="ec" xml:id="deleted_art_2_num" leos:editable="false" leos:deletable="false"
+             class="leos-double-compare-removed"><span class="leos-double-compare-removed">Article -</span>1
+            <span class="leos-double-compare-added">.</span>
+        </num>
+        <heading leos:origin="ec" xml:id="deleted_art_2_heading" leos:editable="false" leos:deletable="false"
+                 class="leos-double-compare-removed">Article heading...
+        </heading>
+        <paragraph leos:origin="ec" xml:id="deleted_art_2_par_1" leos:depth="1" leos:editable="false"
+                   leos:deletable="false" class="leos-double-compare-removed">
+            <num leos:origin="ec" xml:id="deleted_art_2_num" leos:editable="false" leos:deletable="false"
+                 class="leos-double-compare-removed">1.
+            </num>
+            <subparagraph leos:origin="ec" xml:id="deleted_art_2_subpar_1" leos:editable="false" leos:deletable="false"
+                          class="leos-double-compare-removed">
+                <content leos:origin="ec" xml:id="deleted_art_2_subpar_1_content" leos:editable="false"
+                         leos:deletable="false" class="leos-double-compare-removed">
+                    <p leos:origin="ec" xml:id="deleted_art_2_subpar_1_content_p" leos:editable="false"
+                       leos:deletable="false" class="leos-double-compare-removed">
+                        <span class="leos-double-compare-removed">Article 3 content (subparagraph 1)</span>
+                        <span class="leos-double-compare-added">subparagraph 3</span>
+                    </p>
+                </content>
+            </subparagraph>
+            <subparagraph leos:origin="ec" xml:id="deleted_art_2_subpar_2" leos:editable="false" leos:deletable="false"
+                          class="leos-double-compare-removed">
+                <content leos:origin="ec" xml:id="deleted_art_2_subpar_1_content" leos:editable="false"
+                         leos:deletable="false" class="leos-double-compare-removed">
+                    <p leos:origin="ec" xml:id="deleted_art_2_subpar_1_content_p" leos:editable="false"
+                       leos:deletable="false" class="leos-double-compare-removed">subparagraph
+                        <span class="leos-double-compare-removed">2</span>
+                        <span class="leos-double-compare-added">3</span>
+                    </p>
+                </content>
+            </subparagraph>
+            <subparagraph leos:origin="ec" xml:id="deleted_art_2_subpar_3" leos:editable="false" leos:deletable="false"
+                          class="leos-double-compare-removed">
+                <content leos:origin="ec" xml:id="deleted_art_2_subpar_3_content" leos:editable="false"
+                         leos:deletable="false" class="leos-double-compare-removed">
+                    <p leos:origin="ec" xml:id="deleted_art_2_subpar_1_content_p" leos:editable="false"
+                       leos:deletable="false" class="leos-double-compare-removed">subparagraph 3
+                    </p>
+                </content>
+            </subparagraph>
+            <list leos:origin="ec" xml:id="deleted_art_2_par_1_list_1" leos:editable="false" leos:deletable="false"
+                  class="leos-double-compare-removed">
+                <point leos:origin="ec" xml:id="deleted_art_2_par_1_point_a" leos:editable="false"
+                       leos:deletable="false" class="leos-double-compare-removed">
+                    <num leos:origin="ec" xml:id="deleted_art_2_par_1_point_a_num" leos:editable="false"
+                         leos:deletable="false" class="leos-double-compare-removed">(a)
+                    </num>
+                    <alinea leos:origin="ec" xml:id="deleted_art_2_par_1_point_a_alinea_1" leos:editable="false"
+                            leos:deletable="false" class="leos-double-compare-removed">
+                        <content leos:origin="ec" xml:id="deleted_art_2_par_1_point_a_alinea_1_c" leos:editable="false"
+                                 leos:deletable="false" class="leos-double-compare-removed">
+                            <p leos:origin="ec" xml:id="deleted_art_2_par_1_point_a_alinea_1_c_p" leos:editable="false"
+                               leos:deletable="false" class="leos-double-compare-removed">Point (a)
+                            </p>
+                        </content>
+                    </alinea>
+                    <list leos:origin="ec" xml:id="deleted_art_2_par_1_list_2" leos:editable="false"
+                          leos:deletable="false" class="leos-double-compare-removed">
+                        <point leos:origin="ec" xml:id="deleted_art_2_par_1_point_i" leos:editable="false"
+                               leos:deletable="false" class="leos-double-compare-removed">
+                            <num leos:origin="ec" xml:id="deleted_art_2_par_1_point_i_num" leos:editable="false"
+                                 leos:deletable="false" class="leos-double-compare-removed">(i)
+                            </num>
+                            <content leos:origin="ec" xml:id="deleted_art_2_par_1_point_i_c" leos:editable="false"
+                                     leos:deletable="false" class="leos-double-compare-removed">
+                                <p leos:origin="ec" xml:id="deleted_art_2_par_1_point_i_c_p" leos:editable="false"
+                                   leos:deletable="false" class="leos-double-compare-removed">Point (i)
+                                </p>
+                            </content>
+                        </point>
+                        <point leos:origin="ec" xml:id="deleted_art_2_par_1_point_ii" leos:editable="false"
+                               leos:deletable="false" class="leos-double-compare-removed">
+                            <num leos:origin="ec" xml:id="deleted_art_2_par_1_point_ii_num" leos:editable="false"
+                                 leos:deletable="false" class="leos-double-compare-removed">(ii)
+                            </num>
+                            <content leos:origin="ec" xml:id="deleted_art_2_par_1_point_ii_c" leos:editable="false"
+                                     leos:deletable="false" class="leos-double-compare-removed">
+                                <p leos:origin="ec" xml:id="deleted_art_2_par_1_point_ii_c_p" leos:editable="false"
+                                   leos:deletable="false" class="leos-double-compare-removed">Point (ii)
+                                </p>
+                            </content>
+                        </point>
+                        <point leos:origin="ec" xml:id="deleted_art_2_par_1_point_iii" leos:editable="false"
+                               leos:deletable="false" class="leos-double-compare-removed">
+                            <num leos:origin="ec" xml:id="deleted_art_2_par_1_point_iii_num" leos:editable="false"
+                                 leos:deletable="false" class="leos-double-compare-removed">(iii)
+                            </num>
+                            <alinea leos:origin="ec" xml:id="deleted_art_2_par_1_point_iii_a1" leos:editable="false"
+                                    leos:deletable="false" class="leos-double-compare-removed">
+                                <content leos:origin="ec" xml:id="deleted_art_2_par_1_point_iii_a1_c"
+                                         leos:editable="false" leos:deletable="false"
+                                         class="leos-double-compare-removed">
+                                    <p leos:origin="ec" xml:id="deleted_art_2_par_1_point_iii_c_p" leos:editable="false"
+                                       leos:deletable="false" class="leos-double-compare-removed">Point (iii)
+                                    </p>
+                                </content>
+                            </alinea>
+                            <alinea leos:origin="ec" xml:id="deleted_art_2_par_1_point_iii_a2" leos:editable="false"
+                                    leos:deletable="false" class="leos-double-compare-removed">
+                                <content leos:origin="ec" xml:id="deleted_art_2_par_1_point_iii_a2_c"
+                                         leos:editable="false" leos:deletable="false"
+                                         class="leos-double-compare-removed">
+                                    <p leos:origin="ec" xml:id="deleted_art_2_par_1_point_iii_a2_c_p"
+                                       leos:editable="false" leos:deletable="false" class="leos-double-compare-removed">
+                                        sub/alinea 1
+                                    </p>
+                                </content>
+                            </alinea>
+                            <alinea leos:origin="ec" xml:id="deleted_art_2_par_1_point_iii_a3" leos:editable="false"
+                                    leos:deletable="false" class="leos-double-compare-removed">
+                                <content leos:origin="ec" xml:id="deleted_art_2_par_1_point_iii_a3_c"
+                                         leos:editable="false" leos:deletable="false"
+                                         class="leos-double-compare-removed">
+                                    <p leos:origin="ec" xml:id="deleted_art_2_par_1_point_iii_a3_c_p"
+                                       leos:editable="false" leos:deletable="false" class="leos-double-compare-removed">
+                                        sub/alinea 2
+                                    </p>
+                                </content>
+                            </alinea>
+                        </point>
+                        <point leos:origin="ec" xml:id="deleted_art_2_par_1_point_iv" leos:editable="false"
+                               leos:deletable="false" class="leos-double-compare-removed">
+                            <num leos:origin="ec" xml:id="deleted_art_2_par_1_point_iv_num" leos:editable="false"
+                                 leos:deletable="false" class="leos-double-compare-removed">(iv)
+                            </num>
+                            <alinea leos:origin="ec" xml:id="deleted_art_2_par_1_point_iv_a1" leos:editable="false"
+                                    leos:deletable="false" class="leos-double-compare-removed">
+                                <content leos:origin="ec" xml:id="deleted_art_2_par_1_point_iv_a1_c"
+                                         leos:editable="false" leos:deletable="false"
+                                         class="leos-double-compare-removed">
+                                    <p leos:origin="ec" xml:id="deleted_art_2_par_1_point_iv_a1_c_p"
+                                       leos:editable="false" leos:deletable="false" class="leos-double-compare-removed">
+                                        Point (iv)
+                                    </p>
+                                </content>
+                            </alinea>
+                            <list leos:origin="ec" xml:id="deleted_art_2_par_1_point_iv_l1" leos:editable="false"
+                                  leos:deletable="false" class="leos-double-compare-removed">
+                                <point leos:origin="ec" xml:id="deleted_art_2_par_1_point_1" leos:editable="false"
+                                       leos:deletable="false" class="leos-double-compare-removed">
+                                    <num leos:origin="ec" xml:id="deleted_art_2_par_1_point_1_num" leos:editable="false"
+                                         leos:deletable="false" class="leos-double-compare-removed">(1)
+                                    </num>
+                                    <content leos:origin="ec" xml:id="deleted_art_2_par_1_point_1_c"
+                                             leos:editable="false" leos:deletable="false"
+                                             class="leos-double-compare-removed">
+                                        <p leos:origin="ec" xml:id="deleted_art_2_par_1_point_1_c_p"
+                                           leos:editable="false" leos:deletable="false"
+                                           class="leos-double-compare-removed">Point (1)
+                                        </p>
+                                    </content>
+                                </point>
+                                <point leos:origin="ec" xml:id="deleted_art_2_par_1_point_2" leos:editable="false"
+                                       leos:deletable="false" class="leos-double-compare-removed">
+                                    <num leos:origin="ec" xml:id="deleted_art_2_par_1_point_2_num" leos:editable="false"
+                                         leos:deletable="false" class="leos-double-compare-removed">(2)
+                                    </num>
+                                    <content leos:origin="ec" xml:id="deleted_art_2_par_1_point_2_c"
+                                             leos:editable="false" leos:deletable="false"
+                                             class="leos-double-compare-removed">
+                                        <p leos:origin="ec" xml:id="deleted_art_2_par_1_point_2_c_p"
+                                           leos:editable="false" leos:deletable="false"
+                                           class="leos-double-compare-removed">Point (2)
+                                        </p>
+                                    </content>
+                                </point>
+                                <point leos:origin="ec" xml:id="deleted_art_2_par_1_point_3" leos:editable="false"
+                                       leos:deletable="false" class="leos-double-compare-removed">
+                                    <num leos:origin="ec" xml:id="deleted_art_2_par_1_point_3_num" leos:editable="false"
+                                         leos:deletable="false" class="leos-double-compare-removed">(3)
+                                    </num>
+                                    <alinea leos:origin="ec" xml:id="deleted_art_2_par_1_point_3_a1"
+                                            leos:editable="false" leos:deletable="false"
+                                            class="leos-double-compare-removed">
+                                        <content leos:origin="ec" xml:id="deleted_art_2_par_1_point_3_a1_c"
+                                                 leos:editable="false" leos:deletable="false"
+                                                 class="leos-double-compare-removed">
+                                            <p leos:origin="ec" xml:id="deleted_art_2_par_1_point_3_a1_c_p"
+                                               leos:editable="false" leos:deletable="false"
+                                               class="leos-double-compare-removed">Point (3)
+                                                <span class="leos-double-compare-added"></span>
+                                            </p>
+                                        </content>
+                                    </alinea>
+                                    <list leos:origin="ec" xml:id="deleted_art_2_par_1_point_3_l" leos:editable="false"
+                                          leos:deletable="false" class="leos-double-compare-removed">
+                                        <indent leos:origin="ec" xml:id="deleted_art_2_par_1_indent_1"
+                                                leos:editable="false" leos:deletable="false"
+                                                class="leos-double-compare-removed">
+                                            <num leos:origin="ec" xml:id="deleted_art_2_par_1_indent_1_num"
+                                                 leos:editable="false" leos:deletable="false"
+                                                 class="leos-double-compare-removed">-
+                                            </num>
+                                            <alinea leos:origin="ec" xml:id="deleted_art_2_par_1_indent_1_a"
+                                                    leos:editable="false" leos:deletable="false"
+                                                    class="leos-double-compare-removed">
+                                                <content leos:origin="ec" xml:id="deleted_art_2_par_1_indent_1_a_c"
+                                                         leos:editable="false" leos:deletable="false"
+                                                         class="leos-double-compare-removed">
+                                                    <p leos:origin="ec" xml:id="deleted_art_2_par_1_indent_1_a_c_p"
+                                                       leos:editable="false" leos:deletable="false"
+                                                       class="leos-double-compare-removed"><span
+                                                            class="leos-double-compare-added"></span>first indent
+                                                    </p>
+                                                </content>
+                                            </alinea>
+                                            <alinea leos:origin="ec" xml:id="deleted_art_2_par_1_indent_1_a2"
+                                                    leos:editable="false" leos:deletable="false"
+                                                    class="leos-double-compare-removed">
+                                                <content leos:origin="ec" xml:id="deleted_art_2_par_1_indent_1_a2_c"
+                                                         leos:editable="false" leos:deletable="false"
+                                                         class="leos-double-compare-removed">
+                                                    <p leos:origin="ec" xml:id="deleted_art_2_par_1_indent_1_a2_c_p"
+                                                       leos:editable="false" leos:deletable="false"
+                                                       class="leos-double-compare-removed">second indent
+                                                    </p>
+                                                </content>
+                                            </alinea>
+                                        </indent>
+                                    </list>
+                                </point>
+                                <point leos:origin="ec" xml:id="deleted_art_2_par_1_point_4" leos:editable="false"
+                                       leos:deletable="false" class="leos-double-compare-removed">
+                                    <num leos:origin="ec" xml:id="deleted_art_2_par_1_point_4_num" leos:editable="false"
+                                         leos:deletable="false" class="leos-double-compare-removed">(4)
+                                    </num>
+                                    <content leos:origin="ec" xml:id="deleted_art_2_par_1_point_4_c"
+                                             leos:editable="false" leos:deletable="false"
+                                             class="leos-double-compare-removed">
+                                        <p leos:origin="ec" xml:id="deleted_art_2_par_1_point_4_c_p"
+                                           leos:editable="false" leos:deletable="false"
+                                           class="leos-double-compare-removed">Point (4)
+                                        </p>
+                                    </content>
+                                </point>
+                            </list>
+                        </point>
+                    </list>
+                </point>
+                <point leos:origin="ec" xml:id="deleted_art_2_par_1_point_b" leos:editable="false"
+                       leos:deletable="false" class="leos-double-compare-removed">
+                    <num leos:origin="ec" xml:id="deleted_art_2_par_1_point_b_num" leos:editable="false"
+                         leos:deletable="false" class="leos-double-compare-removed">(b)
+                    </num>
+                    <content leos:origin="ec" xml:id="deleted_art_2_par_1_point_b_content" leos:editable="false"
+                             leos:deletable="false" class="leos-double-compare-removed">
+                        <p leos:origin="ec" xml:id="deleted_art_2_par_1_point_b_content_p" leos:editable="false"
+                           leos:deletable="false" class="leos-double-compare-removed">Point (b)
+                        </p>
+                    </content>
+                </point>
+            </list>
+        </paragraph>
+        <paragraph leos:origin="ec" xml:id="deleted_art_2_par_2" leos:depth="1" leos:editable="false"
+                   leos:deletable="false" class="leos-double-compare-removed">
+            <num leos:origin="ec" xml:id="deleted_art_2_par_2_num" leos:editable="false" leos:deletable="false"
+                 class="leos-double-compare-removed">2.
+            </num>
+            <content leos:origin="ec" xml:id="deleted_art_2_par_2_content" leos:editable="false" leos:deletable="false"
+                     class="leos-double-compare-removed">
+                <p leos:origin="ec" xml:id="deleted_art_2_par_2_content_p" leos:editable="false" leos:deletable="false"
+                   class="leos-double-compare-removed">Article 3, second paragraph
+                </p>
+            </content>
+        </paragraph>
+        <paragraph leos:origin="ec" xml:id="deleted_art_2_par_3" leos:depth="1" leos:editable="false"
+                   leos:deletable="false" class="leos-double-compare-removed">
+            <num leos:origin="ec" xml:id="deleted_art_2_par_3_num" leos:editable="false" leos:deletable="false"
+                 class="leos-double-compare-removed">3.
+            </num>
+            <content leos:origin="ec" xml:id="deleted_art_2_par_3_content" leos:editable="false" leos:deletable="false"
+                     class="leos-double-compare-removed">
+                <p leos:origin="ec" xml:id="deleted_art_2_par_3_content_p" leos:editable="false" leos:deletable="false"
+                   class="leos-double-compare-removed">Article 3, third paragraph
+                </p>
+            </content>
+        </paragraph>
+    </article>
+    <article leos:origin="ec" xml:id="art_1" leos:editable="false" leos:deletable="false">
+        <num leos:origin="ec" leos:editable="false" xml:id="art_1__num">Article 1</num>
+        <heading leos:origin="ec" xml:id="art_1__heading">Scope</heading>
+        <paragraph leos:origin="ec" xml:id="art_1__para_1">
+            <num leos:origin="ec" xml:id="art_1__para_1__num">1.</num>
+            <content leos:origin="ec" xml:id="art_1__para_1__content">
+                <p leos:origin="ec" xml:id="art_1__para_1__content__p">Article 1 content</p>
+            </content>
+        </paragraph>
+    </article>
+    <article leos:origin="ec" xml:id="art_3" leos:editable="false" leos:deletable="false">
+        <num leos:origin="ec" leos:editable="false" xml:id="art_3__num">Article 3</num>
+        <heading leos:origin="ec" xml:id="art_3__heading">Scope</heading>
+        <paragraph leos:origin="ec" xml:id="art_3__para_1" leos:depth="1">
+            <num leos:origin="ec" xml:id="art_3__para_1__num">1.</num>
+            <content leos:origin="ec" xml:id="art_3__para_1__content">
+                <p leos:origin="ec" xml:id="art_3__para_1__content__p">Article 3 content</p>
+            </content>
+        </paragraph>
+    </article>
+</body>

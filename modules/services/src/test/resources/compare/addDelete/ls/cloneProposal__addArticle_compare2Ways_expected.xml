@@ -1,0 +1,261 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            id="bill_cksq63lgr0005es01ofp4o01q">
+    <bill name="REG">
+        <coverPage id="coverpage" leos:origin="ec">
+            <container id="coverpage__container_1" leos:origin="ec" name="logo">
+                <aknP id="coverpage__container_1__p" leos:origin="ec">
+                    <img aknTitle="European Commission"
+                         alt="European Commission"
+                         id="coverpage__container_1__p__img"
+                         leos:origin="ec"
+                         src="data:image/png;base64"/>
+                </aknP>
+            </container>
+            <longTitle id="coverpage__longtitle" leos:origin="ec">
+                <aknP id="coverpage__longtitle__p" leos:origin="ec">
+                    <docStage id="coverpage__longtitle__p__docstage" leos:origin="ec">Proposal for a</docStage>
+                    <docType id="coverpage__longtitle__p__doctype"
+                             leos:origin="ec"
+                             refersTo="~REG">REGULATION OF THE
+                        EUROPEAN PARLIAMENT AND OF THE COUNCIL
+                    </docType>
+                    <docPurpose id="coverpage__longtitle__p__docpurpose" leos:origin="ec">on ...</docPurpose>
+                </aknP>
+            </longTitle>
+            <container id="coverpage__container_2" leos:origin="ec" name="docLabel">
+                <aknP id="akn_mPCLZl" leos:origin="ec"/>
+            </container>
+            <container data-lang="EN" id="coverpage__container_3" name="language"/>
+        </coverPage>
+        <preface id="preface" leos:origin="ec">
+            <longTitle id="preface__longtitle" leos:origin="ec">
+                <aknP id="preface__longtitle__p" leos:origin="ec">
+                    <docStage id="preface__longtitle__p__docstage" leos:origin="ec">Proposal for a</docStage>
+                    <docType id="preface__longtitle__p__doctype"
+                             leos:origin="ec"
+                             refersTo="~REG">REGULATION OF THE
+                        EUROPEAN PARLIAMENT AND OF THE COUNCIL
+                    </docType>
+                    <docPurpose id="preface__longtitle__p__docpurpose" leos:origin="ec">on ...</docPurpose>
+                </aknP>
+            </longTitle>
+        </preface>
+        <preamble id="preamble" leos:origin="ec">
+            <formula id="preamble__formula_1" leos:origin="ec" name="actingEntity">
+                <aknP id="preamble__formula_1__p" leos:origin="ec">THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE
+                    EUROPEAN UNION,
+                </aknP>
+            </formula>
+            <citations id="cits" leos:editable="false" leos:origin="ec">
+                <citation id="cit_1"
+                          leos:editable="true"
+                          leos:origin="ec"
+                          refersTo="~legalBasis">
+                    <aknP id="cit_1__p" leos:origin="ec">Having regard to the Treaty on the Functioning of the European
+                        Union, and in particular Article [...] thereof,
+                    </aknP>
+                </citation>
+                <citation id="cit_2" leos:editable="true" leos:origin="ec">
+                    <aknP id="cit_2__p" leos:origin="ec">Having regard to the proposal from the European Commission,
+                    </aknP>
+                </citation>
+                <citation id="cit_3" leos:editable="true" leos:origin="ec">
+                    <aknP id="cit_3__p" leos:origin="ec">After transmission of the draft legislative act to the national
+                        Parliaments,
+                    </aknP>
+                </citation>
+                <citation id="cit_4" leos:editable="true" leos:origin="ec">
+                    <aknP id="cit_4__p" leos:origin="ec">Having regard to the opinion of the European Economic and
+                        Social Committee
+                        <authorialNote id="authorialnote_1"
+                                       leos:origin="ec"
+                                       marker="1"
+                                       onClick="LEOS.scrollTo('endNote_authorialnote_1')"
+                                       placement="bottom">
+                            <aknP id="authorialNote_1__p" leos:origin="ec">OJ C [...], [...], p. [...]</aknP>
+                        </authorialNote>
+                        ,
+                    </aknP>
+                </citation>
+                <citation id="cit_5" leos:editable="true" leos:origin="ec">
+                    <aknP id="cit_5__p" leos:origin="ec">Having regard to the opinion of the Committee of the Regions
+                        <authorialNote id="authorialnote_2"
+                                       leos:origin="ec"
+                                       marker="2"
+                                       onClick="LEOS.scrollTo('endNote_authorialnote_2')"
+                                       placement="bottom">
+                            <aknP id="authorialNote_2__p" leos:origin="ec">OJ C [...], [...], p. [...]</aknP>
+                        </authorialNote>
+                        ,
+                    </aknP>
+                </citation>
+                <citation id="cit_6" leos:editable="true" leos:origin="ec">
+                    <aknP id="cit_6__p" leos:origin="ec">Acting in accordance with the ordinary legislative procedure,
+                    </aknP>
+                </citation>
+            </citations>
+            <recitals id="recs" leos:editable="false" leos:origin="ec">
+                <intro id="recitalsIntro" leos:origin="ec">
+                    <aknP id="recs_intro" leos:origin="ec">Whereas:</aknP>
+                </intro>
+                <recital id="rec_1" leos:editable="true" leos:origin="ec">
+                    <num id="rec_1__num" leos:origin="ec">(1)</num>
+                    <aknP id="rec_1__p" leos:origin="ec">Recital...</aknP>
+                </recital>
+                <recital id="rec_2" leos:editable="true" leos:origin="ec">
+                    <num id="rec_2__num" leos:origin="ec">(2)</num>
+                    <aknP id="rec_2__p" leos:origin="ec">Recital...</aknP>
+                </recital>
+            </recitals>
+            <formula id="preamble__formula_2" leos:origin="ec" name="enactingFormula">
+                <aknP id="preamble__formula_2__p" leos:origin="ec">HAVE ADOPTED THIS REGULATION:</aknP>
+            </formula>
+        </preamble>
+        <aknBody id="body" leos:origin="ec">
+            <article id="art_1"
+                     leos:deletable="true"
+                     leos:editable="true"
+                     leos:origin="ec">
+                <num id="art_1__num" leos:editable="false" leos:origin="ec">Article 1</num>
+                <heading id="art_1__heading" leos:origin="ec">Scope</heading>
+                <paragraph id="art_1__para_1" leos:origin="ec">
+                    <num id="art_1__para_1__num" leos:origin="ec">1.</num>
+                    <content id="art_1__para_1__content" leos:origin="ec">
+                        <aknP id="art_1__para_1__content__p" leos:origin="ec">Text...</aknP>
+                    </content>
+                </paragraph>
+            </article>
+            <article id="akn_article_siMKl7" leos:depth="1" leos:origin="ec">
+                <num id="akn_article_siMKl7_4aV0Y9"
+                     leos:editable="false"
+                     leos:origin="ec">Article 2
+                </num>
+                <heading id="akn_article_siMKl7_C6AtNQ" leos:origin="ec">Article heading...</heading>
+                <paragraph id="akn_article_siMKl7-par1" leos:origin="ec">
+                    <num id="akn_article_siMKl7_tiVILT" leos:origin="ec">1.</num>
+                    <content id="akn_article_siMKl7_4HZXiZ" leos:origin="ec">
+                        <aknP id="akn_article_siMKl7_9nce3A" leos:origin="ec">Text...</aknP>
+                    </content>
+                </paragraph>
+            </article>
+            <article id="akn_article_XPUnQy"
+                     leos:depth="1"
+                     leos:origin="ls"
+                     leos:softaction="add"
+                     leos:softactionroot="true"
+                     leos:softdate="2021-08-24T16:33:05.998+02:00"
+                     leos:softuser="jane">
+                <num id="akn_article_XPUnQy_RfqUp5"
+                     leos:editable="false"
+                     leos:origin="ls">
+                    <span class="leos-content-new">Article 3</span>
+                </num>
+                <heading id="akn_article_XPUnQy_MuwTbU">
+                    <span class="leos-content-new">Article heading...</span>
+                </heading>
+                <paragraph id="akn_article_XPUnQy-par1"
+                           leos:origin="ls"
+                           leos:softaction="add"
+                           leos:softdate="2021-08-24T16:33:06.194+02:00"
+                           leos:softuser="jane">
+                    <num id="akn_article_XPUnQy_NVGCBs">
+                        <span class="leos-content-new">1.</span>
+                    </num>
+                    <content id="akn_article_XPUnQy_MAHCAV">
+                        <aknP id="akn_article_XPUnQy_mmJSLP">
+                            <span class="leos-content-new">Text...</span>
+                        </aknP>
+                    </content>
+                </paragraph>
+            </article>
+            <article id="art_2"
+                     leos:deletable="true"
+                     leos:editable="true"
+                     leos:origin="ec">
+                <num id="art_2__num" leos:editable="false" leos:origin="ec">Article
+                    <span class="leos-content-removed">3</span>
+                    <span class="leos-content-new">4</span>
+                </num>
+                <heading id="art_2__heading" leos:origin="ec">Entry into force</heading>
+                <paragraph id="art_2__para_1" leos:origin="ec">
+                    <content id="art_2__para_1__content" leos:origin="ec">
+                        <aknP id="art_2__para_1__content__p" leos:origin="ec">This Regulation shall enter into force on
+                            the [...] day following that of its publication in the <i id="art_2__para_1__content__p__i"
+                                                                                      leos:origin="ec">
+                                Official Journal of the European Union</i>. <span class="leos-content-new">added content where i tag is present</span>
+                        </aknP>
+                    </content>
+                </paragraph>
+            </article>
+            <clause id="clause_1"
+                    leos:alternative="true"
+                    leos:deletable="true"
+                    leos:editable="true"
+                    leos:optionlist="listOption1"
+                    leos:origin="ec"
+                    leos:selectedoption="1">
+                <content id="clause_1__content" leos:origin="ec">
+                    <aknP id="clause_1__content__p" leos:origin="ec">This Regulation shall be binding in its entirety
+                        and directly applicable in all Member States.
+                    </aknP>
+                </content>
+            </clause>
+        </aknBody>
+        <conclusions id="conclusions" leos:origin="ec">
+            <aknP id="conclusions__p_1" leos:origin="ec">Done at <location id="conclusions__p__location_1"
+                                                                           leos:origin="ec"
+                                                                           refersTo="~_BEL_BRU">
+                Brussels</location>,
+            </aknP>
+            <block id="conclusions__block_1" leos:origin="ec" name="signatory">
+                <signature id="conclusions__block_1__signature_1" leos:origin="ec">
+                    <organization id="conclusions__block_1__signature_1__organization"
+                                  leos:origin="ec"
+                                  refersTo="~EP">
+                        For the European Parliament
+                    </organization>
+                    <role id="conclusions__block_1__signature_1__role"
+                          leos:origin="ec"
+                          refersTo="~PRESID">The
+                        President
+                    </role>
+                    <person id="conclusions__block_1__signature_1__person"
+                            leos:origin="ec"
+                            refersTo="">[...]
+                    </person>
+                </signature>
+                <signature id="conclusions__block_1__signature_2" leos:origin="ec">
+                    <organization id="conclusions__block_1__signature_2__organization"
+                                  leos:origin="ec"
+                                  refersTo="~CONSIL">For the Council
+                    </organization>
+                    <role id="conclusions__block_1__signature_2__role"
+                          leos:origin="ec"
+                          refersTo="~PRESID">The
+                        President
+                    </role>
+                    <person id="conclusions__block_1__signature_2__person"
+                            leos:origin="ec"
+                            refersTo="">[...]
+                    </person>
+                </signature>
+            </block>
+        </conclusions>
+        <span class="leos-authnote-table" id="leos-authnote-table-id">
+            <hr size="2"/>
+            <span class="leos-authnote"
+                  id="endNote_authorialnote_1"
+                  onClick="LEOS.scrollTo('authorialnote_1')">
+                <marker id="marker_authorialnote_1">1</marker>
+                <text id="text_authorialnote_1">OJ C [...], [...], p. [...]</text>
+            </span>
+            <span class="leos-authnote"
+                  id="endNote_authorialnote_2"
+                  onClick="LEOS.scrollTo('authorialnote_2')">
+                <marker id="marker_authorialnote_2">2</marker>
+                <text id="text_authorialnote_2">OJ C [...], [...], p. [...]</text>
+            </span>
+        </span>
+    </bill>
+</akomaNtoso>

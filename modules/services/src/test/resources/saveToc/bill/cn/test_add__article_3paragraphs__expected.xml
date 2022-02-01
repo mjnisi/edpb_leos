@@ -1,0 +1,46 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xml="http://www.w3.org/XML/1998/namespace">
+    <bill name="REG">
+        <body leos:origin="ec" xml:id="body">
+            <article leos:origin="ec" xml:id="art_1" leos:editable="false" leos:deletable="false">
+                <num leos:origin="ec" leos:editable="false" xml:id="art_1__num">Article 1</num>
+                <heading leos:origin="ec" xml:id="art_1__heading">Scope</heading>
+                <paragraph leos:origin="ec" xml:id="art_1__para_1">
+                    <num leos:origin="ec" xml:id="art_1__para_1__num">1.</num>
+                    <content leos:origin="ec" xml:id="art_1__para_1__content">
+                        <p leos:origin="ec" xml:id="art_1__para_1__content__p">Paragraph 1</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article xml:id="art_2" leos:origin="cn" leos:softaction="add"
+                     leos:softuser="jane" leos:softdate="2020-10-01T17:52:15.009+02:00" leos:softactionroot="true">
+                <num xml:id="art_2_UAyrRq" leos:origin="cn">Article 1a</num>
+                <heading xml:id="art_2_TRXn6X">Article heading...</heading>
+                <paragraph xml:id="art_2_par_1" leos:softaction="add"
+                           leos:softuser="jane" leos:softdate="2020-10-01T17:52:15.004+02:00" leos:softactionroot="true"
+                           leos:origin="cn">
+                    <num xml:id="art_2_UOr2Lw" leos:editable="false">1.</num>
+                    <content xml:id="art_2_dosScr">
+                        <p xml:id="art_2_S9JVoA">Text...</p>
+                    </content>
+                </paragraph>
+                <paragraph xml:id="art_2_par_2" leos:softaction="add"
+                           leos:softuser="jane" leos:softdate="2020-10-01T17:52:15.008+02:00" leos:softactionroot="true"
+                           leos:origin="cn">
+                    <num xml:id="art_2_zEprrT" leos:editable="false">2.</num>
+                    <content xml:id="art_2_fPA6bV">
+                        <p xml:id="art_2_qVoqov">Text...</p>
+                    </content>
+                </paragraph>
+                <paragraph xml:id="art_2_par_3" leos:softaction="add"
+                           leos:softuser="jane" leos:softdate="2020-10-01T17:52:15.009+02:00" leos:softactionroot="true"
+                           leos:origin="cn">
+                    <num xml:id="art_2_ytbgHT" leos:editable="false">3.</num>
+                    <content xml:id="art_2_8ePYn8">
+                        <p xml:id="art_2_bsVaph">Text...</p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+    </bill>
+</akomaNtoso>

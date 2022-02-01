@@ -1,0 +1,42 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xml="http://www.w3.org/XML/1998/namespace">
+    <bill name="REG">
+        <body leos:origin="ec" xml:id="body">
+            <article leos:origin="ec" xml:id="art_1" leos:editable="false" leos:deletable="false">
+                <num leos:origin="ec" leos:editable="false" xml:id="art_1__num">Article 1</num>
+                <heading leos:origin="ec" xml:id="art_1__heading">Scope</heading>
+                <paragraph leos:origin="ec" xml:id="art_1__para_1">
+                    <num leos:origin="ec" xml:id="art_1__para_1__num">1.</num>
+                    <content leos:origin="ec" xml:id="art_1__para_1__content">
+                        <p leos:origin="ec" xml:id="art_1__para_1__content__p">Paragraph 1</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article xml:id="new_art_1" leos:origin="cn" leos:softaction="add"
+                     leos:softuser="jane" leos:softdate="2020-10-02T11:39:51.456+02:00" leos:softactionroot="true">
+                <num xml:id="new_art_1_MtaIxy" leos:origin="cn">Article 1a</num>
+                <heading xml:id="new_art_1_CBtTbj">Article heading...</heading>
+                <paragraph xml:id="new_art_1_par_1" leos:origin="cn" leos:softaction="add"
+                           leos:softuser="jane" leos:softdate="2020-10-02T11:39:51.455+02:00" leos:softactionroot="true">
+                    <num xml:id="new_art_1_nsZGrE" leos:origin="cn">1.</num>
+                    <subparagraph leos:origin="cn" xml:id="new_art_1_par_subpar_1" leos:softaction="add"
+                                  leos:softuser="jane" leos:softdate="2020-10-02T11:39:51.455+02:00" leos:softactionroot="true">
+                        <content xml:id="new_art_1_O4SMko">
+                            <p xml:id="new_art_1_cyosPq">Text...</p>
+                        </content>
+                    </subparagraph>
+                    <list xml:id="new_art_1_par_1_list_1" leos:softaction="add" leos:softuser="jane"
+                          leos:softdate="2020-10-02T11:39:51.451+02:00" leos:softactionroot="true" leos:origin="cn">
+                        <point leos:origin="cn" leos:softaction="add" leos:softuser="jane"
+                               leos:softdate="2020-10-02T11:39:51.479+02:00" xml:id="new_art_1_point_1">
+                            <num xml:id="new_art_1_CLZIKt" leos:editable="false">(a)</num>
+                            <content xml:id="new_art_1_BlEGts">
+                                <p xml:id="new_art_1_6Wa1CE">Text...</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+            </article>
+        </body>
+    </bill>
+</akomaNtoso>

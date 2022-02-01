@@ -1,0 +1,46 @@
+<part xml:id="akn_EQFNyv">
+    <num xml:id="akn_gRsnMu" class="PartNumber">Part XI</num>
+    <heading xml:id="akn_aDjive" class="PartHeading">FINAL PROVISIONS</heading>
+    <article xml:id="akn_DBTBZ3">
+        <num xml:id="akn_DBTBZ3_dAEnSL" class="ArticleNumber">Article 485</num>
+        <paragraph xml:id="akn_DBTBZ3_U0u1J2">
+            <num xml:id="akn_DBTBZ3_L1bslO" class="Paragraph(numbered)">1.</num>
+            <content xml:id="akn_DBTBZ3_2xrdfz">
+                <p xml:id="akn_DBTBZ3_Z7bXZl" class="Paragraph(numbered)">Subject to paragraph 2, this Regulation
+                    <authorialNote xml:id="akn_DBTBZ3_wdrsSq" marker="1">
+                        <p xml:id="akn_DBTBZ3_C8sBOH">TestNote1</p>
+                    </authorialNote>
+                    shall apply from 1 January 2013.
+                </p>
+            </content>
+        </paragraph>
+        <paragraph xml:id="akn_DBTBZ3_hCkcDe">
+            <num xml:id="akn_DBTBZ3_N9Scat" class="Paragraph(numbered)">2.</num>
+            <content xml:id="akn_DBTBZ3_tP1Ns1">
+                <p xml:id="akn_DBTBZ3_oSvZPT" class="Paragraph(numbered)">Article 436(1) shall apply from 1 January 2015
+                    <authorialNote xml:id="akn_DBTBZ3_NsUR1x" marker="2">
+                        <p xml:id="akn_DBTBZ3_b0Vdvu">TestNote2</p>
+                    </authorialNote>
+                    .
+                </p>
+            </content>
+        </paragraph>
+    </article>
+    <article xml:id="akn_tqYahb">
+        <num xml:id="akn_tqYahb_h5FIM4" class="ArticleNumber">Article 486</num>
+        <alinea xml:id="akn_tqYahb_kelZq1">
+            <content xml:id="akn_tqYahb_TfkMYa">
+                <p xml:id="akn_tqYahb_dK5YRJ" class="Paragraph(unnumbered)">This Regulation shall enter into force on the day following
+                    that of its publication in the
+                    <i xml:id="akn_tqYahb_fvLNSt">Official Journal of the European
+                        <authorialNote xml:id="akn_tqYahb_L7heAz" marker="3">
+                            <p xml:id="akn_tqYahb_FACCX5">TestNote3</p>
+                        </authorialNote>
+                        Union
+                    </i>
+                    .
+                </p>
+            </content>
+        </alinea>
+    </article>
+</part>

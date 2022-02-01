@@ -1,0 +1,57 @@
+<body leos:origin="ec" xml:id="body">
+    <article leos:origin="ec" xml:id="deleted_art_1" leos:editable="false" leos:deletable="false" leos:softaction="del"
+             leos:softactionroot="true" leos:softuser="jane" leos:softdate="2020-09-23T18:07:12.210+02:00"
+             leos:depth="1" class="leos-double-compare-removed-intermediate">
+        <num leos:origin="ec" leos:editable="false" xml:id="deleted_art_1__num" leos:deletable="false"
+             class="leos-double-compare-removed-intermediate">Article
+            <span class="leos-double-compare-removed-original">1</span>
+            <span class="leos-double-compare-removed-intermediate">2</span>
+            <span class="leos-double-compare-added-intermediate">1</span>
+        </num>
+        <heading leos:origin="ec" xml:id="deleted_art_1__heading" leos:editable="false" leos:deletable="false"
+                 class="leos-double-compare-removed-intermediate">Scope
+        </heading>
+        <paragraph leos:origin="ec" xml:id="deleted_art_1__para_1" leos:depth="1" leos:editable="false"
+                   leos:deletable="false" leos:softaction="del" leos:softactionroot="false" leos:softuser="jane"
+                   leos:softdate="2020-09-23T18:07:12.210+02:00" class="leos-double-compare-removed-intermediate">
+            <num leos:origin="ec" xml:id="deleted_art_1__para_1__num" leos:editable="false" leos:deletable="false"
+                 class="leos-double-compare-removed-intermediate">1.
+            </num>
+            <content leos:origin="ec" xml:id="deleted_art_1__para_1__content" leos:editable="false"
+                     leos:deletable="false" class="leos-double-compare-removed-intermediate">
+                <p leos:origin="ec" xml:id="deleted_art_1__para_1__content__p" leos:editable="false"
+                   leos:deletable="false" class="leos-double-compare-removed-intermediate">Article
+                    <span class="leos-double-compare-removed-original">1</span>
+                    <span class="leos-double-compare-removed-intermediate">2</span>
+                    <span class="leos-double-compare-added-intermediate">1</span>
+                    content
+                </p>
+            </content>
+        </paragraph>
+    </article>
+    <article leos:origin="ec" xml:id="art_2" leos:editable="false" leos:deletable="false">
+        <num leos:origin="ec" leos:editable="false" xml:id="art_2__num">Article 2</num>
+        <heading leos:origin="ec" xml:id="art_2__heading">Scope</heading>
+        <paragraph leos:origin="ec" xml:id="art_2__para_1" leos:depth="1">
+            <num leos:origin="ec" xml:id="art_2__para_1__num">1.</num>
+            <content leos:origin="ec" xml:id="art_2__para_1__content">
+                <p leos:origin="ec" xml:id="art_2__para_1__content__p">Article 2 content</p>
+            </content>
+        </paragraph>
+    </article>
+    <article class="leos-double-compare-removed-intermediate" leos:softmove_label="MOVED from Article 1"
+             leos:origin="ec" xml:id="art_1" leos:editable="false"
+             leos:deletable="false" leos:softaction="move_from" leos:softactionroot="true"
+             leos:softmove_from="doubleCompare-moved_art_1" leos:softuser="jane"
+             leos:softdate="2020-09-21T21:00:00.000+00:00"
+             leos:depth="1">
+        <num leos:origin="cn" leos:editable="false" xml:id="art_1__num">Article 2a</num>
+        <heading leos:origin="ec" xml:id="art_1__heading">Scope</heading>
+        <paragraph xml:id="art_1__para_1" leos:origin="ec" leos:depth="1">
+            <num xml:id="art_1__para_1__num" leos:origin="ec">1.</num>
+            <content xml:id="art_1__para_1__content" leos:origin="ec">
+                <p xml:id="art_1__para_1__content__p" leos:origin="ec">Article 1 content</p>
+            </content>
+        </paragraph>
+    </article>
+</body>
