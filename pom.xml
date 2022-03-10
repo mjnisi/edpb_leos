@@ -596,6 +596,15 @@
                 <artifactId>jaxen</artifactId>
                 <version>${jaxen-version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.oracle.database.jdbc</groupId>
+                <artifactId>ojdbc8</artifactId>
+                <version>12.2.0.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-jdbc</artifactId>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
