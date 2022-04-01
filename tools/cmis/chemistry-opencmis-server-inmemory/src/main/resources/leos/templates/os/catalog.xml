@@ -142,4 +142,110 @@
             </item>
         </item>
     </item>
+    <item type="CATEGORY" id="c2" enabled="true" key="EDPB_INITIATIVE">
+        <names>
+            <name lang="EN">Interinstitutional procedures - EDPB Drafting Colaboration</name>
+        </names>
+        <descriptions>
+            <description lang="EN">Draft documents</description>
+        </descriptions>
+        <item type="CATEGORY" id="c2.1" enabled="true" key="EDPB_ACTS">
+            <names>
+                <name lang="EN">EDPB Legal acts</name>
+            </names>
+            <descriptions>
+                <description lang="EN">EDPB Legal acts</description>
+            </descriptions>
+            <item type="CATEGORY" id="c2.1.1" enabled="true" key="EDPB_PROC">
+                <names>
+                    <name lang="EN">EDPB Colaboration Document</name>
+                </names>
+                <descriptions>
+                    <description lang="EN">EDPB Colaboration Document</description>
+                </descriptions>
+                <item type="CATEGORY" id="c2.1.1.1" enabled="true" key="Guidelines">
+                    <names>
+                        <name lang="EN">EDPB Drafting Guidelines</name>
+                    </names>
+                    <descriptions>
+                        <description lang="EN">EDPB Drafting Guidelines</description>
+                    </descriptions>
+
+                    <item type="TEMPLATE" id="PR-020;EM-LP01;BL-020" enabled="true" key="SJ-020">
+                        <names>
+                            <name lang="EN">SJ-020 - Drafting for EDPB Guidelines</name>
+                        </names>
+                        <descriptions>
+                            <description lang="EN">Template 20: Drafting for EDPB Guidelines</description>
+                        </descriptions>
+                        <languages>
+                            <language lang="EN">English</language>
+                        </languages>
+                        <item type="TEMPLATE" id="SG-017" enabled="true" key="SG-017">
+                            <names>
+                                <name lang="EN">SG-017 - Annex</name>
+                            </names>
+                            <descriptions>
+                                <description lang="EN">Annex</description>
+                            </descriptions>
+                        </item>
+                    </item>
+                </item>
+                <item type="CATEGORY" id="c2.1.1.2" enabled="true" key="Statement">
+                    <names>
+                        <name lang="EN">EDPB Statement</name>
+                    </names>
+                    <descriptions>
+                        <description lang="EN">EDPB Statement</description>
+                    </descriptions>
+                    <item type="TEMPLATE" id="PR-021;BL-021" enabled="true" key="SJ-021">
+                        <names>
+                            <name lang="EN">SJ-021 - Drafting for EDPB Statement</name>
+                        </names>
+                        <descriptions>
+                            <description lang="EN">Template 21: Drafting for EDPB Statement</description>
+                        </descriptions>
+                        <languages>
+                            <language lang="EN">English</language>
+                        </languages>
+                        <item type="TEMPLATE" id="SG-017" enabled="true" key="SG-017">
+                            <names>
+                                <name lang="EN">SG-017 - Annex</name>
+                            </names>
+                            <descriptions>
+                                <description lang="EN">Annex</description>
+                            </descriptions>
+                        </item>
+                    </item>
+                </item>
+                <item type="CATEGORY" id="c2.1.1.3" enabled="true" key="Recommendation">
+                    <names>
+                        <name lang="EN">EDPB Recommendation</name>
+                    </names>
+                    <descriptions>
+                        <description lang="EN">EDPB Recommendation</description>
+                    </descriptions>
+                    <item type="TEMPLATE" id="PR-022;BL-022" enabled="true" key="SJ-022">
+                        <names>
+                            <name lang="EN">SJ-022 - Drafting for EDPB Recommendation</name>
+                        </names>
+                        <descriptions>
+                            <description lang="EN">Template 22: Drafting for EDPB Recommendation</description>
+                        </descriptions>
+                        <languages>
+                            <language lang="EN">English</language>
+                        </languages>
+                        <item type="TEMPLATE" id="SG-017" enabled="true" key="SG-017">
+                            <names>
+                                <name lang="EN">SG-017 - Annex</name>
+                            </names>
+                            <descriptions>
+                                <description lang="EN">Annex</description>
+                            </descriptions>
+                        </item>
+                    </item>
+                </item>
+            </item>
+        </item>
+    </item>
 </catalog>
