@@ -17,13 +17,15 @@
 %xmlCoverPage {
     coverPage {
         display: block;
+        padding: 0cm 0cm;
 
         @extend %pageLayout;
 
         //Style for logo
         img {
-            width: 326px;
-            height: 86px;
+            width: 794px;
+//             width: 326px;
+//             height: 86px;
         }
 
         container[name=language] {
@@ -45,7 +47,7 @@
         }
 
         container[name=logo] {
-            padding-bottom: 4.65cm; //did it because in this case missing information from metadata (Brussels 2017 draft) 
+            padding-bottom: 4.65cm; //did it because in this case missing information from metadata (Brussels 2017 draft)
             display: inline-block;
         }
 
