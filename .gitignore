@@ -223,3 +223,6 @@ hs_err_pid*
 styles.css
 
 # -- .gitignore ---------------------------------------------------------------
+/modules/annotate/server/logs/
+/modules/web/logs/
+/modules/web/leos.log.path_IS_UNDEFINED/
