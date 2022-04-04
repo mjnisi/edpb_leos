@@ -57,7 +57,7 @@
                 <p xml:id="coverpage__longtitle__p">
                     <docStage xml:id="coverpage__longtitle__p__docstage">DRAFT</docStage>
                     <docType refersTo="~DEC" xml:id="coverpage__longtitle__p__doctype">Guidelines</docType>
-                    <docPurpose xml:id="coverpage__longtitle__p__docpurpose">[nr/year] on [topic]</docPurpose>
+                    <docPurpose xml:id="coverpage__longtitle__p__docpurpose">On</docPurpose>
                 </p>
             </longTitle>
             <container name="docLabel" xml:id="coverpage__container_2">
@@ -72,7 +72,7 @@
                 <p xml:id="preface__longtitle__p">
                     <docStage xml:id="preface__longtitle__p__docstage">DRAFT</docStage>
                     <docType refersTo="~DEC" xml:id="preface__longtitle__p__doctype">Guidelines</docType>
-                    <docPurpose xml:id="preface__longtitle__p__docpurpose">[nr/year] on [topic]</docPurpose>
+                    <docPurpose xml:id="preface__longtitle__p__docpurpose">On ...</docPurpose>
                 </p>
             </longTitle>
         </preface>
@@ -169,9 +169,9 @@
             <p xml:id="conclusions__p_1">Done at <location xml:id="conclusions__p__location_1" refersTo="~_BEL_BRU">Brussels</location>,</p>
             <block name="signatory" xml:id="conclusions__block_1">
                 <signature xml:id="conclusions__block_1__signature_1">
-                    <organization xml:id="conclusions__block_1__signature_1__organization" refersTo="~CONSIL">For the Council</organization>
-                    <role xml:id="conclusions__block_1__signature_1__role" refersTo="~PRESID">The President</role>
-                    <person xml:id="conclusions__block_1__signature_1__person" refersTo="">[...]</person>
+                    <organization xml:id="conclusions__block_1__signature_1__organization" refersTo="~CONSIL">For the European Data Protection Board</organization>
+                    <role xml:id="conclusions__block_1__signature_1__role" refersTo="~PRESID">The Chair</role>
+                    <person xml:id="conclusions__block_1__signature_1__person" refersTo="">(Andrea Jelinek)</person>
                 </signature>
             </block>
         </conclusions>
