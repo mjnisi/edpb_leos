@@ -226,3 +226,6 @@ styles.css
 /modules/annotate/server/logs/
 /modules/web/logs/
 /modules/web/leos.log.path_IS_UNDEFINED/
+/modules/web/activemq-data/bindings/
+/modules/web/activemq-data/journal/
+/modules/web/logs/
