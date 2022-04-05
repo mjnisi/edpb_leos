@@ -33,5 +33,5 @@ echo "---------------------Annotate Server COMPILED.----------------------------
 
 echo "---------------------Annotate Server STARTING...-----------------------------------"
 cd ./server
-mvn  -Dspring-boot.run.folders=../config/target/generated-config/ spring-boot:run
+mvn -Dspring-boot.run.profiles=h2 -Dspring-boot.run.folders=../config/target/generated-config/ spring-boot:run
 echo "---------------------Annotate Server Killed----------------------------------------"
