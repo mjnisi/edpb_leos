@@ -36,17 +36,7 @@ import javax.inject.Provider;
 import java.util.Arrays;
 import java.util.List;
 
-import static eu.europa.ec.leos.services.support.xml.XmlHelper.ARTICLE;
-import static eu.europa.ec.leos.services.support.xml.XmlHelper.BILL;
-import static eu.europa.ec.leos.services.support.xml.XmlHelper.CITATION;
-import static eu.europa.ec.leos.services.support.xml.XmlHelper.CLAUSE;
-import static eu.europa.ec.leos.services.support.xml.XmlHelper.INDENT;
-import static eu.europa.ec.leos.services.support.xml.XmlHelper.NUM;
-import static eu.europa.ec.leos.services.support.xml.XmlHelper.PARAGRAPH;
-import static eu.europa.ec.leos.services.support.xml.XmlHelper.POINT;
-import static eu.europa.ec.leos.services.support.xml.XmlHelper.RECITAL;
-import static eu.europa.ec.leos.services.support.xml.XmlHelper.SUBPARAGRAPH;
-import static eu.europa.ec.leos.services.support.xml.XmlHelper.SUBPOINT;
+import static eu.europa.ec.leos.services.support.xml.XmlHelper.*;
 
 @Service
 public class BillProcessorImpl implements BillProcessor {
@@ -125,6 +115,12 @@ public class BillProcessorImpl implements BillProcessor {
                 parentElement = xmlContentProcessor.getParentElement(getContent(document), tagName, elementId);
                 updatedContent = insertNewElement(document, parentElement.getElementId(), before, parentElement.getElementTagName());
                 break;
+            case LEVEL:
+                template = XmlHelper.getTemplate(TocItemUtils.getTocItemByNameOrThrow(items, LEVEL), "#", messageHelper);
+                updatedContent = xmlContentProcessor.insertElementByTagNameAndId(getContent(document), template, tagName, elementId, before);
+                updatedContent = xmlContentProcessor.insertDepthAttribute(updatedContent, tagName, elementId);
+                updatedContent = numberProcessor.renumberLevel(updatedContent);
+                break;
             default:
                 throw new UnsupportedOperationException("Unsupported operation for tag: " + tagName);
         }
@@ -158,6 +154,11 @@ public class BillProcessorImpl implements BillProcessor {
                 updatedContent = elementProcessor.deleteElement(document, elementId, tagName);
                 updatedContent = numberProcessor.renumberParagraph(updatedContent);
                 break;
+            case LEVEL:
+                updatedContent = elementProcessor.deleteElement(document, elementId, tagName);
+                updatedContent = numberProcessor.renumberLevel(updatedContent);
+                break;
+
             default:
                 throw new UnsupportedOperationException("Unsupported operation for tag: " + tagName);
         }

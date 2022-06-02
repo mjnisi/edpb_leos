@@ -32,6 +32,8 @@
 
     bill {
         @include editor;
+        @extend %xmlLevel;
+        @extend %editorLevelNumber;
 
         @extend %elementActions;
         @extend %elementUserCoEdition;

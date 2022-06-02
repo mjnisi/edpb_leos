@@ -15,6 +15,8 @@
 
 @mixin editor() {
     .cke_editable {
+        @extend %editorLevel;
+        @extend %editorLevelSubParagraph;
         @extend %editorCitation;
         @extend %editorRecital;
         
@@ -44,5 +46,6 @@
         @extend %showblockSubParagraph;
         @extend %showblockArticleAlinea;
         @extend %showblockList;
+        @extend %showblockLevelParagraph;
     }
 }
