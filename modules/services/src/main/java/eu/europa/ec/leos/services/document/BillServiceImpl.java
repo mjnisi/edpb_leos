@@ -274,6 +274,10 @@ public class BillServiceImpl implements BillService {
         
         newXmlContent = numberingProcessor.renumberArticles(newXmlContent);
         newXmlContent = numberingProcessor.renumberRecitals(newXmlContent);
+
+        newXmlContent = numberingProcessor.renumberLevel(newXmlContent);
+        newXmlContent = numberingProcessor.renumberParagraph(newXmlContent);
+
         newXmlContent = xmlContentProcessor.doXMLPostProcessing(newXmlContent);
 
         return updateBill(bill, newXmlContent, actionMsg);

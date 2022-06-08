@@ -349,6 +349,7 @@
 
     <!-- KLUGE Hack to avoid double login by Weblogic -->
     <login-config>
-        <auth-method>CLIENT-CERT</auth-method>
+        <auth-method>basic</auth-method>
+<!--        <auth-method>ecas</auth-method>-->
     </login-config>
 </web-app>

@@ -1092,8 +1092,21 @@
             <properties>
                 <leos.build.instance>os</leos.build.instance>
                 <leos.web.context.path>leos-pilot</leos.web.context.path>
-                <leos.web.auth.method>BASIC</leos.web.auth.method>
+                <leos.web.auth.method>basic</leos.web.auth.method>
+                <!--                <leos.web.auth.method>ECAS</leos.web.auth.method>-->
             </properties>
         </profile>
+        <!-- For ECAS authentication
+        <profile>
+            <id>ecas-authentication</id>
+            <activation>
+                <property>
+                    <name>ecas</name>
+                </property>
+            </activation>
+            <properties>
+                <leos.web.auth.method>ECAS</leos.web.auth.method>
+            </properties>
+        </profile>-->
     </profiles>
 </project>

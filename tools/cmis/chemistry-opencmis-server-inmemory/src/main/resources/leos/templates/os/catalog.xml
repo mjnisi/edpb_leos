@@ -171,7 +171,7 @@
                         <description lang="EN">EDPB Drafting Guidelines</description>
                     </descriptions>
 
-                    <item type="TEMPLATE" id="PR-020;EM-LP01;BL-020" enabled="true" key="SJ-020">
+                    <item type="TEMPLATE" id="PR-020;BL-CommonBody" enabled="true" key="SJ-020">
                         <names>
                             <name lang="EN">SJ-020 - Drafting for EDPB Guidelines</name>
                         </names>
@@ -198,7 +198,7 @@
                     <descriptions>
                         <description lang="EN">EDPB Statement</description>
                     </descriptions>
-                    <item type="TEMPLATE" id="PR-021;BL-021" enabled="true" key="SJ-021">
+                    <item type="TEMPLATE" id="PR-021;BL-Statem" enabled="true" key="SJ-021">
                         <names>
                             <name lang="EN">SJ-021 - Drafting for EDPB Statement</name>
                         </names>
@@ -225,12 +225,39 @@
                     <descriptions>
                         <description lang="EN">EDPB Recommendation</description>
                     </descriptions>
-                    <item type="TEMPLATE" id="PR-022;BL-022" enabled="true" key="SJ-022">
+                    <item type="TEMPLATE" id="PR-022;BL-Recomm" enabled="true" key="SJ-022">
                         <names>
                             <name lang="EN">SJ-022 - Drafting for EDPB Recommendation</name>
                         </names>
                         <descriptions>
                             <description lang="EN">Template 22: Drafting for EDPB Recommendation</description>
+                        </descriptions>
+                        <languages>
+                            <language lang="EN">English</language>
+                        </languages>
+                        <item type="TEMPLATE" id="SG-017" enabled="true" key="SG-017">
+                            <names>
+                                <name lang="EN">SG-017 - Annex</name>
+                            </names>
+                            <descriptions>
+                                <description lang="EN">Annex</description>
+                            </descriptions>
+                        </item>
+                    </item>
+                </item>
+                <item type="CATEGORY" id="c2.1.1.4" enabled="true" key="Recommendation and Best Practices">
+                    <names>
+                        <name lang="EN">EDPB Recommendation and Best Practices</name>
+                    </names>
+                    <descriptions>
+                        <description lang="EN">EDPB Recommendation and Best Practices</description>
+                    </descriptions>
+                    <item type="TEMPLATE" id="PR-024;BL-RecBestPrac" enabled="true" key="SJ-024">
+                        <names>
+                            <name lang="EN">SJ-024 - Drafting for EDPB Recommendations and Best Practices</name>
+                        </names>
+                        <descriptions>
+                            <description lang="EN">Template 24: Drafting for EDPB Recommendations and Best Practices</description>
                         </descriptions>
                         <languages>
                             <language lang="EN">English</language>

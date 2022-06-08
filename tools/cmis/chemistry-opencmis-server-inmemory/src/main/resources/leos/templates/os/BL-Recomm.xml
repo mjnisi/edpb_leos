@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="renditions/html/css/bill.css"?>
+<?xml-stylesheet type="text/css" href="renditions/html/css/annex.css"?>
+
 <akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:leos="urn:eu:europa:ec:leos" xmlns:xml="http://www.w3.org/XML/1998/namespace">
     <bill name="DEC">
         <meta>
@@ -42,7 +44,7 @@
                 <leos:templateVersion>1.0.2</leos:templateVersion>
                 <leos:docVersion>0.1.0</leos:docVersion>
                 <leos:template>SJ-022</leos:template>
-                <leos:docTemplate>BL-022</leos:docTemplate>
+                <leos:docTemplate>BL-Recomm</leos:docTemplate>
             </proprietary>
         </meta>
         <coverPage xml:id="coverpage">
@@ -112,239 +114,24 @@
             </formula>
         </preamble>
         <body xml:id="body">
-            <part xml:id="part1">
-                <num>PART I</num>
-                <heading> - PRELIMINARY</heading>
-                <section xml:id="sec1">
-                    <num>1.</num>
-                    <heading>Short title and commencement~</heading>
-                    <content>
-                        <p>This Act may be cited as the Kenya Information and Communications Act, 2006 and shall come into operation on such date as the Minister may, by notice in the Gazette, appoint and different dates may be appointed for different provisions.</p>
-                    </content>
-                </section>
-                <section xml:id="sec2">
-                    <num>2.</num>
-                    <heading>Interpretation</heading>
-                    <subsection xml:id="sec2-subsct1">
-                        <num>(1)</num>
-                        <content>
-                            <blockList xml:id="sec2-subsct1-lst1">
-                                <listIntroduction>In this Act unless, the context otherwise requires-</listIntroduction>
-                                <item xml:id="sec2-subsct1-lst1-itm1">
-                                    <p>"Board" means the Board of Directors constituted under section 8;</p>
-                                </item>
-                                <item xml:id="sec2-subsct1-lst1-itm2">
-                                    <p>"broadcaster" means any legal or natural person who composes or packages or
-                                        distributes television or radio programmeservices for reception by the
-                                        public or sections of the public or subscribers to such a service
-                                        irrespective of technology used;</p>
-                                </item>
-                                <item xml:id="sec2-subsct1-lst1-itm3">
-                                    <p>"broadcasting" means unidirectional conveyance of sounds or television
-                                        programmes,whether encrypted or not by radio or other means of
-                                        telecommunications for reception by the public;</p>
-                                </item>
-                                <item xml:id="sec2-subsct1-lst1-itm4">
-                                    <p>"broadcasting signal distribution " means the process whereby the output
-                                        signal of a broadcasting service is taken from thepoint of origin, being the
-                                        point where such signal is made available in its final content format, from
-                                        where it is conveyed to anybroadcast target area by means of a
-                                        telecommunication process and includes multi-channel distribution;
-                                    </p>
-                                </item>
-                                <item xml:id="sec2-subsct1-lst1-itm10">
-                                    <p>"community" includes a geographically founded community or any group of
-                                        persons or sector of the public having a specific,ascertainable common
-                                        interest;</p>
-                                </item>
-                                <item xml:id="sec2-subsct1-lst1-itm11">
-                                    <p>"community broadcasting service" means a broadcasting service which-</p>
-                                    <blockList xml:id="sec2-subsct1-lst1-itm11-lst1">
-                                        <item xml:id="sec2-subsct1-lst1-itm11-lst1-itma">
-                                            <num>(a)</num>
-                                            <p>is fully controlled by a non-profit entity and carried on for
-                                                non-profitable purposes;</p>
-                                        </item>
-                                        <item xml:id="sec2-subsct1-lst1-itm11-lst1-itmb">
-                                            <num>(b)</num>
-                                            <p>serves a particular community;</p>
-                                        </item>
-                                        <item xml:id="sec2-subsct1-lst1-itm11-lst1-itmc">
-                                            <num>(c)</num>
-                                            <p>encourages members of the community served by it or persons associated
-                                                with or promoting the interests of suchcommunity to participate in the
-                                                selection and provision of programmes to be broadcast in the course of
-                                                suchbroadcasting service; and</p>
-                                            <p/>
-                                        </item>
-                                        <item xml:id="sec2-subsct1-lst1-itm11-lst1-itm4">
-                                            <p>may be funded by donations, grants, sponsorships or membership fees,
-                                                or by any combination of the aforementioned;</p>
-                                        </item>
-                                    </blockList>
-                                </item>
-                                <item xml:id="sec2-subsct1-lst1-itm11-lst1-itm5">
-                                    <p>
-
-                                    </p>
-                                </item>
-                                <item xml:id="sec2-subsct1-lst1-itm34">
-                                    <p>"post office" means any building, house, room, receptacle, vessel, vehicle
-                                        or place where postal articles are received, delivered, sorted, made up or
-                                        despatched;</p>
-                                </item>
-                                <item xml:id="sec2-subsct1-lst1-itm35">
-                                    <blockList xml:id="sec2-subsct1-lst1-itm35-lst1">
-                                        <listIntroduction>"post" </listIntroduction>
-                                        <item xml:id="sec2-subsct1-lst1-itm35-lst1-itmi">
-                                            <num>(i)</num>
-                                            <p>when used with reference to telecommunication includes any pole,
-                                                standard, stay, strut or other above-ground contrivance for installing,
-                                                carrying, supporting or suspending atelecommunication line; and</p>
-                                        </item>
-                                        <item xml:id="sec2-subsct1-lst1-itm35-lst1-itmii">
-                                            <num>(ii) </num>
-                                            <p>when used with reference to the transmission of postal articles by
-                                                post, means any system for the collection, despatch, conveyance, handling
-                                                and delivery of postal articles;</p>
-                                        </item>
-                                    </blockList>
-                                </item>
-                            </blockList>
-                        </content>
-                    </subsection>
-                    <subsection xml:id="sec2-subsct2">
-                        <num>(2)</num>
-                        <content>
-                            <p>For the purpose of this Act, a telecommunication system is operated by the person who controls and manages it by himself or through servants or agents.</p>
-                        </content>
-                    </subsection>
-                    <subsection xml:id="sec2-subsct3">
-                        <num>(3)</num>
-                        <content>
-                            <blockList xml:id="sec2-subsct3-lst1">
-                                <listIntroduction>In this Act-</listIntroduction>
-                                <item xml:id="sec2-subsct2-lst1-itma">
-                                    <num>(a)</num>
-                                    <blockList xml:id="sec2-subsct3-lst1-itma-lst1">
-                                        <listIntroduction>a postal article shall be deemed to have been delivered -</listIntroduction>
-                                        <item xml:id="sec2-subsct3-lst1-itma-lst1-itmi">
-                                            <num>i</num>
-                                            <p>   o the addressee, if it is delivered into the private letter box of
-                                                the addressee, leaving it atthe house, or office of the addressee as
-                                                set out thereon, or with his employee or agent or other persons
-                                                authorised to receive it and, where the addressee is a guest or is
-                                                resident at a hotel, hostel or lodgings, it is left with the
-                                                proprietor or manager thereof or with his agent; or</p>
-                                        </item>
-                                        <item xml:id="sec2-subsct3-lst1-itma-lst1-itmii">
-                                            <num>ii</num>
-                                            <p>   to a postal services operator licensed under section 99, if it is
-                                                deposited into a posting box or handed over to an employee or agent of
-                                                a postal services operator authorised to receive it;</p>
-                                        </item>
-                                    </blockList>
-                                </item>
-                                <item xml:id="sec2-subsct3-lst1-itmb">
-                                    <num>(b)</num>
-                                    <p> a postal article shall be deemed to be in the course of transmission by
-                                        post from the time of its being delivered to the public postal licensee
-                                        until the time of its being delivered to the addressee, or it is returned to
-                                        the sender or otherwise disposed of under the provisions of this Act.</p>
-                                </item>
-                                <item xml:id="sec2-subsct3-lst1-itmc">
-                                    <num>(c)</num>
-                                    <p>Save as otherwise agreed to between the originator and the addressee, the
-                                        dispatch of an electronic record occurs when it enters a computer resource
-                                        outside the control of the originator.</p>
-                                </item>
-                            </blockList>
-                        </content>
-                    </subsection>
-                </section>
-            </part>
-
-            <section xml:id="sec_1" leos:editable="true" leos:deletable="true">
-                <num xml:id="sec_1__num" leos:editable="false">1</num>
-                <heading xml:id="sec_1__heading">SECTION TITLE [HEADING 1]</heading>
-                <paragraph xml:id="sec_1__para_1">
-                    <num xml:id="sec_1__para_1__num">1.</num>
-                    <content xml:id="sec_1__para_1__content">
-                        <p xml:id="sec_1__para_1__content__p">[Text]</p>
-                    </content>
-                </paragraph>
-                <subsection xml:id="sec_1_1" leos:editable="true" leos:deletable="true">
-                    <num xml:id="sec_1_1__num" leos:editable="false">1.1</num>
-                    <heading xml:id="sec_1_1__heading">Sub-section [Heading 2]</heading>
-                    <paragraph xml:id="sec_1_1__para_2">
-                        <num xml:id="sec_1_1__para_2__num">2.</num>
-                        <content xml:id="sec_1_1__para_2__content">
-                            <p xml:id="sec_1_1__para_2__content__p">[Text]</p>
-                        </content>
-                    </paragraph>
-                    <paragraph xml:id="sec_1_1__para_3">
-                        <num xml:id="sec_1_1__para_3__num">3.</num>
-                        <content xml:id="sec_1_1__para_3__content">
-                            <p xml:id="sec_1_1__para_3__content__p">[Text]</p>
-                        </content>
-                    </paragraph>
-                    <subsection xml:id="sec_1_1_1" leos:editable="true" leos:deletable="true">
-                        <num xml:id="sec_1_1_1__num" leos:editable="false">1.1.1</num>
-                        <heading xml:id="sec_1_1_1__heading">Sub sub-section [Heading 3]</heading>
-                        <paragraph xml:id="sec_1_1_1__para_4">
-                            <num xml:id="sec_1_1_1__para_4__num">4.</num>
-                            <content xml:id="sec_1_1_1__para_4__content">
-                                <p xml:id="sec_1_1_1__para_4__content__p">[Text]</p>
-                            </content>
-                        </paragraph>
-                        <paragraph xml:id="sec_1_1_1__para_5">
-                            <num xml:id="sec_1_1_1__para_5__num">5.</num>
-                            <content xml:id="sec_1_1_1__para_5__content">
-                                <p xml:id="sec_1_1_1__para_5__content__p">[Text]</p>
-                            </content>
-                        </paragraph>
-                    </subsection>
-                </subsection>
-                <subsection xml:id="sec_1_2" leos:editable="true" leos:deletable="true">
-                    <num xml:id="sec_1_2__num" leos:editable="false">1.2</num>
-                    <heading xml:id="sec_1_2__heading">Sub-section [Heading 2]</heading>
-                    <paragraph xml:id="sec_1_2__para_6">
-                        <num xml:id="sec_1_2__para_6__num">6.</num>
-                        <content xml:id="sec_1_2__para_6__content">
-                            <p xml:id="sec_1_2__para_6__content__p">[Text]</p>
-                        </content>
-                    </paragraph>
-                </subsection>
-            </section>
-
-
-
-            <article xml:id="art_1" leos:editable="true" leos:deletable="true">
-                <num xml:id="art_1__num" leos:editable="false">1</num>
-                <heading xml:id="art_1__heading">SECTION TITLE [HEADING 1]</heading>
-                <paragraph xml:id="art_1__para_1">
-                    <num xml:id="art_1__para_1__num">1.</num>
-                    <content xml:id="art_1__para_1__content">
-                        <p xml:id="art_1__para_1__content__p">Text...</p>
-                    </content>
-                </paragraph>
-            </article>
-            <article xml:id="art_2" leos:editable="true" leos:deletable="true">
-                <num xml:id="art_2__num" leos:editable="false">2</num>
-                <heading xml:id="art_2__heading">Entry into force</heading>
-                <paragraph xml:id="art_2__para_1">
-                    <content xml:id="art_2__para_1__content">
-                        <p xml:id="art_2__para_1__content__p">This Decision shall enter into force on the [...] day following that of its publication in the <i xml:id="art_2__para_1__content__p__i">Official Journal of the European Union</i>.</p>
-                    </content>
-                </paragraph>
-            </article>
-            <!--[Choose between the three options, depending on the addressees of the act.]-->
-<!--            <clause xml:id="clause_1" leos:editable="true" leos:deletable="true" leos:optionlist="listOption1" leos:selectedoption="1">-->
-<!--                <content xml:id="clause_1__content">-->
-<!--                    <p xml:id="clause_1__content__p">This Decision is addressed to the Member States.</p>-->
-<!--                </content>-->
-<!--            </clause>-->
-            <!--[...]-->
+            <level xml:id="body_level_1">
+                <num xml:id="body_level_1_num">1.</num>
+                <content xml:id="body_level_1_content">
+                    <p xml:id="body_level_1_content_p">Text...</p>
+                </content>
+            </level>
+            <level xml:id="body_level_1_1">
+                <num xml:id="body_level_1_1_num">1.1.</num>
+                <content xml:id="body_level_1_1_content">
+                    <p xml:id="body_level_1_1_content_p">Text...</p>
+                </content>
+            </level>
+            <level xml:id="body_level_2">
+                <num xml:id="body_level_2_num">2.</num>
+                <content xml:id="body_level_2_content">
+                    <p xml:id="body_level_2_content_p">Text...</p>
+                </content>
+            </level>
         </body>
         <conclusions xml:id="conclusions">
 <!--            <p xml:id="conclusions__p_1">Done at <location xml:id="conclusions__p__location_1" refersTo="~_BEL_BRU">Brussels</location>,</p>-->

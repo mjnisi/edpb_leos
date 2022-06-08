@@ -109,6 +109,7 @@ public class BillProcessorImpl implements BillProcessor {
                 template = XmlHelper.getTemplate(TocItemUtils.getTocItemByNameOrThrow(items, tagName), "#", messageHelper);
                 updatedContent = insertNewElement(document, elementId, before, tagName, template);
                 updatedContent = xmlContentProcessor.insertAffectedAttributeIntoParentElements(updatedContent, elementId);
+                updatedContent = numberProcessor.renumberLevel(updatedContent);
                 updatedContent = numberProcessor.renumberArticles(updatedContent);
                 break;
             case SUBPOINT:
@@ -197,6 +198,7 @@ public class BillProcessorImpl implements BillProcessor {
             if (updatedContent != null) {
                 updatedContent = numberProcessor.renumberRecitals(updatedContent);
                 updatedContent = numberProcessor.renumberArticles(updatedContent);
+                updatedContent = numberProcessor.renumberLevel(updatedContent);
                 updatedContent = xmlContentProcessor.doXMLPostProcessing(updatedContent);
             }
         } else {

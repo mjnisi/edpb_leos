@@ -40,7 +40,7 @@
                 <leos:templateVersion>1.1.3</leos:templateVersion>
                 <leos:docVersion>0.1.0</leos:docVersion>
                 <leos:template>SJ-021</leos:template>
-                <leos:docTemplate>BL-021</leos:docTemplate>
+                <leos:docTemplate>BL-Statem</leos:docTemplate>
             </proprietary>
         </meta>
         <coverPage xml:id="coverpage">
@@ -73,74 +73,22 @@
             </longTitle>
         </preface>
         <preamble xml:id="preamble">
-            <formula xml:id="preamble__formula_1" name="actingEntity">
-                <p xml:id="preamble__formula_1__p">THE EDPB,</p>
-            </formula>
-            <citations xml:id="cits" leos:editable="false">
-                <citation refersTo="~legalBasis" xml:id="cit_1" leos:editable="true">
-                    <p xml:id="cit_1__p">Having regard to the Treaty on the Functioning of the European Union, and in particular Article [...] thereof,</p>
-                </citation>
-                <citation xml:id="cit_2" leos:editable="true">
-                    <p xml:id="cit_2__p">Having regard to the proposal from the European Commission,</p>
-                </citation>
-                <citation xml:id="cit_3" leos:editable="true">
-                    <p xml:id="cit_3__p">After transmission of the draft legislative act to the national Parliaments,</p>
-                </citation>
-                <citation xml:id="cit_4" leos:editable="true">
-                    <p xml:id="cit_4__p">Having regard to the opinion of the European Economic and Social Committee<authorialNote xml:id="authorialnote_1" marker="1" placement="bottom"><p xml:id="authorialNote_1__p">OJ C [...], [...], p. [...]</p></authorialNote>,</p>
-                </citation>
-                <citation xml:id="cit_5" leos:editable="true">
-                    <p xml:id="cit_5__p">Having regard to the opinion of the Committee of the Regions<authorialNote xml:id="authorialnote_2" marker="2" placement="bottom"><p xml:id="authorialNote_2__p">OJ C [...], [...], p. [...]</p></authorialNote>,</p>
-                </citation>
-                <citation xml:id="cit_6" leos:editable="true">
-                    <p xml:id="cit_6__p">Acting in accordance with the ordinary legislative procedure,</p>
-                </citation>
-            </citations>
-            <recitals xml:id="recs" leos:editable="false">
-                <intro xml:id="recitalsIntro"><p xml:id="recs_intro">Whereas:</p></intro>
-                <recital xml:id="rec_1" leos:editable="true">
-                    <num xml:id="rec_1__num">(1)</num>
-                    <p xml:id="rec_1__p">Recital...</p>
-                </recital>
-                <recital xml:id="rec_2" leos:editable="true">
-                    <num xml:id="rec_2__num">(2)</num>
-                    <p xml:id="rec_2__p">Recital...</p>
-                </recital>
-            </recitals>
             <formula xml:id="preamble__formula_2" name="enactingFormula">
-                <p xml:id="preamble__formula_2__p">HAVE ADOPTED THIS REGULATION:</p>
+                <p xml:id="preamble__formula_2__p">The European Data Protection Board has adopted the following statement:</p>
             </formula>
         </preamble>
         <body xml:id="body">
-            <article xml:id="art_1" leos:editable="true" leos:deletable="true">
-                <num xml:id="art_1__num" leos:editable="false">Article 1</num>
-                <heading xml:id="art_1__heading">Scope</heading>
-                <paragraph xml:id="art_1__para_1">
-                    <num xml:id="art_1__para_1__num">1.</num>
-                    <content xml:id="art_1__para_1__content">
-                        <p xml:id="art_1__para_1__content__p">Text...</p>
-                    </content>
-                </paragraph>
-            </article>
-            <article xml:id="art_2" leos:editable="true" leos:deletable="true">
-                <num xml:id="art_2__num" leos:editable="false">Article 2</num>
-                <heading xml:id="art_2__heading">Entry into force</heading>
-                <paragraph xml:id="art_2__para_1">
-                    <content xml:id="art_2__para_1__content">
-                        <p xml:id="art_2__para_1__content__p">This Regulation shall enter into force on the [...] day following that of its publication in the <i xml:id="art_2__para_1__content__p__i">Official Journal of the European Union</i>.</p>
-                    </content>
-                </paragraph>
-            </article>
+
             <!--[Choose between the two options. The second option must be used where the  is binding and directly applicable only in certain Member States in accordance with the Treaties.]-->
-            <clause xml:id="clause_1" leos:editable="true" leos:deletable="true" leos:alternative="true" leos:optionlist="listOption1" leos:selectedoption="1">
-                <content xml:id="clause_1__content">
-                    <p xml:id="clause_1__content__p">This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            <paragraph xml:id="paragraph_1" leos:editable="true" leos:deletable="true">
+                <content xml:id="paragraph_1__content">
+                    <p xml:id="paragraph_1__content__p">[...]</p>
                 </content>
-            </clause>
+            </paragraph>
             <!--[...]-->
         </body>
         <conclusions xml:id="conclusions">
-            <p xml:id="conclusions__p_1">Done at <location xml:id="conclusions__p__location_1" refersTo="~_BEL_BRU">Brussels</location>,</p>
+<!--            <p xml:id="conclusions__p_1">Done at <location xml:id="conclusions__p__location_1" refersTo="~_BEL_BRU">Brussels</location>,</p>-->
             <block name="signatory" xml:id="conclusions__block_1">
                 <signature xml:id="conclusions__block_1__signature_1">
                     <organization xml:id="conclusions__block_1__signature_1__organization" refersTo="~EP">For the European Data Protection Board</organization>

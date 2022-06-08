@@ -42,7 +42,7 @@
                 <leos:templateVersion>1.0.2</leos:templateVersion>
                 <leos:docVersion>0.1.0</leos:docVersion>
                 <leos:template>SJ-020</leos:template>
-                <leos:docTemplate>BL-020</leos:docTemplate>
+                <leos:docTemplate>BL-CommonBody</leos:docTemplate>
             </proprietary>
         </meta>
         <coverPage xml:id="coverpage">
@@ -56,7 +56,7 @@
             <longTitle xml:id="coverpage__longtitle">
                 <p xml:id="coverpage__longtitle__p">
                     <docStage xml:id="coverpage__longtitle__p__docstage">DRAFT</docStage>
-                    <docType refersTo="~DEC" xml:id="coverpage__longtitle__p__doctype">Guidelines</docType>
+                    <docType refersTo="~DEC" xml:id="coverpage__longtitle__p__doctype">Common body</docType>
                     <docPurpose xml:id="coverpage__longtitle__p__docpurpose">On</docPurpose>
                 </p>
             </longTitle>
@@ -138,26 +138,140 @@
             </formula>
         </preamble>
         <body xml:id="body">
-            <article xml:id="art_1" leos:editable="true" leos:deletable="true">
-                <num xml:id="art_1__num" leos:editable="false">Article 1</num>
-                <heading xml:id="art_1__heading">Scope</heading>
-                <paragraph xml:id="art_1__para_1">
-                    <num xml:id="art_1__para_1__num">1.</num>
-                    <content xml:id="art_1__para_1__content">
-                        <p xml:id="art_1__para_1__content__p">Text...</p>
+            <paragraph xml:id="art109-par2">
+                <subparagraph xml:id="art109-par2-sub1">
+                    <content xml:id="art109_7hRgK3">
+                        <table xml:id="tab1">
+                            <tr xml:id="art108_OfPAuB">
+                                <td xml:id="art108_Y2uqUs">
+                                    <p xml:id="art108_WYgLai" class="TableCell">EXECUTIVE SUMMARY</p>
+                                </td>
+                            </tr>
+                            <tr xml:id="art109_OfPAuB">
+                                <td xml:id="art109_Y2uqUs">
+                                    <p xml:id="art109_WYgLai" class="TableCell">Preserving the fundamental rights and freedoms of individuals, in particular their right to the protection of personal data... Preserving the fundamental rights and freedoms of individuals, in particular their right to the protection of personal data...</p>
+                                </td>
+                            </tr>
+                        </table>
                     </content>
-                </paragraph>
-            </article>
-            <article xml:id="art_2" leos:editable="true" leos:deletable="true">
-                <num xml:id="art_2__num" leos:editable="false">Article 2</num>
-                <heading xml:id="art_2__heading">Entry into force</heading>
-                <paragraph xml:id="art_2__para_1">
-                    <content xml:id="art_2__para_1__content">
-                        <p xml:id="art_2__para_1__content__p">This Decision shall enter into force on the [...] day following that of its publication in the <i xml:id="art_2__para_1__content__p__i">Official Journal of the European Union</i>.</p>
+                </subparagraph>
+            </paragraph>
+            <section>
+                <num xml:id="title_1">1</num>
+                <heading xml:id="head_1">SUMMARY OF FACTS</heading>
+                <level xml:id="body_level_1">
+                    <num xml:id="body_level_1_num">1.</num>
+                    <content xml:id="body_level_1_content">
+                        <p xml:id="body_level_1_content_p">[...]</p>
                     </content>
-                </paragraph>
-            </article>
-            <!--[Choose between the three options, depending on the addressees of the act.]-->
+                </level>
+            </section>
+            <section>
+                <num xml:id="title_2">2</num>
+                <heading xml:id="head_2">ASSESSMENT</heading>
+                <section>
+                    <num xml:id="title_2_1">2.1</num>
+                    <heading xml:id="subhead_2_1">Conditions for adopting a binding decision / an urgent opinion/binding decision /</heading>
+                    <level xml:id="body_level_2">
+                        <num xml:id="body_level_2_num">2.</num>
+                        <content xml:id="body_level_2_content">
+                            <p xml:id="body_level_2_content_p">The general conditions for the adoption of a binding decision by the Board are set forth in Article 60(4) and Article 65(1)(a) GDPR .</p>
+                        </content>
+                    </level>
+                    <level xml:id="body_level_3">
+                        <num xml:id="body_level_3_num">3.</num>
+                        <content xml:id="body_level_3_content">
+                            <p xml:id="body_level_3_content_p">The general conditions for the adoption of an urgent binding decision by the Board are set out in Article 66 GDPR</p>
+                        </content>
+                    </level>
+                    <level xml:id="body_level_4">
+                        <num xml:id="body_level_4_num">4.</num>
+                        <content xml:id="body_level_4_content">
+                            <p xml:id="body_level_4_content_p">The general conditions for the adoption of an urgent opinion by the Board are set out in Article 66 GDPR</p>
+                        </content>
+                    </level>
+                </section>
+                <section>
+                    <num xml:id="title_2_2">2.2</num>
+                    <heading xml:id="subhead_2_2">XXXX</heading>
+                    <level xml:id="body_level_5">
+                        <num xml:id="body_level_5_num">5.</num>
+                        <content xml:id="body_level_5_content">
+                            <p xml:id="body_level_5_content_p">[The general conditions for consent to be considered as valid are defined in Articles 4 (11)  and 7 of the GDPR .] [The general conditions for consent to be considered as valid are defined in Articles 4 (11)  and 7 of the GDPR .][The general conditions for consent to be considered as valid are defined in Articles 4 (11)  and 7 of the GDPR .]</p>
+                        </content>
+                    </level>
+                    <section>
+                        <num xml:id="title_2_2_1">2.2.1</num>
+                        <heading xml:id="subhead_2_2_1">XXXX</heading>
+                        <level xml:id="body_level_6">
+                            <num xml:id="body_level_6_num">6.</num>
+                            <content xml:id="body_level_6_content">
+                                <p xml:id="body_level_6_content_p">[According to Article 4 (11) of the GDPR, any consent should be freely given, specific, informed and unambiguous.] </p>
+                            </content>
+                        </level>
+                        <level xml:id="body_level_7">
+                            <num xml:id="body_level_7_num">7.</num>
+                            <content xml:id="body_level_7_content">
+                                <p xml:id="body_level_7_content_p">[According to Article 4 (11) of the GDPR, any consent should be freely given, specific, informed and unambiguous.] 7.	Some commercial activity carried out by a non-EU entity within a Member State  may indeed be so far removed from the processing of personal data by this entity that the existence of the commercial activity in the EU would not be sufficient to bring the data processing by the non-EU entity within the scope of EU data protection law .</p>
+                            </content>
+                        </level>
+
+                        <section>
+                            <num xml:id="title_2_2_1_1">2.2.1.1</num>
+                            <heading xml:id="subhead_2_2_1_1">XXXX</heading>
+                            <level xml:id="body_level_8">
+                                <num xml:id="body_level_8_num">8.</num>
+                                <content xml:id="body_level_8_content">
+                                    <p xml:id="body_level_8_content_p">[...] </p>
+                                </content>
+                            </level>
+                            <level xml:id="body_level_9">
+                                <num xml:id="body_level_9_num">9.</num>
+                                <content xml:id="body_level_9_content">
+                                    <p xml:id="body_level_9_content_p">Different topic within the same section</p>
+                                </content>
+                            </level>
+                            <level xml:id="body_level_10">
+                                <num xml:id="body_level_10_num">10.</num>
+                                <content xml:id="body_level_10_content">
+                                    <p xml:id="body_level_10_content_p">The “necessity test”   limits the number of cases in which recourse can be made to Article 49 (1) (b).  It requires a close and substantial connection between the data transfer and the purposes of the contract.]</p>
+                                </content>
+                            </level>
+                        </section>
+                    </section>
+                </section>
+            </section>
+
+            <section>
+                <num xml:id="title_3">3</num>
+                <heading xml:id="head_3">CONCLUSIONS RECOMMENDATIONS</heading>
+                <level xml:id="body_level_11">
+                    <num xml:id="body_level_11_num">11.</num>
+                    <content xml:id="body_level_11_content">
+                        <p xml:id="body_level_11_content_p">[...]</p>
+                    </content>
+                </level>
+            </section>
+
+            <section>
+                <num xml:id="title_4">4</num>
+                <heading xml:id="head_4">FINAL REMARKS</heading>
+                <level xml:id="body_level_12">
+                    <num xml:id="body_level_12_num">12.</num>
+                    <content xml:id="body_level_12_content">
+                        <p xml:id="body_level_12_content_p">This opinion is addressed to the XX supervisory authority and will be made public pursuant to Article 64 (5) (b) GDPR.</p>
+                    </content>
+                </level>
+                <level xml:id="body_level_13">
+                    <num xml:id="body_level_13_num">13.</num>
+                    <content xml:id="body_level_13_content">
+                        <p xml:id="body_level_13_content_p">According to Article 64 (7) and (8) GDPR, the supervisory authority shall communicate to the Chair by electronic means within two weeks after receiving the opinion, whether it will amend or maintain its draft decision. Within the same period, it shall provide the amended draft decision or where it does not intend to follow the opinion of the Board, it shall provide the relevant grounds for which it does not intend to follow this opinion, in whole or in part. The supervisory authority shall communicate the final decision to the Board for inclusion in the register of decisions which have been subject to the consistency mechanism, in accordance with article 70 (1) (y) GDPR.</p>
+                    </content>
+                </level>
+            </section>
+
+
+
             <clause xml:id="clause_1" leos:editable="true" leos:deletable="true" leos:optionlist="listOption1" leos:selectedoption="1">
                 <content xml:id="clause_1__content">
                     <p xml:id="clause_1__content__p">This Decision is addressed to the Member States.</p>
