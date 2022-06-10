@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<client-config xmlns="https://ecas.ec.europa.eu/cas/schemas/client-config/ecas/">
+
+    <serverContextPath>/leos-pilot</serverContextPath>
+    <!--<requestingUserDetails>true</requestingUserDetails>-->
+    <serviceResolver>eu.cec.digit.ecas.client.resolver.service.ReverseProxyAwareServiceResolver</serviceResolver>
+    <assuranceLevel>LOW</assuranceLevel>
+    <!-- proxy ticket-->
+    <!-- [Optional] -->
+    <!-- <proxyCallbackUrl>${ecas.proxy.ticket.leos.receptor.url}</proxyCallbackUrl> -->
+
+     ecasBaseUrl:
+    <!-- Base URL for all ECAS URLs when they are specified as relative URLs. -->
+    <!-- [Optional] -->
+<!--     [DefaultValue=https://webgate.acceptance.ec.europa.eu/cas]-->
+     ecasBaseUrl>https://webgate.acceptance.ec.europa.eu/cas
+
+    <!-- acceptStrengths: -->
+    <!-- [Optional] -->
+    <!-- [DefaultValue=PASSWORD,PASSWORD_SMS,PASSWORD_TOKEN,CLIENT_CERT] -->
+    <!-- For the mock-up server, use BASIC strength. -->
+    <!-- acceptStrengths>
+        <strength>BASIC</strength>
+    </acceptStrengths-->
+    <authenticationLevel>BASIC</authenticationLevel>
+</client-config>

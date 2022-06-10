@@ -272,6 +272,33 @@
                         </item>
                     </item>
                 </item>
+                <item type="CATEGORY" id="c2.1.1.5" enabled="true" key="Best Practices">
+                    <names>
+                        <name lang="EN">EDPB Best Practices</name>
+                    </names>
+                    <descriptions>
+                        <description lang="EN">EDPB Best Practices</description>
+                    </descriptions>
+                    <item type="TEMPLATE" id="PR-018;BL-018" enabled="true" key="SJ-018">
+                        <names>
+                            <name lang="EN">SJ-018 - Drafting for EDPB Recommendations and Best Practices</name>
+                        </names>
+                        <descriptions>
+                            <description lang="EN">Template 18: Drafting for EDPB Recommendations and Best Practices</description>
+                        </descriptions>
+                        <languages>
+                            <language lang="EN">English</language>
+                        </languages>
+                        <item type="TEMPLATE" id="SG-017" enabled="true" key="SG-017">
+                            <names>
+                                <name lang="EN">SG-017 - Annex</name>
+                            </names>
+                            <descriptions>
+                                <description lang="EN">Annex</description>
+                            </descriptions>
+                        </item>
+                    </item>
+                </item>
             </item>
         </item>
     </item>

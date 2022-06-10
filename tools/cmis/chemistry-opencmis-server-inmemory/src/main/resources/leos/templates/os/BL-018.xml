@@ -70,7 +70,7 @@
         <preface xml:id="preface">
             <longTitle xml:id="preface__longtitle">
                 <p xml:id="preface__longtitle__p">
-                    <docStage xml:id="preface__longtitle__p__docstage">DRAFT</docStage>
+<!--                    <docStage xml:id="preface__longtitle__p__docstage">DRAFT</docStage>-->
                     <docType refersTo="~DEC" xml:id="preface__longtitle__p__doctype">Recommendations and best practices</docType>
                     <docPurpose xml:id="preface__longtitle__p__docpurpose">[nr/year] on [topic]</docPurpose>
                 </p>
@@ -114,7 +114,7 @@
             </formula>
         </preamble>
         <body xml:id="body">
-            <section>
+            <chapter>
                 <num xml:id="title_1">1</num>
                 <heading xml:id="head_1">SECTION TITLE [HEADING 1]</heading>
                 <level xml:id="body_level_1">
@@ -165,8 +165,8 @@
                         </content>
                     </level>
                 </section>
-            </section>
-            <section>
+            </chapter>
+            <chapter>
                 <num xml:id="title_2">2</num>
                 <heading xml:id="head_2">SECTION TITLE [HEADING 1]</heading>
                 <level xml:id="body_level_7">
@@ -215,9 +215,9 @@
                         </content>
                     </level>
                 </section>
-            </section>
+            </chapter>
 
-            <section>
+            <chapter>
                 <num xml:id="title_3">3</num>
                 <heading xml:id="head_3">SECTION TITLE [HEADING 1]</heading>
                 <level xml:id="body_level_13">
@@ -264,9 +264,9 @@
                         </content>
                     </level>
                 </section>
-            </section>
+            </chapter>
 
-            <section>
+            <chapter>
                 <num xml:id="title_4">4</num>
                 <heading xml:id="head_4">SECTION TITLE [HEADING 1]</heading>
                 <level xml:id="body_level_19">
@@ -313,7 +313,7 @@
                         </content>
                     </level>
                 </section>
-            </section>
+            </chapter>
 
 
         </body>

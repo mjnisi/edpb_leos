@@ -30,6 +30,7 @@ import eu.europa.ec.leos.instance.Instance;
 import eu.europa.ec.leos.security.LeosPermission;
 import eu.europa.ec.leos.security.LeosPermissionAuthorityMapHelper;
 import eu.europa.ec.leos.security.SecurityContext;
+import eu.europa.ec.leos.services.export.ExportLW;
 import eu.europa.ec.leos.services.export.ExportLeos;
 import eu.europa.ec.leos.services.export.ExportOptions;
 import eu.europa.ec.leos.ui.event.view.collection.DeleteCollectionEvent;
@@ -143,7 +144,8 @@ public class ProposalOSCollectionScreenImpl extends CollectionScreenImpl {
             public boolean handleConnectorRequest(VaadinRequest request, VaadinResponse response, String path) throws IOException {
                 boolean result = false;
                 try {
-                    eventBus.post(new ExportProposalEvent(new ExportLeos(ExportOptions.Output.PDF)));
+                    eventBus.post(new ExportProposalEvent(new ExportLW(ExportOptions.Output.PDF)));
+//                    eventBus.post(new ExportProposalEvent(new ExportLeos(ExportOptions.Output.PDF)));
                     result = super.handleConnectorRequest(request, response, path);
                 } catch (Exception exception) {
                     LOG.error("Error occured in download", exception.getMessage());
