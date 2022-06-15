@@ -171,7 +171,7 @@
                         <description lang="EN">EDPB Drafting Guidelines</description>
                     </descriptions>
 
-                    <item type="TEMPLATE" id="PR-001;BL-CommonBody" enabled="true" key="D-001">
+                    <item type="TEMPLATE" id="PR-001;BL-001-CommonBody" enabled="true" key="D-001">
                         <names>
                             <name lang="EN">D-001 - Drafting for EDPB Guidelines</name>
                         </names>
@@ -198,7 +198,7 @@
                     <descriptions>
                         <description lang="EN">EDPB Statement</description>
                     </descriptions>
-                    <item type="TEMPLATE" id="PR-002;BL-Statem" enabled="true" key="D-002">
+                    <item type="TEMPLATE" id="PR-002;BL-002-Statem" enabled="true" key="D-002">
                         <names>
                             <name lang="EN">D-002 - Drafting for EDPB Statement</name>
                         </names>
@@ -225,12 +225,12 @@
                     <descriptions>
                         <description lang="EN">EDPB Recommendation</description>
                     </descriptions>
-                    <item type="TEMPLATE" id="PR-022;BL-Recomm" enabled="true" key="D-022">
+                    <item type="TEMPLATE" id="PR-003;BL-003-Recomm" enabled="true" key="D-003">
                         <names>
-                            <name lang="EN">D-022 - Drafting for EDPB Recommendation</name>
+                            <name lang="EN">D-003 - Drafting for EDPB Recommendation</name>
                         </names>
                         <descriptions>
-                            <description lang="EN">Template 22: Drafting for EDPB Recommendation</description>
+                            <description lang="EN">Template 3: Drafting for EDPB Recommendation</description>
                         </descriptions>
                         <languages>
                             <language lang="EN">English</language>
@@ -252,12 +252,12 @@
                     <descriptions>
                         <description lang="EN">EDPB Recommendation and Best Practices</description>
                     </descriptions>
-                    <item type="TEMPLATE" id="PR-024;BL-RecBestPrac" enabled="true" key="D-024">
+                    <item type="TEMPLATE" id="PR-004;BL-004-RecBestPrac" enabled="true" key="D-004">
                         <names>
-                            <name lang="EN">D-024 - Drafting for EDPB Recommendations and Best Practices</name>
+                            <name lang="EN">D-004 - Drafting for EDPB Recommendations and Best Practices</name>
                         </names>
                         <descriptions>
-                            <description lang="EN">Template 24: Drafting for EDPB Recommendations and Best Practices</description>
+                            <description lang="EN">Template 4: Drafting for EDPB Recommendations and Best Practices</description>
                         </descriptions>
                         <languages>
                             <language lang="EN">English</language>

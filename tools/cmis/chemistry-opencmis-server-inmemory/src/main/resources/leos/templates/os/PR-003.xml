@@ -42,8 +42,8 @@
             <proprietary source="~leos">
                 <leos:templateVersion>1.0.0</leos:templateVersion>
                 <leos:docVersion>0.1.0</leos:docVersion>
-                <leos:template>SJ-022</leos:template>
-                <leos:docTemplate>PR-022</leos:docTemplate>
+                <leos:template>D-003</leos:template>
+                <leos:docTemplate>PR-003</leos:docTemplate>
             </proprietary>
         </meta>
         <coverPage xml:id="coverpage">

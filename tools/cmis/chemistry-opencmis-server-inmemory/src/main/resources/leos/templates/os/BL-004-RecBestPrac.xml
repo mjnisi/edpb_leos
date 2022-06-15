@@ -43,8 +43,8 @@
             <proprietary source="~leos">
                 <leos:templateVersion>1.0.2</leos:templateVersion>
                 <leos:docVersion>0.1.0</leos:docVersion>
-                <leos:template>SJ-024</leos:template>
-                <leos:docTemplate>BL-RecBestPrac</leos:docTemplate>
+                <leos:template>D-004</leos:template>
+                <leos:docTemplate>BL-004-RecBestPrac</leos:docTemplate>
             </proprietary>
         </meta>
         <coverPage xml:id="coverpage">

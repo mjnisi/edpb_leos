@@ -40,7 +40,7 @@
                 <leos:templateVersion>1.1.3</leos:templateVersion>
                 <leos:docVersion>0.1.0</leos:docVersion>
                 <leos:template>D-002</leos:template>
-                <leos:docTemplate>BL-Statem</leos:docTemplate>
+                <leos:docTemplate>BL-002-Statem</leos:docTemplate>
             </proprietary>
         </meta>
         <coverPage xml:id="coverpage">
