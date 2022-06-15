@@ -104,7 +104,8 @@ $link-color-hover:       color-weight($brand-color, 700) !default;
 
 // Typography
 // -------------------------
-$sans-font-family:        "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !default;
+// $sans-font-family:        "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !default;
+$sans-font-family:            Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif !default;
 $mono-font-family:        Open Sans Mono, Menlo, DejaVu Sans Mono, monospace !default;
 
 $base-font-size:          16px !default;
@@ -115,7 +116,7 @@ $body1-line-height:       1.4em;
 
 $body2-font-size:         14px;
 
-$title-font-weight:       bold;
+$title-font-weight:       none;
 
 $normal-font-size: 13px;
 $normal-line-height: 17px;

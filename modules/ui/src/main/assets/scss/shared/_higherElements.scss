@@ -14,8 +14,15 @@
 */
 
 @mixin heading($type) {
-    display: block;
-    text-align: center;
+    @if $type=="section" {
+        display: table-cell;
+        color: #5B9BD5;
+        text-align: center;
+    }
+    @else {
+        display: block;
+        text-align: center;
+    }
     padding-top: 6pt;
     padding-bottom: 18pt;
 
@@ -32,11 +39,13 @@
        font-weight: bold;
     }
     @else if $type=="section" {
-        font-size: 14pt;
-        font-weight: bold;
+//         font-family: Calibri Light (Titres);
+        font-size: 16pt;
+        font-weight: none;
         font-variant: small-caps;
         letter-spacing: 1px; // extra spacing for improved readability
     }
+
 }
 
 //--------------------------------XML higher elements-------------------------/
@@ -112,6 +121,8 @@
     formula {
         @extend %paddedText;
         display: block;
+        font-weight: bold;
+        font-size: 14pt;
     }
 
     block {

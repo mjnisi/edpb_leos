@@ -17,7 +17,9 @@
 %xmlLongTitle {
     longTitle {
         font-weight: bold;
+        color: #004494;
         text-align: center;
+        font-size: 18pt;
         & > aknp, & > p {
             text-decoration: none;
             display: block;
@@ -31,7 +33,7 @@
             }
 
             & > doctype {
-                text-transform: uppercase;
+//                 text-transform: uppercase;
             }
         }
     }
