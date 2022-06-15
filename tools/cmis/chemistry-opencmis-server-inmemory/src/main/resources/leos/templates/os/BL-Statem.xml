@@ -39,7 +39,7 @@
             <proprietary source="~leos">
                 <leos:templateVersion>1.1.3</leos:templateVersion>
                 <leos:docVersion>0.1.0</leos:docVersion>
-                <leos:template>SJ-021</leos:template>
+                <leos:template>D-002</leos:template>
                 <leos:docTemplate>BL-Statem</leos:docTemplate>
             </proprietary>
         </meta>
