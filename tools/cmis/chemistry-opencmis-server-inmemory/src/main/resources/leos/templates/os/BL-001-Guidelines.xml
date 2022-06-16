@@ -41,7 +41,7 @@
             <proprietary source="~leos">
                 <leos:templateVersion>1.0.2</leos:templateVersion>
                 <leos:docVersion>0.1.0</leos:docVersion>
-                <leos:template>D-001</leos:template>
+                <leos:template>G-001</leos:template>
                 <leos:docTemplate>BL-001-CommonBody</leos:docTemplate>
             </proprietary>
         </meta>

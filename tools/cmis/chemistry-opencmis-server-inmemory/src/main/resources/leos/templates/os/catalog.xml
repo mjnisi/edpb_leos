@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <catalog lang="EN">
-<!--    <item type="CATEGORY" id="c1" enabled="true" key="LAW_INITIATIVE">-->
-<!--        <names>-->
-<!--            <name lang="EN">Interinstitutional procedures - Law Initiative (COM/JOIN)</name>-->
-<!--            <name lang="FR">Procédure interinstitutionnelles - Droit d'initiative (COM/JOIN)</name>-->
-<!--        </names>-->
-<!--        <descriptions>-->
-<!--            <description lang="EN">Interinstitutional procedures - Law Initiative (COM/JOIN)</description>-->
-<!--            <description lang="FR">Procédure interinstitutionnelles - Droit d'initiative (COM/JOIN)</description>-->
-<!--        </descriptions>-->
-<!--        <item type="CATEGORY" id="c1.1" enabled="true" key="LEGISLATIVE_ACTS">-->
-<!--            <names>-->
-<!--                <name lang="EN">Legal acts</name>-->
-<!--                <name lang="FR">Actes législatifs</name>-->
-<!--            </names>-->
-<!--            <descriptions>-->
-<!--                <description lang="EN">Legal acts</description>-->
-<!--                <description lang="FR">Actes législatifs</description>-->
-<!--            </descriptions>-->
-<!--            <item type="CATEGORY" id="c1.1.1" enabled="true" key="ORDINARY_LEGISLATIVE_PROC">-->
-<!--                <names>-->
-<!--                    <name lang="EN">Ordinary legislative procedure</name>-->
-<!--                    <name lang="FR">Procédure législative ordinaire</name>-->
-<!--                </names>-->
-<!--                <descriptions>-->
-<!--                    <description lang="EN">Ordinary legislative procedure</description>-->
-<!--                    <description lang="FR">Procédure législative ordinaire</description>-->
-<!--                </descriptions>-->
-<!--                <item type="CATEGORY" id="c1.1.1.1" enabled="true" key="REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL">-->
-<!--                    <names>-->
-<!--                        <name lang="EN">Proposal for a regulation</name>-->
-<!--                        <name lang="FR">Proposition de règlement</name>-->
-<!--                    </names>-->
-<!--                    <descriptions>-->
-<!--                        <description lang="EN">Regulation to be adopted by the European Parliament and the Council</description>-->
-<!--                        <description lang="FR">Règlement à adopter conjointement par le Parlement Européen et le Conseil</description>-->
-<!--                    </descriptions>-->
-<!--                    <item type="TEMPLATE" id="PR-023;EM-LP01;BL-023" enabled="true" key="SJ-023">-->
-<!--                        <names>-->
-<!--                            <name lang="EN">SJ-023 - Proposal for a Regulation of the European Parliament and of the Council</name>-->
-<!--                            <name lang="FR">SJ-023 - Proposition de règlement du Parlement européen et du Conseil</name>-->
-<!--                        </names>-->
-<!--                        <descriptions>-->
-<!--                            <description lang="EN">Template 23 of the LS: Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</description>-->
-<!--                            <description lang="FR">Template 23 du SJ: Proposition de RÈGLEMENT DU PARLEMENT EUROPÉEN ET DU CONSEIL</description>-->
-<!--                        </descriptions>-->
-<!--                        <languages>-->
-<!--                            <language lang="EN">English</language>-->
-<!--                            &lt;!&ndash;<language lang="FR">Français</language>&ndash;&gt;-->
-<!--                        </languages>-->
+    <item type="CATEGORY" id="c1" enabled="true" key="LAW_INITIATIVE">
+        <names>
+            <name lang="EN">Interinstitutional procedures - Law Initiative (COM/JOIN)</name>
+            <name lang="FR">Procédure interinstitutionnelles - Droit d'initiative (COM/JOIN)</name>
+        </names>
+        <descriptions>
+            <description lang="EN">Interinstitutional procedures - Law Initiative (COM/JOIN)</description>
+            <description lang="FR">Procédure interinstitutionnelles - Droit d'initiative (COM/JOIN)</description>
+        </descriptions>
+        <item type="CATEGORY" id="c1.1" enabled="true" key="LEGISLATIVE_ACTS">
+            <names>
+                <name lang="EN">Legal acts</name>
+                <name lang="FR">Actes législatifs</name>
+            </names>
+            <descriptions>
+                <description lang="EN">Legal acts</description>
+                <description lang="FR">Actes législatifs</description>
+            </descriptions>
+            <item type="CATEGORY" id="c1.1.1" enabled="true" key="ORDINARY_LEGISLATIVE_PROC">
+                <names>
+                    <name lang="EN">Ordinary legislative procedure</name>
+                    <name lang="FR">Procédure législative ordinaire</name>
+                </names>
+                <descriptions>
+                    <description lang="EN">Ordinary legislative procedure</description>
+                    <description lang="FR">Procédure législative ordinaire</description>
+                </descriptions>
+                <item type="CATEGORY" id="c1.1.1.1" enabled="true" key="REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL">
+                    <names>
+                        <name lang="EN">Proposal for a regulation</name>
+                        <name lang="FR">Proposition de règlement</name>
+                    </names>
+                    <descriptions>
+                        <description lang="EN">Regulation to be adopted by the European Parliament and the Council</description>
+                        <description lang="FR">Règlement à adopter conjointement par le Parlement Européen et le Conseil</description>
+                    </descriptions>
+                    <item type="TEMPLATE" id="PR-023;EM-LP01;BL-023" enabled="true" key="SJ-023">
+                        <names>
+                            <name lang="EN">SJ-023 - Proposal for a Regulation of the European Parliament and of the Council</name>
+                            <name lang="FR">SJ-023 - Proposition de règlement du Parlement européen et du Conseil</name>
+                        </names>
+                        <descriptions>
+                            <description lang="EN">Template 23 of the LS: Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</description>
+                            <description lang="FR">Template 23 du SJ: Proposition de RÈGLEMENT DU PARLEMENT EUROPÉEN ET DU CONSEIL</description>
+                        </descriptions>
+                        <languages>
+                            <language lang="EN">English</language>
+                            <!--<language lang="FR">Français</language>-->
+                        </languages>
 <!--                        <item type="TEMPLATE" id="SG-017" enabled="true" key="SG-017">-->
 <!--                            <names>-->
 <!--                                <name lang="EN">SG-017 - Annex to a proposal / to another proposal</name>-->
@@ -74,9 +74,9 @@
 <!--                                <description lang="EN">Annex to a proposal / to another proposal (COM/JOIN)</description>-->
 <!--                            </descriptions>-->
 <!--                        </item>-->
-<!--                    </item>-->
-<!--                </item>-->
-<!--            </item>-->
+                    </item>
+                </item>
+            </item>
 <!--            <item type="CATEGORY" id="c1.1.2" enabled="true" key="COUNCIL_LEGAL_ACTS">-->
 <!--                <names>-->
 <!--                    <name lang="EN">Council legal acts</name>-->
@@ -140,8 +140,8 @@
 <!--                    </item>-->
 <!--                </item>-->
 <!--            </item>-->
-<!--        </item>-->
-<!--    </item>-->
+        </item>
+    </item>
     <item type="CATEGORY" id="c2" enabled="true" key="EDPB_INITIATIVE">
         <names>
             <name lang="EN">Interinstitutional procedures - EDPB Drafting Colaboration</name>
@@ -171,9 +171,9 @@
                         <description lang="EN">EDPB Drafting Guidelines</description>
                     </descriptions>
 
-                    <item type="TEMPLATE" id="PR-001;BL-001-CommonBody" enabled="true" key="D-001">
+                    <item type="TEMPLATE" id="PR-001;BL-001-Guidelines" enabled="true" key="G-001">
                         <names>
-                            <name lang="EN">D-001 - Drafting for EDPB Guidelines</name>
+                            <name lang="EN">G-001 - Drafting for EDPB Guidelines</name>
                         </names>
                         <descriptions>
                             <description lang="EN">Template 1: Drafting for EDPB Guidelines</description>
@@ -198,9 +198,9 @@
                     <descriptions>
                         <description lang="EN">EDPB Statement</description>
                     </descriptions>
-                    <item type="TEMPLATE" id="PR-002;BL-002-Statem" enabled="true" key="D-002">
+                    <item type="TEMPLATE" id="PR-002;BL-002-Statem" enabled="true" key="S-001">
                         <names>
-                            <name lang="EN">D-002 - Drafting for EDPB Statement</name>
+                            <name lang="EN">S-001 - Drafting for EDPB Statement</name>
                         </names>
                         <descriptions>
                             <description lang="EN">Template 2: Drafting for EDPB Statement</description>
@@ -225,9 +225,9 @@
                     <descriptions>
                         <description lang="EN">EDPB Recommendation</description>
                     </descriptions>
-                    <item type="TEMPLATE" id="PR-003;BL-003-Recomm" enabled="true" key="D-003">
+                    <item type="TEMPLATE" id="PR-003;BL-003-Recomm" enabled="true" key="R-001">
                         <names>
-                            <name lang="EN">D-003 - Drafting for EDPB Recommendation</name>
+                            <name lang="EN">R-001 - Drafting for EDPB Recommendation</name>
                         </names>
                         <descriptions>
                             <description lang="EN">Template 3: Drafting for EDPB Recommendation</description>
@@ -252,9 +252,9 @@
                     <descriptions>
                         <description lang="EN">EDPB Recommendation and Best Practices</description>
                     </descriptions>
-                    <item type="TEMPLATE" id="PR-004;BL-004-RecBestPrac" enabled="true" key="D-004">
+                    <item type="TEMPLATE" id="PR-004;BL-004-RecBestPrac" enabled="true" key="R-002">
                         <names>
-                            <name lang="EN">D-004 - Drafting for EDPB Recommendations and Best Practices</name>
+                            <name lang="EN">R-002 - Drafting for EDPB Recommendations and Best Practices</name>
                         </names>
                         <descriptions>
                             <description lang="EN">Template 4: Drafting for EDPB Recommendations and Best Practices</description>
@@ -272,19 +272,19 @@
                         </item>
                     </item>
                 </item>
-                <item type="CATEGORY" id="c2.1.1.5" enabled="true" key="Best Practices">
+                <item type="CATEGORY" id="c2.1.1.5" enabled="true" key="Letters">
                     <names>
-                        <name lang="EN">EDPB Best Practices</name>
+                        <name lang="EN">EDPB Letters</name>
                     </names>
                     <descriptions>
-                        <description lang="EN">EDPB Best Practices</description>
+                        <description lang="EN">EDPB Letters</description>
                     </descriptions>
-                    <item type="TEMPLATE" id="PR-018;BL-018" enabled="true" key="D-018">
+                    <item type="TEMPLATE" id="PR-005;BL-005-Letters" enabled="true" key="L-001">
                         <names>
-                            <name lang="EN">D-018 - Drafting for EDPB Recommendations and Best Practices</name>
+                            <name lang="EN">L-001 - Drafting for EDPB Letters</name>
                         </names>
                         <descriptions>
-                            <description lang="EN">Template 18: Drafting for EDPB Recommendations and Best Practices</description>
+                            <description lang="EN">Template 5: Drafting for EDPB Letters</description>
                         </descriptions>
                         <languages>
                             <language lang="EN">English</language>

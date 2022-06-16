@@ -42,7 +42,7 @@
             <proprietary source="~leos">
                 <leos:templateVersion>1.1.0</leos:templateVersion>
                 <leos:docVersion>0.1.0</leos:docVersion>
-                <leos:template>D-002</leos:template>
+                <leos:template>S-001</leos:template>
                 <leos:docTemplate>PR-002</leos:docTemplate>
             </proprietary>
         </meta>
