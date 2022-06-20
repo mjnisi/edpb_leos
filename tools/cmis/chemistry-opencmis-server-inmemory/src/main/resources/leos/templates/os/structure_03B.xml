@@ -3,29 +3,11 @@
            xmlns="http://eu.europa.ec.digit.leos.pilot/schema/"
            xsi:schemaLocation="http://eu.europa.ec.digit.leos.pilot/schema/ structure.xsd">
 
-    <name>structure_01.xml</name>
-    <description>Structure used for Bill</description>
+    <name>structure_03B.xml</name>
+    <description>Structure used for a Letter</description>
     <version>1</version>
 
     <tocItems>
-        <tocItem>
-            <aknTag>preface</aknTag>
-            <root>true</root>
-            <draggable>false</draggable>
-            <childrenAllowed>false</childrenAllowed>
-            <display>true</display>
-            <itemNumber>none</itemNumber>
-            <itemHeading>none</itemHeading>
-            <itemDescription>true</itemDescription>
-            <numberEditable>false</numberEditable>
-            <contentDisplayed>false</contentDisplayed>
-            <deletable>false</deletable>
-            <numWithType>false</numWithType>
-            <expandedByDefault>true</expandedByDefault>
-            <sameParentAsChild>false</sameParentAsChild>
-            <numberingType>NONE</numberingType>
-            <editable>false</editable>
-        </tocItem>
 
         <tocItem>
             <aknTag>body</aknTag>
@@ -46,121 +28,14 @@
             <editable>false</editable>
         </tocItem>
 
-        <tocItem>
-            <aknTag>preamble</aknTag>
-            <root>true</root>
-            <draggable>false</draggable>
-            <childrenAllowed>true</childrenAllowed>
-            <display>true</display>
-            <itemNumber>none</itemNumber>
-            <itemHeading>none</itemHeading>
-            <itemDescription>true</itemDescription>
-            <numberEditable>false</numberEditable>
-            <contentDisplayed>false</contentDisplayed>
-            <deletable>false</deletable>
-            <numWithType>false</numWithType>
-            <expandedByDefault>false</expandedByDefault>
-            <sameParentAsChild>false</sameParentAsChild>
-            <numberingType>NONE</numberingType>
-            <editable>false</editable>
-        </tocItem>
-
-        <tocItem>
-            <aknTag>citations</aknTag>
-            <root>false</root>
-            <draggable>false</draggable>
-            <childrenAllowed>true</childrenAllowed>
-            <display>true</display>
-            <itemNumber>none</itemNumber>
-            <itemHeading>none</itemHeading>
-            <itemDescription>true</itemDescription>
-            <numberEditable>false</numberEditable>
-            <contentDisplayed>false</contentDisplayed>
-            <deletable>false</deletable>
-            <numWithType>false</numWithType>
-            <expandedByDefault>true</expandedByDefault>
-            <sameParentAsChild>false</sameParentAsChild>
-            <numberingType>NONE</numberingType>
-            <editable>false</editable>
-        </tocItem>
-
-        <tocItem>
-            <aknTag>citation</aknTag>
-            <root>false</root>
-            <draggable>true</draggable>
-            <childrenAllowed>false</childrenAllowed>
-            <display>true</display>
-            <itemNumber>none</itemNumber>
-            <itemHeading>none</itemHeading>
-            <itemDescription>false</itemDescription>
-            <numberEditable>false</numberEditable>
-            <contentDisplayed>true</contentDisplayed>
-            <deletable>true</deletable>
-            <numWithType>false</numWithType>
-            <expandedByDefault>true</expandedByDefault>
-            <sameParentAsChild>false</sameParentAsChild>
-            <numberingType>NONE</numberingType>
-            <profiles>
-                <profile>
-                    <profileName>inlineAknCitation</profileName>
-                </profile>
-            </profiles>
-            <editable>true</editable>
-            <template><![CDATA[<citation xml:id="${id}" leos:editable="true"><p>${default.content.text}</p></citation>]]></template>
-        </tocItem>
-
-        <tocItem>
-            <aknTag>recitals</aknTag>
-            <root>false</root>
-            <draggable>false</draggable>
-            <childrenAllowed>true</childrenAllowed>
-            <display>true</display>
-            <itemNumber>none</itemNumber>
-            <itemHeading>none</itemHeading>
-            <itemDescription>true</itemDescription>
-            <numberEditable>false</numberEditable>
-            <contentDisplayed>false</contentDisplayed>
-            <deletable>false</deletable>
-            <numWithType>false</numWithType>
-            <expandedByDefault>true</expandedByDefault>
-            <sameParentAsChild>false</sameParentAsChild>
-            <numberingType>NONE</numberingType>
-            <editable>false</editable>
-        </tocItem>
-
-        <tocItem>
-            <aknTag>recital</aknTag>
-            <root>false</root>
-            <draggable>true</draggable>
-            <childrenAllowed>false</childrenAllowed>
-            <display>true</display>
-            <itemNumber>mandatory</itemNumber>
-            <autoNumbering>true</autoNumbering>
-            <itemHeading>none</itemHeading>
-            <itemDescription>false</itemDescription>
-            <numberEditable>false</numberEditable>
-            <contentDisplayed>true</contentDisplayed>
-            <deletable>true</deletable>
-            <numWithType>false</numWithType>
-            <expandedByDefault>true</expandedByDefault>
-            <sameParentAsChild>false</sameParentAsChild>
-            <numberingType>ARABIC-PARENTHESIS</numberingType>
-            <profiles>
-                <profile>
-                    <profileName>inlineAknRecital</profileName>
-                </profile>
-            </profiles>
-            <editable>true</editable>
-            <template><![CDATA[<recital xml:id="${id}" leos:editable="true"><num leos:editable="false">${num}</num><p>${default.content.text}</p></recital>]]></template>
-        </tocItem>
 
         <tocItem>
             <aknTag>part</aknTag>
             <root>false</root>
-            <higherElement>true</higherElement>
+            <higherElement>false</higherElement>
             <draggable>true</draggable>
             <childrenAllowed>true</childrenAllowed>
-            <display>true</display>
+            <display>false</display>
             <itemNumber>mandatory</itemNumber>
             <autoNumbering>false</autoNumbering>
             <itemHeading>mandatory</itemHeading>
@@ -240,32 +115,6 @@
             <numberingType>ARABIC-PARENTHESIS</numberingType>
             <editable>false</editable>
             <template><![CDATA[<section xml:id="${id}"><num>${num}</num><heading>${heading}</heading></section>]]></template>
-        </tocItem>
-
-        <tocItem>
-            <aknTag>article</aknTag>
-            <root>false</root>
-            <draggable>true</draggable>
-            <childrenAllowed>false</childrenAllowed>
-            <display>true</display>
-            <itemNumber>mandatory</itemNumber>
-            <autoNumbering>true</autoNumbering>
-            <itemHeading>optional</itemHeading>
-            <itemDescription>true</itemDescription>
-            <numberEditable>false</numberEditable>
-            <contentDisplayed>true</contentDisplayed>
-            <deletable>true</deletable>
-            <numWithType>true</numWithType>
-            <expandedByDefault>true</expandedByDefault>
-            <sameParentAsChild>false</sameParentAsChild>
-            <numberingType>ARABIC</numberingType>
-            <profiles>
-                <profile>
-                    <profileName>inlineAknArticle</profileName>
-                </profile>
-            </profiles>
-            <editable>true</editable>
-            <template><![CDATA[<article xml:id="${id}"><num leos:editable="false">${num}</num><heading>${heading}</heading><paragraph xml:id="${id}-par1"><num>1.</num><content><p>${default.content.text}</p></content></paragraph></article>]]></template>
         </tocItem>
 
         <tocItem>
@@ -395,48 +244,6 @@
             <editable>false</editable>
         </tocItem>
 
-        <tocItem>
-            <aknTag>conclusions</aknTag>
-            <root>true</root>
-            <draggable>false</draggable>
-            <childrenAllowed>false</childrenAllowed>
-            <display>true</display>
-            <itemNumber>none</itemNumber>
-            <itemHeading>none</itemHeading>
-            <itemDescription>true</itemDescription>
-            <numberEditable>false</numberEditable>
-            <contentDisplayed>false</contentDisplayed>
-            <deletable>false</deletable>
-            <numWithType>false</numWithType>
-            <expandedByDefault>true</expandedByDefault>
-            <sameParentAsChild>false</sameParentAsChild>
-            <numberingType>NONE</numberingType>
-            <editable>false</editable>
-        </tocItem>
-
-        <tocItem>
-            <aknTag>clause</aknTag>
-            <root>true</root>
-            <draggable>false</draggable>
-            <childrenAllowed>false</childrenAllowed>
-            <display>false</display>
-            <itemNumber>none</itemNumber>
-            <itemHeading>none</itemHeading>
-            <itemDescription>true</itemDescription>
-            <numberEditable>false</numberEditable>
-            <contentDisplayed>false</contentDisplayed>
-            <deletable>false</deletable>
-            <numWithType>false</numWithType>
-            <expandedByDefault>true</expandedByDefault>
-            <sameParentAsChild>false</sameParentAsChild>
-            <numberingType>NONE</numberingType>
-            <profiles>
-                <profile>
-                    <profileName>inlineAknClause</profileName>
-                </profile>
-            </profiles>
-            <editable>true</editable>
-        </tocItem>
 
         <tocItem>
             <aknTag>heading</aknTag>
@@ -462,21 +269,20 @@
             </profiles>
             <editable>true</editable>
         </tocItem>
-
         <tocItem>
-            <aknTag>formula</aknTag>
-            <root>false</root>
+            <aknTag>conclusions</aknTag>
+            <root>true</root>
             <draggable>false</draggable>
             <childrenAllowed>false</childrenAllowed>
-            <display>false</display>
+            <display>true</display>
             <itemNumber>none</itemNumber>
             <itemHeading>none</itemHeading>
-            <itemDescription>false</itemDescription>
+            <itemDescription>true</itemDescription>
             <numberEditable>false</numberEditable>
             <contentDisplayed>false</contentDisplayed>
             <deletable>false</deletable>
             <numWithType>false</numWithType>
-            <expandedByDefault>false</expandedByDefault>
+            <expandedByDefault>true</expandedByDefault>
             <sameParentAsChild>false</sameParentAsChild>
             <numberingType>NONE</numberingType>
             <editable>false</editable>
@@ -586,53 +392,9 @@
     </numberingConfigs>
 
     <alternateConfigs>
-        <alternateConfig>
-            <type>article</type>
-            <profile>inlineAknAlternativeArticle</profile>
-        </alternateConfig>
-        <alternateConfig>
-            <type>clause</type>
-            <profile>inlineAknClause</profile>
-        </alternateConfig>
     </alternateConfigs>
 
     <tocRules>
-        <entry>
-            <tocItem>preface</tocItem>
-            <list/>
-        </entry>
-        <entry>
-            <tocItem>preamble</tocItem>
-            <list>
-                <tocItem>citations</tocItem>
-                <tocItem>recitals</tocItem>
-                <tocItem>formula</tocItem>
-            </list>
-        </entry>
-        <entry>
-            <tocItem>citations</tocItem>
-            <list>
-                <tocItem>citation</tocItem>
-            </list>
-        </entry>
-        <entry>
-            <tocItem>citation</tocItem>
-            <list>
-                <tocItem>citation</tocItem>
-            </list>
-        </entry>
-        <entry>
-            <tocItem>recitals</tocItem>
-            <list>
-                <tocItem>recital</tocItem>
-            </list>
-        </entry>
-        <entry>
-            <tocItem>recital</tocItem>
-            <list>
-                <tocItem>recital</tocItem>
-            </list>
-        </entry>
         <entry>
             <tocItem>body</tocItem>
             <list>
@@ -640,7 +402,6 @@
                 <tocItem>title</tocItem>
                 <tocItem>chapter</tocItem>
                 <tocItem>section</tocItem>
-                <tocItem>article</tocItem>
                 <tocItem>level</tocItem>
                 <tocItem>paragraph</tocItem>
             </list>
@@ -652,7 +413,6 @@
                 <tocItem>title</tocItem>
                 <tocItem>chapter</tocItem>
                 <tocItem>section</tocItem>
-                <tocItem>article</tocItem>
                 <tocItem>level</tocItem>
                 <tocItem>paragraph</tocItem>
             </list>
@@ -663,7 +423,6 @@
                 <tocItem>title</tocItem>
                 <tocItem>chapter</tocItem>
                 <tocItem>section</tocItem>
-                <tocItem>article</tocItem>
                 <tocItem>level</tocItem>
                 <tocItem>paragraph</tocItem>
             </list>
@@ -673,7 +432,6 @@
             <list>
                 <tocItem>chapter</tocItem>
                 <tocItem>section</tocItem>
-                <tocItem>article</tocItem>
                 <tocItem>level</tocItem>
                 <tocItem>paragraph</tocItem>
             </list>
@@ -682,7 +440,6 @@
             <tocItem>section</tocItem>
             <list>
                 <tocItem>section</tocItem>
-                <tocItem>article</tocItem>
                 <tocItem>level</tocItem>
                 <tocItem>paragraph</tocItem>
             </list>
@@ -697,13 +454,6 @@
             <tocItem>paragraph</tocItem>
             <list>
                 <tocItem>paragraph</tocItem>
-            </list>
-        </entry>
-        <entry>
-            <tocItem>article</tocItem>
-            <list>
-                <tocItem>article</tocItem> <!-- Article is not allowed to have child elements but should be allowed to drop elements on it
-        									which will be added as siblings-->
             </list>
         </entry>
         <entry>
