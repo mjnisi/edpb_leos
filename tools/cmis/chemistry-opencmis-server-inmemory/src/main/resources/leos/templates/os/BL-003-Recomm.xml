@@ -30,11 +30,7 @@
             </identification>
             <references source="~COM">
                 <TLCLocation xml:id="_BEL_BRU" href="http://publications.europa.eu/resource/authority/place/BEL_BRU" showAs="Brussels"/>
-<!--                <TLCOrganization xml:id="EDPS" href="https://publications.europa.eu/resource/authority/corporate-body/EDPS" showAs="European Data Protection Supervisor"/>-->
-<!--                <TLCOrganization xml:id="EDPB" href="https://publications.europa.eu/resource/authority/corporate-body/EDPB" showAs="European Data Protection Board"/>-->
-                <TLCOrganization xml:id="CONSIL" href="http://publications.europa.eu/resource/authority/corporate-body/CONSIL" showAs="Council of the European Union"/>
-                <TLCOrganization xml:id="EP" href="http://publications.europa.eu/resource/authority/corporate-body/EP" showAs="European Parliament"/>
-                <TLCOrganization xml:id="COM" href="http://publications.europa.eu/resource/authority/corporate-body/COM" showAs="European Commission"/>
+                <TLCOrganization xml:id="EDPB" href="https://publications.europa.eu/resource/authority/corporate-body/EDPB" showAs="European Data Protection Board"/>
                 <TLCRole xml:id="PRESID" href="http://publications.europa.eu/resource/authority/role/PRESID" showAs="President"/>
                 <TLCReference xml:id="DEC" name="docType" href="http://publications.europa.eu/resource/authority/resource-type/DEC"  showAs="Decision"/>
                 <TLCReference xml:id="legalBasis" name="contentSubject" href="http://eurovoc.europa.eu/5456" showAs="Legal basis"/>
