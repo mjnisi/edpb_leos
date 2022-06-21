@@ -28,16 +28,13 @@
             </identification>
             <references source="~COM">
                 <TLCLocation xml:id="_BEL_BRU" href="http://publications.europa.eu/resource/authority/place/BEL_BRU" showAs="Brussels"/>
-                <TLCOrganization xml:id="CONSIL" href="http://publications.europa.eu/resource/authority/corporate-body/CONSIL" showAs="Council of the European Union"/>
-                <TLCOrganization xml:id="EP" href="http://publications.europa.eu/resource/authority/corporate-body/EP" showAs="European Parliament"/>
-                <TLCOrganization xml:id="COM" href="http://publications.europa.eu/resource/authority/corporate-body/COM" showAs="European Commission"/>
+                <TLCOrganization xml:id="EDPB" href="https://publications.europa.eu/resource/authority/corporate-body/EDPB" showAs="European Data Protection Board"/>
                 <TLCRole xml:id="PRESID" href="http://publications.europa.eu/resource/authority/role/PRESID" showAs="President"/>
                 <TLCReference xml:id="REG" name="docType" href="http://publications.europa.eu/resource/authority/resource-type/REG"  showAs="Regulation"/>
                 <TLCReference xml:id="legalBasis" name="contentSubject" href="http://eurovoc.europa.eu/5456" showAs="Legal basis"/>
                 <TLCReference xml:id="language" name="language" href="http://publications.europa.eu/resource/authority/language/ENG" showAs="en"/>
                 <TLCReference xml:id="leos" href="/software/leos" showAs="EC DIGIT LEOS PILOT" name="software"/>
                 <TLCConcept xml:id="bill" href="/software/leos/bill" showAs="Bill"/>
-                <TLCConcept xml:id="memorandum" href="/software/leos/memorandum" showAs="Memorandum"/>
             </references>
             <proprietary source="~leos">
                 <leos:templateVersion>1.1.0</leos:templateVersion>
@@ -59,17 +56,9 @@
                     <docPurpose xml:id="coverpage__longtitle__p__docpurpose">on ... Adopted on ...</docPurpose>
                 </p>
             </longTitle>
-            <container name="language" xml:id="coverpage__container_2" refersTo="#frbrLanguage">
-                <p  xml:id="coverpage__container_2__p">EN</p>
-            </container>
         </coverPage>
         <collectionBody xml:id="body">
-<!--            <component xml:id="body_cmp_1" refersTo="#memorandum">-->
-<!--                &lt;!&ndash; reference to the memorandum, relative to this proposal &ndash;&gt;-->
-<!--                <documentRef xml:id="body_cmp_1__dref_1" href="#" showAs="Explanatory Memorandum"/>-->
-<!--            </component>-->
             <component xml:id="body_cmp_2" refersTo="#bill">
-                <!-- reference to the bill, relative to this proposal -->
                 <documentRef xml:id="body_cmp_1__dref_2" href="#" showAs="EDPB Stament"/>
             </component>
         </collectionBody>

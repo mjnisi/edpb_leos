@@ -39,8 +39,8 @@
             <proprietary source="~leos">
                 <leos:templateVersion>1.1.0</leos:templateVersion>
                 <leos:docVersion>0.1.0</leos:docVersion>
-                <leos:template>L-001</leos:template>
-                <leos:docTemplate>PR-005</leos:docTemplate>
+                <leos:template>L-002</leos:template>
+                <leos:docTemplate>PR-006</leos:docTemplate>
             </proprietary>
         </meta>
         <coverPage xml:id="coverpage">
@@ -50,5 +50,6 @@
                 <documentRef xml:id="body_cmp_1__dref_2" href="#" showAs="EDPB Letter"/>
             </component>
         </collectionBody>
+
     </documentCollection>
 </akomaNtoso>
