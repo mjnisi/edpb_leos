@@ -1,0 +1,13 @@
+version: '3'
+services:
+##  web:
+# #   image:
+  maven:
+    build: .
+    working_dir: /app
+    volumes:
+      - ${PWD}:/app
+    ports:
+      - 9090:9090
+      - 8080:8080
+
