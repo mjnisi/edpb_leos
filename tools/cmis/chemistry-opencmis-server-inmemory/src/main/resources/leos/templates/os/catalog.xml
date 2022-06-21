@@ -358,6 +358,60 @@
                     </item>
 
                 </item>
+                <item type="CATEGORY" id="c2.1.1.6" enabled="true" key="Rules of Procedure">
+                    <names>
+                        <name lang="EN">EDPB Rules of Procedure</name>
+                    </names>
+                    <descriptions>
+                        <description lang="EN">EDPB Rules of Procedure</description>
+                    </descriptions>
+                    <item type="TEMPLATE" id="PR-009;BL-009-RoP" enabled="true" key="P-001">
+                        <names>
+                            <name lang="EN">P-001 - Drafting for EDPB Rules of Procedure</name>
+                        </names>
+                        <descriptions>
+                            <description lang="EN">Template 9: Drafting for EDPB Rules of Procedure</description>
+                        </descriptions>
+                        <languages>
+                            <language lang="EN">English</language>
+                        </languages>
+                        <item type="TEMPLATE" id="SG-Annex" enabled="true" key="SG-Annex">
+                            <names>
+                                <name lang="EN">SG-Annex - Annex</name>
+                            </names>
+                            <descriptions>
+                                <description lang="EN">Annex</description>
+                            </descriptions>
+                        </item>
+                    </item>
+                </item>
+                <item type="CATEGORY" id="c2.1.1.7" enabled="true" key="Report">
+                    <names>
+                        <name lang="EN">EDPB Reports</name>
+                    </names>
+                    <descriptions>
+                        <description lang="EN">EDPB Reports</description>
+                    </descriptions>
+                    <item type="TEMPLATE" id="PR-010;BL-010-AnnualReport" enabled="true" key="Rp-001">
+                        <names>
+                            <name lang="EN">Rp-001 - Drafting for EDPB Annual Report</name>
+                        </names>
+                        <descriptions>
+                            <description lang="EN">Template 10: Drafting for EDPB Annual Report</description>
+                        </descriptions>
+                        <languages>
+                            <language lang="EN">English</language>
+                        </languages>
+                        <item type="TEMPLATE" id="SG-Annex" enabled="true" key="SG-Annex">
+                            <names>
+                                <name lang="EN">SG-Annex - Annex</name>
+                            </names>
+                            <descriptions>
+                                <description lang="EN">Annex</description>
+                            </descriptions>
+                        </item>
+                    </item>
+                </item>
             </item>
         </item>
     </item>

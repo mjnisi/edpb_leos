@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:leos="urn:eu:europa:ec:leos" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+    <documentCollection name="PROP_ACT">
+        <meta>
+            <identification source="~COM">
+                <FRBRWork>
+                    <FRBRthis value=""/>
+                    <FRBRuri value=""/>
+                    <FRBRalias value="" name=""/>
+                    <FRBRdate date="9999-01-01" name=""/>
+                    <FRBRauthor href=""/>
+                    <FRBRcountry value="EU"/>
+                    <FRBRprescriptive value="false"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value=""/>
+                    <FRBRuri value=""/>
+                    <FRBRdate date="9999-01-01" name=""/>
+                    <FRBRauthor href=""/>
+                    <FRBRlanguage language="eng"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value=""/>
+                    <FRBRuri value=""/>
+                    <FRBRdate date="9999-01-01" name=""/>
+                    <FRBRauthor href=""/>
+                </FRBRManifestation>
+            </identification>
+            <references source="~COM">
+                <TLCLocation xml:id="_BEL_BRU" href="http://publications.europa.eu/resource/authority/place/BEL_BRU" showAs="Brussels"/>
+                <TLCOrganization xml:id="EDPB" href="https://publications.europa.eu/resource/authority/corporate-body/EDPB" showAs="European Data Protection Board"/>
+                <TLCRole xml:id="PRESID" href="http://publications.europa.eu/resource/authority/role/PRESID" showAs="President"/>
+                <TLCReference xml:id="DEC" name="docType" href="http://publications.europa.eu/resource/authority/resource-type/DEC"  showAs="Decision"/>
+                <TLCReference xml:id="legalBasis" name="contentSubject" href="http://eurovoc.europa.eu/5456" showAs="Legal basis"/>
+                <TLCReference xml:id="language" name="language" href="http://publications.europa.eu/resource/authority/language/ENG" showAs="en"/>
+                <TLCReference xml:id="leos" href="/software/leos" showAs="EC DIGIT LEOS PILOT" name="software"/>
+                <TLCConcept xml:id="bill" href="/software/leos/bill" showAs="Bill"/>
+            </references>
+            <proprietary source="~leos">
+                <leos:templateVersion>1.0.0</leos:templateVersion>
+                <leos:docVersion>0.1.0</leos:docVersion>
+                <leos:template>Rp-001</leos:template>
+                <leos:docTemplate>PR-010</leos:docTemplate>
+            </proprietary>
+        </meta>
+        <coverPage xml:id="coverpage">
+            <container name="logo" xml:id="coverpage__container_1">
+                <p xml:id="coverpage__container_1__p">
+                    <img xml:id="coverpage__container_1__p__img" src="https://upload.wikimedia.org/wikipedia/fr/thumb/b/be/Logo-EDPB.svg/1200px-Logo-EDPB.svg.png"/>
+                </p>
+            </container>
+            <longTitle xml:id="coverpage__longtitle" refersTo="#bill">
+            </longTitle>
+        </coverPage>
+        <collectionBody xml:id="body">
+            <component xml:id="body_cmp_2" refersTo="#bill">
+                <documentRef xml:id="body_cmp_1__dref_2" href="#" showAs="EDPB Rules of Procedure"/>
+            </component>
+        </collectionBody>
+    </documentCollection>
+</akomaNtoso>
