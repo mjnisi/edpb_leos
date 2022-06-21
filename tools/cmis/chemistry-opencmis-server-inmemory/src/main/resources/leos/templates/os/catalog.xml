@@ -173,10 +173,10 @@
 
                     <item type="TEMPLATE" id="PR-001;BL-001-Guidelines" enabled="true" key="G-001">
                         <names>
-                            <name lang="EN">G-001 - Drafting for EDPB Guidelines</name>
+                            <name lang="EN">G-001 - EDPB Guidelines</name>
                         </names>
                         <descriptions>
-                            <description lang="EN">Template 1: Drafting for EDPB Guidelines</description>
+                            <description lang="EN">Template 1:EDPB Guidelines</description>
                         </descriptions>
                         <languages>
                             <language lang="EN">English</language>
@@ -200,10 +200,10 @@
                     </descriptions>
                     <item type="TEMPLATE" id="PR-002;BL-002-Statem" enabled="true" key="S-001">
                         <names>
-                            <name lang="EN">S-001 - Drafting for EDPB Statement</name>
+                            <name lang="EN">S-001 - EDPB Statement</name>
                         </names>
                         <descriptions>
-                            <description lang="EN">Template 2: Drafting for EDPB Statement</description>
+                            <description lang="EN">Template 2:EDPB Statement</description>
                         </descriptions>
                         <languages>
                             <language lang="EN">English</language>
@@ -227,10 +227,10 @@
                     </descriptions>
                     <item type="TEMPLATE" id="PR-003;BL-003-Recomm" enabled="true" key="R-001">
                         <names>
-                            <name lang="EN">R-001 - Drafting for EDPB Recommendation</name>
+                            <name lang="EN">R-001 - EDPB Recommendation</name>
                         </names>
                         <descriptions>
-                            <description lang="EN">Template 3: Drafting for EDPB Recommendation</description>
+                            <description lang="EN">Template 3: EDPB Recommendation</description>
                         </descriptions>
                         <languages>
                             <language lang="EN">English</language>
@@ -246,10 +246,10 @@
                     </item>
                     <item type="TEMPLATE" id="PR-004;BL-004-RecBestPrac" enabled="true" key="R-002">
                         <names>
-                            <name lang="EN">R-002 - Drafting for EDPB Recommendations and Best Practices</name>
+                            <name lang="EN">R-002 - EDPB Recommendations and Best Practices</name>
                         </names>
                         <descriptions>
-                            <description lang="EN">Template 4: Drafting for EDPB Recommendations and Best Practices</description>
+                            <description lang="EN">Template 4: EDPB Recommendations and Best Practices</description>
                         </descriptions>
                         <languages>
                             <language lang="EN">English</language>
@@ -282,10 +282,10 @@
                     </descriptions>
                     <item type="TEMPLATE" id="PR-005;BL-005-LetterChair" enabled="true" key="L-001">
                         <names>
-                            <name lang="EN">L-001 - Drafting for EDPB Letter Chair</name>
+                            <name lang="EN">L-001 - EDPB Letter Chair</name>
                         </names>
                         <descriptions>
-                            <description lang="EN">Letter Template 1: Drafting for EDPB Letter Chair</description>
+                            <description lang="EN">Letter Template 1: EDPB Letter Chair</description>
                         </descriptions>
                         <languages>
                             <language lang="EN">English</language>
@@ -301,10 +301,10 @@
                     </item>
                     <item type="TEMPLATE" id="PR-006;BL-006-LetterHoU" enabled="true" key="L-002">
                         <names>
-                            <name lang="EN">L-002 - Drafting for EDPB Letter HoU</name>
+                            <name lang="EN">L-002 - EDPB Letter HoU</name>
                         </names>
                         <descriptions>
-                            <description lang="EN">Letter Template 2: Drafting for EDPB Letter HoU</description>
+                            <description lang="EN">Letter Template 2: EDPB Letter HoU</description>
                         </descriptions>
                         <languages>
                             <language lang="EN">English</language>
@@ -320,10 +320,10 @@
                     </item>
                     <item type="TEMPLATE" id="PR-007;BL-007-LetterSecretariat" enabled="true" key="L-003">
                         <names>
-                            <name lang="EN">L-003 - Drafting for EDPB Letter Secretariat</name>
+                            <name lang="EN">L-003 - EDPB Letter Secretariat</name>
                         </names>
                         <descriptions>
-                            <description lang="EN">Letter Template 3: Drafting for EDPB Letter Seretariat</description>
+                            <description lang="EN">Letter Template 3: EDPB Letter Seretariat</description>
                         </descriptions>
                         <languages>
                             <language lang="EN">English</language>
@@ -339,10 +339,10 @@
                     </item>
                     <item type="TEMPLATE" id="PR-008;BL-008-LetterGeneric" enabled="true" key="L-004">
                         <names>
-                            <name lang="EN">L-004 - Drafting for EDPB Letter Generic</name>
+                            <name lang="EN">L-004 - EDPB Letter Generic</name>
                         </names>
                         <descriptions>
-                            <description lang="EN">Letter Template 4: Drafting for EDPB Letter Generic</description>
+                            <description lang="EN">Letter Template 4: EDPB Letter Generic</description>
                         </descriptions>
                         <languages>
                             <language lang="EN">English</language>
@@ -367,10 +367,10 @@
                     </descriptions>
                     <item type="TEMPLATE" id="PR-009;BL-009-RoP" enabled="true" key="P-001">
                         <names>
-                            <name lang="EN">P-001 - Drafting for EDPB Rules of Procedure</name>
+                            <name lang="EN">P-001 - EDPB Rules of Procedure</name>
                         </names>
                         <descriptions>
-                            <description lang="EN">Template 9: Drafting for EDPB Rules of Procedure</description>
+                            <description lang="EN">Template 9: EDPB Rules of Procedure</description>
                         </descriptions>
                         <languages>
                             <language lang="EN">English</language>
@@ -394,10 +394,10 @@
                     </descriptions>
                     <item type="TEMPLATE" id="PR-010;BL-010-AnnualReport" enabled="true" key="Rp-001">
                         <names>
-                            <name lang="EN">Rp-001 - Drafting for EDPB Annual Report</name>
+                            <name lang="EN">Rp-001 - EDPB Annual Report</name>
                         </names>
                         <descriptions>
-                            <description lang="EN">Template 10: Drafting for EDPB Annual Report</description>
+                            <description lang="EN">Template 10: EDPB Annual Report</description>
                         </descriptions>
                         <languages>
                             <language lang="EN">English</language>
