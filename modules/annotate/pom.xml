@@ -271,15 +271,15 @@
             </properties>
         </profile>
 		<profile>
-            <id>env-local</id>
+            <id>env-dev</id>
             <activation>
                 <property>
                     <name>env</name>
-					<value>local</value>
+					<value>dev</value>
                 </property>
             </activation>
             <properties>
-                <build.env>local</build.env>
+                <build.env>dev</build.env>
                 <execute.yarn.phase>generate-resources</execute.yarn.phase>
                 <project.java.debug>true</project.java.debug>
                 <project.java.optimize>false</project.java.optimize>

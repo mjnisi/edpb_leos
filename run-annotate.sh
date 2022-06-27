@@ -28,7 +28,7 @@ echo "---------------------Annotate Server--------------------------------------
 
 
 echo "---------------------Annotate Server COMPILING...----------------------------------"
-mvn clean install -Denv=dev -Dmaven.test.skip=true
+mvn clean install -Dmaven.test.skip=true
 echo "---------------------Annotate Server COMPILED.-------------------------------------"
 
 echo "---------------------Annotate Server STARTING...-----------------------------------"

@@ -18,7 +18,7 @@
 echo "---------------------LEOS-----------------------------------------------"
 
 echo "---------------------LEOS COMPILING...----------------------------------"
-mvn clean install
+mvn clean install -DskipTests
 echo "---------------------LEOS COMPILED.-------------------------------------"
 
 cd ./modules/web
