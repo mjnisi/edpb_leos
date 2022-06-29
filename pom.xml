@@ -1080,6 +1080,38 @@
                 <skipTests>false</skipTests>
             </properties>
         </profile>
+        <profile>
+            <id>env-mariapc</id>
+            <activation>
+                <property>
+                    <name>!env</name>
+                </property>
+            </activation>
+            <properties>
+                <leos.build.env>mariapc</leos.build.env>
+                <project.java.debug>true</project.java.debug>
+                <project.java.optimize>false</project.java.optimize>
+                <project.vaadin.draftCompile>true</project.vaadin.draftCompile>
+                <js.skipTests>false</js.skipTests>
+                <skipTests>false</skipTests>
+            </properties>
+        </profile>
+        <profile>
+            <id>env-dev</id>
+            <activation>
+                <property>
+                    <name>!env</name>
+                </property>
+            </activation>
+            <properties>
+                <leos.build.env>dev</leos.build.env>
+                <project.java.debug>true</project.java.debug>
+                <project.java.optimize>false</project.java.optimize>
+                <project.vaadin.draftCompile>true</project.vaadin.draftCompile>
+                <js.skipTests>true</js.skipTests>
+                <skipTests>true</skipTests>
+            </properties>
+        </profile>
 
         <!-- OS Instance -->
         <profile>

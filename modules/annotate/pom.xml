@@ -285,5 +285,20 @@
                 <project.java.optimize>false</project.java.optimize>
             </properties>
         </profile>
+        <profile>
+            <id>env-mariapc</id>
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>mariapc</value>
+                </property>
+            </activation>
+            <properties>
+                <build.env>mariapc</build.env>
+                <execute.yarn.phase>generate-resources</execute.yarn.phase>
+                <project.java.debug>true</project.java.debug>
+                <project.java.optimize>false</project.java.optimize>
+            </properties>
+        </profile>
     </profiles>
 </project>
