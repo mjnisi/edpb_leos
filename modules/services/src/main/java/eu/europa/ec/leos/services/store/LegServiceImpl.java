@@ -355,7 +355,7 @@ public class LegServiceImpl implements LegService {
                 billXmlContent = addMetadataToBill(bill);
             }
             exportBillResource = enrichZipWithBill(contentToZip, exportProposalResource, proposalRefsMap, bill, proposal.getMetadata().getOrNull().getRef(), billXmlContent);
-            addMemorandumToPackage(leosPackage, contentToZip, exportProposalResource, proposalRefsMap, legPackage, proposal.getMetadata().getOrNull().getRef());
+//            addMemorandumToPackage(leosPackage, contentToZip, exportProposalResource, proposalRefsMap, legPackage, proposal.getMetadata().getOrNull().getRef());
             addAnnexToPackage(leosPackage, contentToZip, exportOptions, exportBillResource, legPackage, proposal.getMetadata().getOrNull().getRef(), billXmlContent);
             enrichZipWithToc(contentToZip);
             enrichZipWithMedia(contentToZip, leosPackage);
