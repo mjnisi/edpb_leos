@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright 2020 European Commission
+
+    Licensed under the EUPL, Version 1.2 or – as soon they will be approved by the European Commission - subsequent versions of the EUPL (the "Licence");
+    You may not use this work except in compliance with the Licence.
+    You may obtain a copy of the Licence at:
+
+        https://joinup.ec.europa.eu/software/page/eupl
+
+    Unless required by applicable law or agreed to in writing, software distributed under the Licence is distributed on an "AS IS" basis,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the Licence for the specific language governing permissions and limitations under the Licence.
+
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>eu.europa.ec.digit.leos.userdata</groupId>
+    <artifactId>ud-repo-deploy-weblogic</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>ud-repo</name>
+    <description>User Data Repository Bundle Deploy</description>
+
+    <build>
+        <plugins>
+            <!-- WEBLOGIC deployment -->
+            <plugin>
+                <groupId>com.oracle.weblogic</groupId>
+                <artifactId>weblogic-maven-plugin</artifactId>
+                <version>12.2.1-4-0</version>
+                <configuration>
+                    <adminurl>${oracleServerUrl}</adminurl>
+                    <user>${oracleUsername}</user>
+                    <password>${oraclePassword}</password>
+                    <userConfigFile>${userConfigFile}</userConfigFile>
+                    <userKeyFile>${userKeyFile}</userKeyFile>
+                    <source>${project.basedir}/ud-repo.war</source>
+                    <targets>${oracleServerName}</targets>
+                    <verbose>true</verbose>
+                    <name>${project.name}</name>
+                    <upload>true</upload>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>pre-integration-test</phase>
+                        <goals>
+                            <goal>redeploy</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

@@ -18,7 +18,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>eu.europa.ec.digit.leos.pilot</groupId>
     <artifactId>annotate</artifactId>
-    <version>3.1.2</version>
+    <version>3.1.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -110,6 +110,15 @@
                 <artifactId>spotbugs-annotations</artifactId>
                 <version>${spotbugs-annotations.version}</version>
                 <optional>true</optional>
+            </dependency>
+            <dependency>
+                <groupId>com.oracle.database.jdbc</groupId>
+                <artifactId>ojdbc8</artifactId>
+                <version>12.2.0.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-jdbc</artifactId>
             </dependency>
         </dependencies>
     </dependencyManagement>

@@ -1,0 +1,28 @@
+<assembly xmlns="http://maven.apache.org/ASSEMBLY/2.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.1.0 http://maven.apache.org/xsd/assembly-2.1.0.xsd">
+    <id>bundle</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <files>
+        <file>
+            <source>dc/pom.xml</source>
+            <outputDirectory></outputDirectory>
+            <destName>pom.xml</destName>
+        </file>
+        <file>
+            <source>../../../target/leos-web-edpb.war</source>
+            <outputDirectory></outputDirectory>
+        </file>
+    </files>
+    <fileSets>
+        <fileSet>
+            <directory>../../../../config/target/generated-config</directory>
+            <includes>
+                <include>**</include>
+            </includes>
+            <outputDirectory></outputDirectory>
+        </fileSet>
+    </fileSets>
+</assembly>

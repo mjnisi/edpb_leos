@@ -20,7 +20,7 @@
     <parent>
         <groupId>eu.europa.ec.digit.leos.pilot</groupId>
         <artifactId>leos</artifactId>
-        <version>3.1.2</version>
+        <version>3.1.2-SNAPSHOT</version>
     </parent>
 
     <artifactId>leos-modules</artifactId>

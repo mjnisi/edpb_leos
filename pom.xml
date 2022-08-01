@@ -19,7 +19,7 @@
 
     <groupId>eu.europa.ec.digit.leos.pilot</groupId>
     <artifactId>leos</artifactId>
-    <version>3.1.2</version>
+    <version>3.1.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>LEOS Pilot</name>
@@ -1063,7 +1063,7 @@
     </build>
 
     <profiles>
-        <!-- SET build env -->
+        <!--  SET build env  -->
         <profile>
             <id>env-default</id>
             <activation>
@@ -1076,44 +1076,28 @@
                 <project.java.debug>true</project.java.debug>
                 <project.java.optimize>false</project.java.optimize>
                 <project.vaadin.draftCompile>true</project.vaadin.draftCompile>
-                <js.skipTests>false</js.skipTests>
-                <skipTests>false</skipTests>
-            </properties>
-        </profile>
-        <profile>
-            <id>env-mariapc</id>
-            <activation>
-                <property>
-                    <name>!env</name>
-                </property>
-            </activation>
-            <properties>
-                <leos.build.env>mariapc</leos.build.env>
-                <project.java.debug>true</project.java.debug>
-                <project.java.optimize>false</project.java.optimize>
-                <project.vaadin.draftCompile>true</project.vaadin.draftCompile>
-                <js.skipTests>false</js.skipTests>
-                <skipTests>false</skipTests>
-            </properties>
-        </profile>
-        <profile>
-            <id>env-dev</id>
-            <activation>
-                <property>
-                    <name>!env</name>
-                </property>
-            </activation>
-            <properties>
-                <leos.build.env>dev</leos.build.env>
-                <project.java.debug>true</project.java.debug>
-                <project.java.optimize>false</project.java.optimize>
-                <project.vaadin.draftCompile>true</project.vaadin.draftCompile>
                 <js.skipTests>true</js.skipTests>
                 <skipTests>true</skipTests>
             </properties>
         </profile>
 
-        <!-- OS Instance -->
+        <profile>
+            <id>env</id>
+            <activation>
+                <property>
+                    <name>env</name>
+                </property>
+            </activation>
+            <properties>
+                <leos.build.env>${env}</leos.build.env>
+                <project.java.debug>true</project.java.debug>
+                <!--  needed for spring security  -->
+                <js.skipTests>true</js.skipTests>
+                <skipTests>true</skipTests>
+
+            </properties>
+        </profile>
+        <!--  OS Instance  -->
         <profile>
             <id>instance-default</id>
             <activation>
@@ -1124,11 +1108,36 @@
             <properties>
                 <leos.build.instance>os</leos.build.instance>
                 <leos.web.context.path>leos-pilot</leos.web.context.path>
-                <leos.web.auth.method>basic</leos.web.auth.method>
-                <!--                <leos.web.auth.method>ECAS</leos.web.auth.method>-->
             </properties>
         </profile>
-        <!-- For ECAS authentication
+        <!-- OS Instance -->
+        <profile>
+            <id>instance-os</id>
+            <activation>
+                <property>
+                    <name>instance</name>
+                    <value>os</value>
+                </property>
+            </activation>
+            <properties>
+                <leos.build.instance>os</leos.build.instance>
+                <leos.web.context.path>leos-pilot</leos.web.context.path>
+            </properties>
+        </profile>
+        <!--  For BASIC authentication  -->
+        <profile>
+            <id>basic-authentication-default</id>
+            <activation>
+                <property>
+                    <name>!ecas</name>
+                </property>
+            </activation>
+            <properties>
+                <leos.web.auth.method>BASIC</leos.web.auth.method>
+            </properties>
+        </profile>
+
+        <!-- For ECAS authentication -->
         <profile>
             <id>ecas-authentication</id>
             <activation>
@@ -1139,6 +1148,58 @@
             <properties>
                 <leos.web.auth.method>ECAS</leos.web.auth.method>
             </properties>
-        </profile>-->
+        </profile>
+
+        <profile>
+            <id>digit</id>
+            <repositories>
+                <repository>
+                    <id>CITnetNexus</id>
+                    <url>https://webgate.ec.europa.eu/CITnet/nexus/content/groups/public/</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </repository>
+                <repository>
+                    <id>digit-releases</id>
+                    <url>https://webgate.ec.europa.eu/CITnet/nexus/content/repositories/digit</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </repository>
+                <repository>
+                    <id>digit-snapshots</id>
+                    <url>https://webgate.ec.europa.eu/CITnet/nexus/content/repositories/digit-snapshots</url>
+                    <releases>
+                        <enabled>false</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </repository>
+                <repository>
+                    <id>vaadin-addons</id>
+                    <url>https://maven.vaadin.com/vaadin-addons</url>
+                </repository>
+            </repositories>
+            <distributionManagement>
+                <snapshotRepository>
+                    <id>digit-snapshots</id>
+                    <name>DG DIGIT Snapshot Repository</name>
+                    <url>https://webgate.ec.europa.eu/CITnet/nexus/content/repositories/digit-snapshots</url>
+                </snapshotRepository>
+                <repository>
+                    <id>digit-releases</id>
+                    <name>DG DIGIT Repository</name>
+                    <url>https://webgate.ec.europa.eu/CITnet/nexus/content/repositories/digit</url>
+                </repository>
+            </distributionManagement>
+        </profile>
     </profiles>
 </project>

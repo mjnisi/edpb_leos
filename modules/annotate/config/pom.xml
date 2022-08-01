@@ -23,7 +23,7 @@
     <parent>
         <groupId>eu.europa.ec.digit.leos.pilot</groupId>
         <artifactId>annotate</artifactId>
-        <version>3.1.2</version>
+        <version>3.1.2-SNAPSHOT</version>
     </parent>
 
     <name>anot-config</name>
@@ -34,54 +34,151 @@
         <project.output.directory>target/generated-config</project.output.directory>
     </properties>
 
+    <profiles>
+        <profile>
+            <id>specific-env-config-files</id>
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>!all</value>
+                </property>
+            </activation>
+            <build>
+                <filters>
+                    <filter>src/main/filters/common.properties</filter>
+                    <filter>src/main/filters/${build.env}.properties</filter>
+                </filters>
+                <plugins>
+                    <!-- CLEAN -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-clean-plugin</artifactId>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-resources-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>filter-resources</id>
+                                <phase>process-resources</phase>
+                                <goals>
+                                    <goal>copy-resources</goal>
+                                </goals>
+                                <configuration>
+                                    <outputDirectory>${project.output.directory}</outputDirectory>
+                                    <resources>
+                                        <resource>
+                                            <!-- Filtered resource files. -->
+                                            <filtering>true</filtering>
+                                            <directory>src/main/resources</directory>
+                                            <includes>
+                                                <include>**/*.properties</include>
+                                                <include>**/*.xml</include>
+                                            </includes>
+                                        </resource>
+                                        <resource>
+                                            <!-- Non-filtered resource files. -->
+                                            <filtering>false</filtering>
+                                            <directory>src/main/resources</directory>
+                                            <excludes>
+                                                <exclude>**/*.properties</exclude>
+                                                <exclude>**/*.xml</exclude>
+                                            </excludes>
+                                        </resource>
+                                    </resources>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>all-env-config-files</id>
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>all</value>
+                </property>
+            </activation>
+            <build>
+                <plugins>
+                    <!-- CLEAN -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-clean-plugin</artifactId>
+                    </plugin>
+                    <plugin>
+                        <groupId>com.soebes.maven.plugins</groupId>
+                        <artifactId>iterator-maven-plugin</artifactId>
+                        <version>0.5.1</version>
+                        <executions>
+                            <execution>
+                                <phase>package</phase>
+                                <goals>
+                                    <goal>iterator</goal>
+                                </goals>
+                                <configuration>
+                                    <itemsWithProperties>
+                                        <itemWithProperty>
+                                            <name>acc</name>
+                                            <properties>
+                                                <configFolder>classes_EDPBEDIT001_ACC</configFolder>
+                                            </properties>
+                                        </itemWithProperty>
+                                        <itemWithProperty>
+                                            <name>prod</name>
+                                            <properties>
+                                                <configFolder>classes_EDPBEDIT001_PRD</configFolder>
+                                            </properties>
+                                        </itemWithProperty>
+                                    </itemsWithProperties>
+                                    <pluginExecutors>
+                                        <pluginExecutor>
+                                            <plugin>
+                                                <groupId>org.apache.maven.plugins</groupId>
+                                                <artifactId>maven-resources-plugin</artifactId>
+                                            </plugin>
+                                            <goal>copy-resources</goal>
+                                            <configuration>
+                                                <outputDirectory>${project.output.directory}/${configFolder}</outputDirectory>
+                                                <filters>
+                                                    <filter>src/main/filters/common.properties</filter>
+                                                    <filter>src/main/filters/@item@.properties</filter>
+                                                </filters>
+                                                <resources>
+                                                    <resource>
+                                                        <!-- Filtered resource files. -->
+                                                        <filtering>true</filtering>
+                                                        <directory>src/main/resources</directory>
+                                                        <includes>
+                                                            <include>**/*.properties</include>
+                                                            <include>**/*.xml</include>
+                                                        </includes>
+                                                    </resource>
+                                                    <resource>
+                                                        <!-- Non-filtered resource files. -->
+                                                        <filtering>false</filtering>
+                                                        <directory>src/main/resources</directory>
+                                                        <excludes>
+                                                            <exclude>**/*.properties</exclude>
+                                                            <exclude>**/*.xml</exclude>
+                                                        </excludes>
+                                                    </resource>
+                                                </resources>
+                                            </configuration>
+                                        </pluginExecutor>
+                                    </pluginExecutors>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+
     <build>
-        <filters>
-            <filter>src/main/filters/common.properties</filter>
-            <filter>src/main/filters/${build.env}.properties</filter>
-        </filters>
-        <plugins>
-            <!-- CLEAN -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-clean-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-resources-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>filter-resources</id>
-                        <phase>process-resources</phase>
-                        <goals>
-                            <goal>copy-resources</goal>
-                        </goals>
-                        <configuration>
-                            <outputDirectory>${project.output.directory}</outputDirectory>
-                            <resources>
-                                <resource>
-                                    <!-- Filtered resource files. -->
-                                    <filtering>true</filtering>
-                                    <directory>src/main/resources</directory>
-                                    <includes>
-                                        <include>**/*.properties</include>
-                                        <include>**/*.xml</include>
-                                    </includes>
-                                </resource>
-                                <resource>
-                                    <!-- Non-filtered resource files. -->
-                                    <filtering>false</filtering>
-                                    <directory>src/main/resources</directory>
-                                    <excludes>
-                                        <exclude>**/*.properties</exclude>
-                                        <exclude>**/*.xml</exclude>
-                                    </excludes>
-                                </resource>
-                            </resources>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
         <extensions>
             <!-- Enabling the use of FTP for deployment -->
             <extension>

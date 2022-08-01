@@ -20,7 +20,7 @@
     <parent>
         <groupId>eu.europa.ec.digit.leos.pilot</groupId>
         <artifactId>leos-modules</artifactId>
-        <version>3.1.2</version>
+        <version>3.1.2-SNAPSHOT</version>
     </parent>
 
     <!-- This would generate a warning but it is needed to generate different artifact for cn/os/ec till we find a better way
@@ -94,6 +94,23 @@
     </dependencies>
 
     <profiles>
+        <!-- OS Instance -->
+        <profile>
+            <id>instance-os</id>
+            <activation>
+                <property>
+                    <name>instance</name>
+                    <value>os</value>
+                </property>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>eu.europa.ec.digit.leos.pilot</groupId>
+                    <artifactId>leos-web-os</artifactId>
+                    <version>${project.version}</version>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- For default authentication - j2eepreauth -->
         <profile>
             <id>default-authentication</id>

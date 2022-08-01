@@ -25,7 +25,7 @@
     </parent>
     <groupId>eu.europa.ec.digit.leos.pilot</groupId>
     <artifactId>akn4euutil</artifactId>
-    <version>3.1.2</version>
+    <version>3.1.2-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>akn4euutil</name>
     <description>LEOS AKN4EUUtil service</description>
