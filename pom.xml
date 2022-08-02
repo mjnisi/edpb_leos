@@ -1097,7 +1097,8 @@
 
             </properties>
         </profile>
-        <!--  OS Instance  -->
+
+        <!-- OS Instance -->
         <profile>
             <id>instance-default</id>
             <activation>
@@ -1107,7 +1108,7 @@
             </activation>
             <properties>
                 <leos.build.instance>os</leos.build.instance>
-                <leos.web.context.path>leos-pilot</leos.web.context.path>
+                <leos.web.context.path>edpb_drafting</leos.web.context.path>
             </properties>
         </profile>
         <!-- OS Instance -->
@@ -1121,7 +1122,7 @@
             </activation>
             <properties>
                 <leos.build.instance>os</leos.build.instance>
-                <leos.web.context.path>leos-pilot</leos.web.context.path>
+                <leos.web.context.path>edpb_drafting</leos.web.context.path>
             </properties>
         </profile>
         <!--  For BASIC authentication  -->

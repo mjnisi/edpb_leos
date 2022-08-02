@@ -25,7 +25,7 @@
 
     <!-- This would generate a warning but it is needed to generate different artifact for cn/os/ec till we find a better way
     <artifactId>leos-web-${leos.build.instance}</artifactId-->
-    <artifactId>leos-web-os</artifactId>
+    <artifactId>leos-web-edpb</artifactId>
     <packaging>war</packaging>
 
     <name>Web</name>
@@ -106,7 +106,7 @@
             <dependencies>
                 <dependency>
                     <groupId>eu.europa.ec.digit.leos.pilot</groupId>
-                    <artifactId>leos-web-os</artifactId>
+                    <artifactId>leos-web-edpb</artifactId>
                     <version>${project.version}</version>
                 </dependency>
             </dependencies>
@@ -152,7 +152,8 @@
     </profiles>
     
     <build>
-        <finalName>${project.final.name}-${leos.build.instance}</finalName>
+<!--        <finalName>${project.final.name}-${leos.build.instance}</finalName>-->
+        <finalName>${project.final.name}-edpb</finalName>
         <resources>
             <resource>
                 <!-- Filtered resource files. -->
