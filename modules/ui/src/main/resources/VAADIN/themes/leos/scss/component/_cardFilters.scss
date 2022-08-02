@@ -17,7 +17,7 @@
 
     .leos-card-filters {
         background: $PALE_BG_BLUE;
-        border: 1px solid darken($PALE_BG_BLUE,5%);;
+        border: 1px solid $PALE_BG_BLUE,5%;
         overflow:auto;
 
         .leos-filter-header {
